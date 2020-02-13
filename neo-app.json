@@ -1,4 +1,57 @@
 {
+<<<<<<< HEAD
+  "routes": [
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.44.12"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.44.12"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.44.12"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.44.12"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "AIR",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "ESA_AIR"
+    }
+  ]
+=======
   "welcomeFile": "/webapp/index.html",
   "routes": [
     {
@@ -23,4 +76,5 @@
     }
   ],
   "sendWelcomeFileRedirect": true
+>>>>>>> branch 'master' of https://github.com/swamiabap/sapui5git.git
 }
