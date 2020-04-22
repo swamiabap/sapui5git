@@ -1,0 +1,204 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "sg.gov.jtc.JTC-InvoiceApp",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.38.11"
+		},
+		"dataSources": {
+			"helperService": {
+				"uri": "./service/help.json",
+				"type": "JSON"
+			},
+			"invService": {
+				"uri": "/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"invCommon": {
+				"uri": "/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"invApproval": {
+				"uri": "/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sg.gov.jtc.JTC-InvoiceApp.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.52.0",
+			"libs": {}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sg.gov.jtc.JTC-InvoiceApp.i18n.i18n"
+				}
+			},
+			"inv": {
+				"dataSource": "invService",
+				"preload": false
+			},
+			"invCommon": {
+				"dataSource": "invCommon",
+				"preload": false
+			},
+			"invApproval": {
+				"dataSource": "invApproval",
+				"preload": false
+			},
+			"help": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "helperService"
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			],
+			"js": [
+				{
+					"uri": "libs/bluebird.js"
+				},
+				{
+					"uri": "libs/xlsx.js"
+				},
+				{
+					"uri": "libs/fuse.js"
+				},
+				{
+					"uri": "libs/lodash.js"
+				},
+				{
+					"uri": "libs/moment.js"
+				},
+				{
+					"uri": "libs/mobx.umd.js"
+				},
+				{
+					"uri": "libs/mobx-utils.umd.js"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "sg.gov.jtc.JTC-InvoiceApp.view",
+				"controlAggregation": "pages",
+				"controlId": "idAppControl",
+				"clearControlAggregation": false
+			},
+			"routes": [
+				{
+					"name": "master",
+					"pattern": "",
+					"target": [
+						"Master"
+					]
+				},
+				{
+					"name": "create",
+					"pattern": "new",
+					"target": [
+						"Create"
+					]
+				},
+				{
+					"name": "edit",
+					"pattern": "edit/{path}",
+					"target": [
+						"Process"
+					]
+				},
+				{
+					"name": "display",
+					"pattern": "disp/{path}",
+					"target": [
+						"Process"
+					]
+				}
+			],
+			"targets": {
+				"Master": {
+					"viewType": "XML",
+					"viewName": "Master",
+					"viewLevel": 1,
+					"transition": "fade"
+				},
+				"Create": {
+					"viewType": "XML",
+					"viewName": "Create",
+					"viewLevel": 2,
+					"transition": "fade"
+				},
+				"Process": {
+					"viewType": "XML",
+					"viewName": "Process",
+					"viewLevel": 2,
+					"transition": "fade"
+				}
+			}
+		},
+		"services": {
+			"ShellUIService": {
+				"factoryName": "sap.ushell.ui5service.ShellUIService"
+			},
+			"CrossApplicationNavigation": {
+				"factoryName": "sap.ushell.ui5service.CrossApplicationNavigation"
+			},
+			"URLParsing": {
+				"factoryName": "sap.ushell.ui5service.URLParsing"
+			}
+		}
+	}
+}

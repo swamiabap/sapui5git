@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectResources">
+    <resource url="sap.apf" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.apf.xsd" />
+    <resource url="sap.ca.scfld.md" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ca.scfld.md.xsd" />
+    <resource url="sap.ca.ui" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ca.ui.xsd" />
+    <resource url="sap.chart" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.chart.xsd" />
+    <resource url="sap.collaboration" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.collaboration.xsd" />
+    <resource url="sap.f" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.f.xsd" />
+    <resource url="sap.fe" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.fe.xsd" />
+    <resource url="sap.fileviewer" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.fileviewer.xsd" />
+    <resource url="sap.fiori" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.fiori.xsd" />
+    <resource url="sap.gantt" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.gantt.xsd" />
+    <resource url="sap.landvisz" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.landvisz.xsd" />
+    <resource url="sap.m" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.m.xsd" />
+    <resource url="sap.makit" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.makit.xsd" />
+    <resource url="sap.me" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.me.xsd" />
+    <resource url="sap.ndc" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ndc.xsd" />
+    <resource url="sap.ovp" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ovp.xsd" />
+    <resource url="sap.portal.ui5" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.portal.ui5.xsd" />
+    <resource url="sap.rules.ui" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.rules.ui.xsd" />
+    <resource url="sap.suite.ui.commons" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.suite.ui.commons.xsd" />
+    <resource url="sap.suite.ui.generic.template" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.suite.ui.generic.template.xsd" />
+    <resource url="sap.suite.ui.microchart" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.suite.ui.microchart.xsd" />
+    <resource url="sap.tnt" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.tnt.xsd" />
+    <resource url="sap.ui.codeeditor" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.codeeditor.xsd" />
+    <resource url="sap.ui.commons" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.commons.xsd" />
+    <resource url="sap.ui.comp" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.comp.xsd" />
+    <resource url="sap.ui.core" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.core.xsd" />
+    <resource url="sap.ui.core.mvc" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.core.mvc.xsd" />
+    <resource url="sap.ui.demoapps" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.demoapps.xsd" />
+    <resource url="sap.ui.demokit" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.demokit.xsd" />
+    <resource url="sap.ui.documentation" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.documentation.xsd" />
+    <resource url="sap.ui.dt" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.dt.xsd" />
+    <resource url="sap.ui.export" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.export.xsd" />
+    <resource url="sap.ui.fl" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.fl.xsd" />
+    <resource url="sap.ui.generic.app" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.generic.app.xsd" />
+    <resource url="sap.ui.generic.template" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.generic.template.xsd" />
+    <resource url="sap.ui.layout" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.layout.xsd" />
+    <resource url="sap.ui.layout.form" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.layout.form.xsd" />
+    <resource url="sap.ui.mdc" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.mdc.xsd" />
+    <resource url="sap.ui.richtexteditor" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.richtexteditor.xsd" />
+    <resource url="sap.ui.rta" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.rta.xsd" />
+    <resource url="sap.ui.server.abap" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.server.abap.xsd" />
+    <resource url="sap.ui.server.java" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.server.java.xsd" />
+    <resource url="sap.ui.suite" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.suite.xsd" />
+    <resource url="sap.ui.support" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.support.xsd" />
+    <resource url="sap.ui.table" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.table.xsd" />
+    <resource url="sap.ui.unified" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.unified.xsd" />
+    <resource url="sap.ui.ux3" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.ux3.xsd" />
+    <resource url="sap.ui.vbm" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.vbm.xsd" />
+    <resource url="sap.ui.vk" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.vk.xsd" />
+    <resource url="sap.ui.vtm" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ui.vtm.xsd" />
+    <resource url="sap.uiext.inbox" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.uiext.inbox.xsd" />
+    <resource url="sap.ushell" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ushell.xsd" />
+    <resource url="sap.ushell_abap" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.ushell_abap.xsd" />
+    <resource url="sap.uxap" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.uxap.xsd" />
+    <resource url="sap.viz" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.viz.xsd" />
+    <resource url="sap.zen.commons" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.zen.commons.xsd" />
+    <resource url="sap.zen.crosstab" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.zen.crosstab.xsd" />
+    <resource url="sap.zen.dsh" location="$USER_HOME$/AppData/Roaming/ui5experts/ui5-schemas/sapui5/1.56.7/sap.zen.dsh.xsd" />
+  </component>
+</project>

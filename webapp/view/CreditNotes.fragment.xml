@@ -1,0 +1,83 @@
+<core:FragmentDefinition xmlns:m="sap.m" xmlns:core="sap.ui.core">
+    <m:Table noDataText="No data" growing="false" items="{/invDoc/creditNotes}" id="idCreditNotesTable"
+             mode="{/view/cnTableMode}"  delete=".handleRemoveCreditNote">
+        <m:headerToolbar>
+            <m:Toolbar class="sapUiNoMarginTop" height="2em">
+                <m:ToolbarSpacer width=""/>
+<!--                <m:Button text="Offset" type="Ghost" width="8rem" visible="{/view/offsetButtonVisible}"/>-->
+                <m:Button text="+ Add" id="btnAddCreditNote" press=".handleAddCreditNote" type="Emphasized"
+                          enabled="true" visible="{/view/roEditMode}" tooltip="Add credit note"
+                          class="jtcInvAddLineButton" width="8rem"/>
+            </m:Toolbar>
+        </m:headerToolbar>
+        <m:columns>
+            <m:Column width="12rem">
+                <m:header>
+                    <m:Label text="Credit Note No."/>
+                </m:header>
+            </m:Column>
+            <m:Column width="5.2rem">
+                <m:header>
+                    <m:Label text="Date"/>
+                </m:header>
+            </m:Column>
+            <m:Column width="">
+                <m:header>
+                    <m:Label text="Description"/>
+                </m:header>
+                <m:footer>
+                    <m:VBox>
+                        <m:Text text="Total credit notes"/>
+                        <m:Text text="Net payment"/>
+                    </m:VBox>
+                </m:footer>
+            </m:Column>
+            <m:Column width="11rem" hAlign="End">
+                <m:header>
+                    <m:Label text="Amount ($)"/>
+                </m:header>
+                <m:footer>
+                    <m:VBox>
+                        <m:Text text="{/invDoc/total/creditNotes/preGstAmt}"/>
+                        <m:Text text="{/invDoc/total/netPayment/preGstAmt}"/>
+                    </m:VBox>
+                </m:footer>
+            </m:Column>
+            <m:Column width="7rem" hAlign="End">
+                <m:header>
+                    <m:Label text="GST ($)"/>
+                </m:header>
+                <m:footer>
+                    <m:VBox>
+                        <m:Text text="{/invDoc/total/creditNotes/gstAmt}"/>
+                        <m:Text text="{/invDoc/total/netPayment/gstAmt}"/>
+                    </m:VBox>
+                </m:footer>
+            </m:Column>
+            <m:Column width="10rem" hAlign="End">
+                <m:header>
+                    <m:Label text="Amount (After GST $)"/>
+                </m:header>
+                <m:footer>
+                    <m:VBox>
+                        <m:Text text="{/invDoc/total/creditNotes/postGstAmt}"/>
+                        <m:Text text="{/invDoc/total/netPayment/postGstAmt}"/>
+                    </m:VBox>
+                </m:footer>
+            </m:Column>
+        </m:columns>
+        <m:items>
+            <m:ColumnListItem>
+                <m:cells>
+<!--                    <m:ObjectIdentifier text="{creditNoteNo}"/>-->
+                    <m:Link text="{creditNoteNo}" class="jtcInvMasterLink" press=".handleOpenDocument('INV', ${creditNoteId})"/>
+                    <m:ObjectIdentifier text="{cnDateRx}"/>
+                    <m:ObjectIdentifier text="{description}"/>
+                    <m:Text text="{preGstAmtRx}"/>
+                    <m:Text text="{gstAmtRx}"/>
+                    <m:Text text="{postGstAmtRx}"/>
+                </m:cells>
+            </m:ColumnListItem>
+        </m:items>
+    </m:Table>
+</core:FragmentDefinition>

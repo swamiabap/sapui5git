@@ -1,0 +1,70 @@
+specVersion: '1.0'
+metadata:
+  name: JTC-InvoiceApp
+type: application
+server:
+  customMiddleware:
+    - name: sapui5Serve
+      mountPath: /resources
+      beforeMiddleware: serveResources
+    - name: odataProxy
+      afterMiddleware: sapui5Serve
+builder:
+  bundles:
+  - bundleDefinition:
+      name: sg/gov/jtc/JTC-InvoiceApp/Component-preload.js
+      defaultFileTypes:
+      - ".js"
+      - ".json"
+      - ".xml"
+      - ".html"
+      - ".library"
+      sections:
+      - mode: raw
+        filters:
+        - sg/gov/jtc/JTC-InvoiceApp/regenerator-runtime/runtime.js
+      - mode: preload
+        filters:
+        - sg/gov/jtc/JTC-InvoiceApp/manifest.json
+        - sg/gov/jtc/JTC-InvoiceApp/controller/**
+        - sg/gov/jtc/JTC-InvoiceApp/Component.js
+        - sg/gov/jtc/JTC-InvoiceApp/i18n/**
+        - sg/gov/jtc/JTC-InvoiceApp/model/**
+        - sg/gov/jtc/JTC-InvoiceApp/view/**
+        - sg/gov/jtc/JTC-InvoiceApp/libs/**
+        - sg/gov/jtc/JTC-InvoiceApp/test/**
+        - sg/gov/jtc/JTC-InvoiceApp/service/**
+        - sg/gov/jtc/JTC-InvoiceApp/localService/**
+        resolve: false
+        sort: true
+        declareRawModules: false
+    bundleOptions:
+      optimize: true
+      usePredefineCalls: true
+  customTasks:
+    - name: babel
+      afterTask: replaceVersion
+---
+specVersion: "1.0"
+kind: extension
+type: server-middleware
+metadata:
+  name: odataProxy
+middleware:
+  path: lib/middleware/odataProxy.js
+---
+specVersion: "1.0"
+kind: extension
+type: server-middleware
+metadata:
+  name: sapui5Serve
+middleware:
+  path: lib/middleware/sapui5Serve.js
+---
+specVersion: "1.0"
+kind: extension
+type: task
+metadata:
+  name: babel
+task:
+  path: lib/tasks/babel.js

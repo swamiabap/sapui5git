@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <TableSelectDialog
+            id="vh-table-requestor"
+            contentWidth="35rem"
+            noDataText="No requestors found"
+            title="Select Requestors"
+            search=".handleSearch" liveChange=".handleSearch"
+            confirm=".handleClose"
+            cancel=".handleClose"
+            multiSelect="true" growing="true"
+            items="{req>/requestors}">
+        <ColumnListItem>
+            <cells>
+                <Text text="{req>UserID}"/>
+                <Text text="{req>FullName}"/>
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column hAlign="Begin" width="4rem">
+                <Label text="Requestor" tooltip="Requestor"/>
+            </Column>
+            <Column hAlign="Begin" width="10rem">
+                <Label text="Full Name" tooltip="Full Name"/>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>

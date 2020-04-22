@@ -1,0 +1,14 @@
+{
+	"d": {
+		"__metadata": {
+			"type": "Collection(ZMMP_INV_COMMON_SRV.TextLines)"
+		},
+		"results": [{
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.TextLines"
+			},
+			"TextFormat": "*",
+			"TextLine": "[Mock data] Remarkable proposition"
+		}]
+	}
+}

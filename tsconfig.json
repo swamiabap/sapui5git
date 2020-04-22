@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "noEmit": true,
+        "checkJs": false,
+        "allowJs": true,
+        "types": ["@openui5/ts-types"]
+    }
+}

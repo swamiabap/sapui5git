@@ -1,0 +1,50 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <TableSelectDialog
+            id="vh-table-asset2"
+            noDataText="No Asset found"
+            title="Select Asset"
+            search=".handleSearch"
+            confirm=".handleClose"
+            cancel=".handleClose"
+            multiSelect="false" growing="true"
+            items="{assetSearch>/assetsFiltered}">
+        <ColumnListItem>
+            <cells>
+                <Text text="{assetSearch>CompanyCode}"/>
+                <Text text="{assetSearch>MainAssetNumber}"/>
+                <Text text="{assetSearch>AssetSubnumber}"/>
+                <Text text="{assetSearch>AssetDescription}"/>
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column
+                    hAlign="Begin" width="5rem"
+                    popinDisplay="Inline"
+                    demandPopin="true">
+                <Label text="Company" tooltip="Company Code"/>
+            </Column>
+            <Column
+                    hAlign="Begin" width="6rem"
+                    popinDisplay="Inline"
+                    demandPopin="true"
+                    minScreenWidth="Tablet">
+                <Label text="Asset No."/>
+            </Column>
+            <Column
+                    hAlign="Begin" width="3.5rem"
+                    popinDisplay="Inline"
+                    demandPopin="false"
+                    minScreenWidth="Tablet">
+                <Label text="Sub No."/>
+            </Column>
+            <Column
+                    hAlign="Begin" width="auto"
+                    popinDisplay="Inline"
+                    demandPopin="true">
+                <Label text="Asset Description"/>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>

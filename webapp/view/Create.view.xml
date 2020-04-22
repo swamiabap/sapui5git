@@ -1,0 +1,187 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.uxap" xmlns:m="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core" controllerName="sg.gov.jtc.JTC-InvoiceApp.controller.Create" height="100%">
+	<ObjectPageLayout upperCaseAnchorBar="false" showFooter="true">
+		<headerTitle>
+			<ObjectPageHeader objectTitle="Create Payment Request">
+				<actions>
+					<ObjectPageHeaderActionButton text="Attachment" hideIcon="true" hideText="false"/>
+				</actions>
+			</ObjectPageHeader>
+		</headerTitle>
+		<headerContent>
+
+		</headerContent>
+		<sections>
+			<ObjectPageSection title="Basic Data" titleUppercase="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<f:SimpleForm title="Basic Information" 
+									editable="true"
+									layout="ResponsiveGridLayout"
+									labelSpanXL="2"
+									labelSpanL="2"
+									labelSpanM="2"
+									labelSpanS="12"
+									adjustLabelSpan="false"
+									emptySpanXL="6"
+									emptySpanL="6"
+									emptySpanM="6"
+									emptySpanS="0"
+									columnsXL="1"
+									columnsL="1"
+									columnsM="1"
+									singleContainerFullSize="false">
+									<f:content>
+										<m:Label text="Purchasing Group" width="auto" />
+										<m:Select forceSelection="false" width="50%">
+											<core:Item key="AAD" text="AAD"></core:Item>
+										</m:Select>
+										<m:Label text="Vendor ID" width="auto"/>
+										<m:Input placeholder="Enter vendor ID" />
+										<m:Label text="Description" width="auto"/>
+										<m:Input placeholder="Enter description" />
+									</f:content>
+								</f:SimpleForm>
+								<m:Panel headerText="More Information" expandable="true" expanded="false">
+									<m:Text text="More information here" />
+								</m:Panel>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Item Listing" titleUppercase="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:Table noDataText="No data">
+								<m:headerToolbar>
+									<m:Toolbar>
+										<m:Title text="Invoice Lines" />
+									</m:Toolbar>
+								</m:headerToolbar>
+								<m:columns>
+									<m:Column width="10%">
+										<m:header>
+											<m:Label text="No."/>
+										</m:header>
+									</m:Column>
+									<m:Column width="50%">
+										<m:header>
+											<m:Label text="Description"/>
+										</m:header>
+									</m:Column>
+									<m:Column>
+										<m:header>
+											<m:Label text="Amount"/>
+										</m:header>
+									</m:Column>
+									<m:Column>
+										<m:header>
+											<m:Label text="GST"/>
+										</m:header>
+									</m:Column>
+									<m:Column>
+										<m:header>
+											<m:Label text="Amount (after GST)" />
+										</m:header>
+									</m:Column>
+								</m:columns>
+							</m:Table>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
+			<ObjectPageSection title="Procurement Details" titleUppercase="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<m:Toolbar>
+									<!--<m:Label text="Link invoice to:" labelFor="linkTo"/>-->
+									<!--<m:Select id="linkTo" forceSelection="false" change="onLinkToChange">-->
+									<!--	<m:items>-->
+									<!--		<core:Item text="POWO" key="POWO"/>-->
+									<!--		<core:Item text="Other" key="Other"/>-->
+									<!--	</m:items>-->
+									<!--</m:Select>-->
+									<!--<m:Button text="Add fragment" press="onAddFragment" visible="false"/>-->
+									<!--<m:Button text="Remove fragment" press="onRemoveFragment" visible="false" />-->
+									<m:HBox height="auto">
+									<m:List headerText="">
+										<m:InputListItem label="Link invoice to">
+											<m:SegmentedButton selectedKey="sbNone" selectionChange="onInvoiceLinkSelected">
+												<m:items>
+													<m:SegmentedButtonItem text="NA" key="linkNA" width="auto" />
+													<m:SegmentedButtonItem text="POWO" key="linkPOWO" width="auto"/>
+												</m:items>
+											</m:SegmentedButton>
+										</m:InputListItem>
+									</m:List>
+									</m:HBox>
+								</m:Toolbar>
+								<m:Panel id="linkingPanel" visible="false"/>
+								<m:HBox>
+								</m:HBox>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Approval Information" titleUppercase="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<f:SimpleForm title="Select approval information" 
+									editable="true"
+									layout="ResponsiveGridLayout"
+									labelSpanXL="2"
+									labelSpanL="2"
+									labelSpanM="2"
+									labelSpanS="12"
+									adjustLabelSpan="false"
+									emptySpanXL="6"
+									emptySpanL="6"
+									emptySpanM="6"
+									emptySpanS="0"
+									columnsXL="1"
+									columnsL="1"
+									columnsM="1"
+									singleContainerFullSize="false">
+									<f:content>
+										<m:Label text="Verifying Officer" width="auto" />
+										<m:Select forceSelection="false" width="50%">
+											<core:Item key="VO1" text="Verifying Officer 1"></core:Item>
+										</m:Select>										
+										<m:Label text="Approving Officer" width="auto"/>
+										<m:Select forceSelection="false" width="50%">
+											<core:Item key="AA1" text="Approving Authority 1"></core:Item>
+										</m:Select>
+										<m:Label text="Remarks" width="auto"/>
+										<m:TextArea placeholder="Enter remarks" rows="4"/>
+									</f:content>
+								</f:SimpleForm>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+		<footer>
+			<m:OverflowToolbar>
+				<m:ToolbarSpacer />
+				<m:Button text="Save" type="Accept"/>
+				<m:Button text="Submit"/>
+				<m:Button text="Re-Route"/>
+				<m:Button text="Request Cancellation"/>
+				<m:Button text="Exit"/>
+			</m:OverflowToolbar>
+		</footer>
+	</ObjectPageLayout>
+</mvc:View>

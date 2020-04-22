@@ -1,0 +1,85 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog title="Training Information" id="jtc-training-info" class="jtcRoundDialog" contentHeight="80%">
+        <beginButton>
+<!--            <Button text="Apply" press="handleApplyTrainingInfo" type="Emphasized" class="jtcInvFooterButton"/>-->
+        </beginButton>
+        <endButton>
+            <Button text="Close" press=".handleCloseTrainingInfo" type="Emphasized" class="jtcInvFooterButton"/>
+        </endButton>
+        <content>
+            <VBox>
+                <OverflowToolbar width="auto" height="auto" design="Transparent" visible="true" enabled="true" class="sapUiNoContentPadding jtcSmallMarginLeft jtcSmallMarginRight jtcNoPaddingLeft">
+                    <content>
+                        <Button id="btnTrainingTemplate" text="Use Excel Template" press=".handleTrainingTemplate" type="Ghost" width="auto" enabled="{/view/roEditMode}" visible="true"/>
+                        <Button text="Populate Amounts" press=".handlePopulateAmounts" type="Ghost" enabled="{/view/roEditMode}"/>
+                        <ToolbarSpacer width=""/>
+                        <!--                        <OverflowToolbarButton text="Add" id="btnAddTrainingItem" press="handleAddTrainingItem" type="Transparent" icon="sap-icon://sys-add"-->
+                        <!--                                               iconFirst="true" width="auto" enabled="true" visible="{/view/roEditMode}" iconDensityAware="false"-->
+                        <!--                                               tooltip="Add training information item"/>-->
+                        <Button text="Search" id="btnAddTrainingItem" press=".handleAddTrainingItem" type="Emphasized"
+                                enabled="true" tooltip="Search training information" class="jtcInvAddLineButton"
+                                visible="{/view/roEditMode}"/>
+                    </content>
+                </OverflowToolbar>
+                <ScrollContainer horizontal="true" vertical="false" class="jtcSmallMarginLeft jtcSmallMarginRight">
+                    <Table items="{/invDoc/trainingInfo}" mode="{/view/roTableMode}" delete=".handleDeleteTrainingItem" id="jtc-training-info-table">
+                        <headerToolbar>
+                        </headerToolbar>
+                        <columns>
+                            <Column width="22rem">
+                                <header><Label text="Course Title" tooltip="Course Title"/></header>
+                            </Column>
+                            <Column width="5rem">
+                                <header><Label text="Start Date" tooltip="Start Date"/></header>
+                            </Column>
+                            <Column width="5rem">
+                                <header><Label text="End Date" tooltip="End Date"/></header>
+                            </Column>
+                            <Column width="10rem">
+                                <header><Label text="Employee Name" tooltip="Employee Name"/></header>
+                            </Column>
+                            <Column width="6rem" hAlign="End">
+                                <header><Label text="Approved Course Fees $" tooltip="Approved Course Fees $"/></header>
+                            </Column>
+                            <Column width="5.5rem">
+                                <header><Label text="Status" tooltip="Status"/></header>
+                            </Column>
+                            <Column width="12rem">
+                                <header><Label text="Organizer" tooltip="Organizer"/></header>
+                            </Column>
+                            <Column width="6rem" hAlign="End">
+                                <header><Label text="Actual Course Fees $" tooltip="Actual Course Fees $"/></header>
+                            </Column>
+                            <Column width="6rem" hAlign="End">
+                                <header><Label text="Subsidy (if any) $" tooltip="Subsidy (if any) $"/></header>
+                            </Column>
+                            <Column width="6rem" hAlign="End">
+                                <header><Label text="Penalty (if any) $" tooltip="Penalty (if any) $"/></header>
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem>
+                                <Text text="{zzcrsname}" />
+                                <Text text="{zzsedateRx}" />
+                                <Text text="{zzedateRx}" />
+                                <Text text="{zzename}" />
+                                <Text text="{zzestcostRx}" />
+                                <Text text="{zzstatus}" />
+                                <Text text="{zzcrsorg}" />
+                                <VBox>
+                                    <Input value="{zzactcostRx}" textAlign="End"/>
+                                </VBox>
+                                <VBox>
+                                    <Input value="{zzsdfRx}" textAlign="End"/>
+                                </VBox>
+                                <VBox>
+                                    <Input value="{zzactpenaltyRx}" textAlign="End"/>
+                                </VBox>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </ScrollContainer>
+            </VBox>
+        </content>
+    </Dialog>
+</core:FragmentDefinition>

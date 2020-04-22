@@ -1,0 +1,182 @@
+{
+	"d": {
+		"__metadata": {
+			"type": "Collection(ZMMP_INV_COMMON_SRV.VerifyingOfficers)"
+		},
+		"results": [{
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AJAYA",
+			"FullName": "AJAYA"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "ANHHTN_2",
+			"FullName": "ANHHTN_2"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER001",
+			"FullName": "AUTOUSER001"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER002",
+			"FullName": "AUTOUSER002"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER003",
+			"FullName": "AUTOUSER003"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER004",
+			"FullName": "AUTOUSER004"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER005",
+			"FullName": "AUTOUSER005"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER006",
+			"FullName": "AUTOUSER006"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER007",
+			"FullName": "AUTOUSER007"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER008",
+			"FullName": "AUTOUSER008"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER009",
+			"FullName": "AUTOUSER009"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "AUTOUSER010",
+			"FullName": "AUTOUSER010"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "JOSEMSB",
+			"FullName": "JOSEMSB"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "PT_ACEO1",
+			"FullName": "David Tan Tin Liung"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "PT_ACEO2",
+			"FullName": "Tay Ter Long"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "PT_ACEO3",
+			"FullName": "Amirun Nessa Khathun Mohd Nurul Haque"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "PT_DD3_AMC",
+			"FullName": "PTDD3AMC"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO01",
+			"FullName": "TESTAUTO01"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO02",
+			"FullName": "TESTAUTO02"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO03",
+			"FullName": "TESTAUTO03"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO04",
+			"FullName": "TESTAUTO04"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO05",
+			"FullName": "TESTAUTO05"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO101",
+			"FullName": "TESTAUTO101"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TESTAUTO11",
+			"FullName": "TESTAUTO11"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "TRITP",
+			"FullName": "TRITP"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "WILLIETAN",
+			"FullName": "Tan Wee Lee Willie"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "WLTAN",
+			"FullName": "WLTAN"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "XUANVP",
+			"FullName": "XUANVP"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.VerifyingOfficers"
+			},
+			"UserID": "ZIPG_ARREARS",
+			"FullName": "ZIPG_ARREARS"
+		}]
+	}
+}

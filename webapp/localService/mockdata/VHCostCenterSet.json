@@ -1,0 +1,1225 @@
+[{
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='AAD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='AAD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "AAD001",
+	"Description": "MASKING-AAD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='AC99999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='AC99999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "AC99999",
+	"Description": "MASKING-AC99999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAAD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAAD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CAAD001",
+	"Description": "MASKING-CAMC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CAMC001",
+	"Description": "MASKING-CAMC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CAMC002",
+	"Description": "MASKING-CAMC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CAMC003",
+	"Description": "MASKING-CAMC003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC101',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC101',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CAMC101",
+	"Description": "MASKING-CAMC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CAMC999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CAMC999",
+	"Description": "MASKING-CAMC999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CBCC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CBCC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CBCC001",
+	"Description": "MASKING-CBCC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CBCC999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CBCC999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CBCC999",
+	"Description": "MASKING-CBCC999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CBEC',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CBEC',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CBEC",
+	"Description": "MASKING-CBEC",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CC01',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CC01',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CC01",
+	"Description": "MASKING-CC01",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC001",
+	"Description": "MASKING-CCC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC002",
+	"Description": "MASKING-CCC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC003",
+	"Description": "MASKING-CCC003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC004',CompanyCode='JTC3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC004',CompanyCode='JTC3')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC004",
+	"Description": "MASKING-CCC004",
+	"CompanyCode": "JTC3"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC005',CompanyCode='JTC3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC005',CompanyCode='JTC3')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC005",
+	"Description": "MASKING-CCC005",
+	"CompanyCode": "JTC3"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC006',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC006',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC006",
+	"Description": "MASKING-CCC006",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC007',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC007',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC007",
+	"Description": "MASKING-CCC007",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC008',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC008',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC008",
+	"Description": "MASKING-CCC008",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC009',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC009',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC009",
+	"Description": "MASKING-CCC009",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC010',CompanyCode='JTC3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC010',CompanyCode='JTC3')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC010",
+	"Description": "MASKING-CCC010",
+	"CompanyCode": "JTC3"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC011',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC011',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC011",
+	"Description": "MASKING-CCC011",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC012',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC012',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC012",
+	"Description": "MASKING-CCC012",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC013',CompanyCode='JTC3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC013',CompanyCode='JTC3')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC013",
+	"Description": "MASKING-CCC013",
+	"CompanyCode": "JTC3"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC015',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCC015',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCC015",
+	"Description": "MASKING-CCC015",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCCC002",
+	"Description": "MASKING-CCCC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCCC004",
+	"Description": "MASKING-CCCC004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC006',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC006',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCCC006",
+	"Description": "MASKING-CCCC006",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC009',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC009',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCCC009",
+	"Description": "MASKING-CCCC009",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC016',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC016',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCCC016",
+	"Description": "MASKING-CCCC016",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC022',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCCC022',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCCC022",
+	"Description": "MASKING-CCCC022",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCEO002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCEO002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCEO002",
+	"Description": "MASKING-CCEO002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCMD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCMD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCMD001",
+	"Description": "MASKING-CCMD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCPD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCPD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCPD001",
+	"Description": "MASKING-CCPD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCSG001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CCSG001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CCSG001",
+	"Description": "MASKING-CCSG001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CDPO001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CDPO001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CDPO001",
+	"Description": "MASKING-CDPO001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEIM001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEIM001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEIM001",
+	"Description": "MASKING-CEIM001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEIM005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEIM005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEIM005",
+	"Description": "MASKING-CEIM005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEIM999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEIM999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEIM999",
+	"Description": "MASKING-CEIM999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CELC001",
+	"Description": "MASKING-CELC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CELC002",
+	"Description": "MASKING-CELC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELC999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELC999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CELC999",
+	"Description": "MASKING-CELC999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELCTEST',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CELCTEST',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CELCTEST",
+	"Description": "MASKING-CELCTEST",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEO001",
+	"Description": "MASKING-CEO001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEO002",
+	"Description": "MASKING-CEO002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEO003",
+	"Description": "MASKING-CEO003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEO004",
+	"Description": "MASKING-CEO004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEO005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEO005",
+	"Description": "MASKING-CEO005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEPD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CEPD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CEPD001",
+	"Description": "MASKING-CEPD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFMD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFMD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CFMD001",
+	"Description": "MASKING-CFMD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFND000',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFND000',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CFND000",
+	"Description": "MASKING-CFND000",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFND001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFND001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CFND001",
+	"Description": "MASKING-CFND001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFOD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CFOD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CFOD001",
+	"Description": "MASKING-CFOD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHAC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHAC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CHAC001",
+	"Description": "MASKING-CHAC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHDC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHDC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CHDC002",
+	"Description": "MASKING-CHDC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHDC003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHDC003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CHDC003",
+	"Description": "MASKING-CHDC003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHDC999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHDC999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CHDC999",
+	"Description": "MASKING-CHDC999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHRD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHRD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CHRD001",
+	"Description": "MASKING-CHRD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHRD004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CHRD004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CHRD004",
+	"Description": "MASKING-CHRD004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CITD001",
+	"Description": "MASKING-CITD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD008',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD008',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CITD008",
+	"Description": "MASKING-CITD008",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD009',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD009',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CITD009",
+	"Description": "MASKING-CITD009",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD010',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITD010',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CITD010",
+	"Description": "MASKING-CITD010",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITTEST',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITTEST',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CITTEST",
+	"Description": "MASKING-CITTEST",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITTEST1',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CITTEST1',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CITTEST1",
+	"Description": "MASKING-CITTEST1",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CJTC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CJTC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CJTC002",
+	"Description": "MASKING-CJTC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CL1001",
+	"Description": "MASKING-CL1001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1001J',CompanyCode='JTC3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1001J',CompanyCode='JTC3')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CL1001J",
+	"Description": "MASKING-CL1001J",
+	"CompanyCode": "JTC3"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CL1002",
+	"Description": "MASKING-CL1002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CL1003",
+	"Description": "MASKING-CL1003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CL1004",
+	"Description": "MASKING-CL1004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CL1005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CL1005",
+	"Description": "MASKING-CL1005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CLPD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CLPD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CLPD001",
+	"Description": "MASKING-CLPD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CLSD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CLSD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CLSD001",
+	"Description": "MASKING-CLSD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CMD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CMD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CMD001",
+	"Description": "MASKING-CMD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CMRD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CMRD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CMRD001",
+	"Description": "MASKING-CMRD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CPG001",
+	"Description": "MASKING-CPG001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CPG002",
+	"Description": "MASKING-CPG002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CPG003",
+	"Description": "MASKING-CPG003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPG004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CPG004",
+	"Description": "MASKING-CPG004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPMC005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CPMC005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CPMC005",
+	"Description": "MASKING-CPMC005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CSPD007',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CSPD007',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CSPD007",
+	"Description": "MASKING-CSPD007",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CTPG001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='CTPG001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "CTPG001",
+	"Description": "MASKING-CTPG001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DPO001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DPO001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "DPO001",
+	"Description": "MASKING-DPO001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DS59999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DS59999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "DS59999",
+	"Description": "DS59999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DU19999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DU19999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "DU19999",
+	"Description": "DU19999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DUMMY_JTCP',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='DUMMY_JTCP',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "DUMMY_JTCP",
+	"Description": "MASKING-DUMMY_JTCP",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "EPG001",
+	"Description": "MASKING-EPG001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "EPG002",
+	"Description": "MASKING-EPG002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "EPG003",
+	"Description": "MASKING-EPG003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "EPG004",
+	"Description": "MASKING-EPG004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='EPG005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "EPG005",
+	"Description": "MASKING-EPG005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FND001",
+	"Description": "MASKING-FND001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FND002",
+	"Description": "MASKING-FND002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FND003",
+	"Description": "MASKING-FND003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FND004",
+	"Description": "MASKING-FND004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FND005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FND005",
+	"Description": "MASKING-FND005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FUC0199',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FUC0199',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FUC0199",
+	"Description": "MASKING-FUC0199",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FUP0199',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='FUP0199',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "FUP0199",
+	"Description": "MASKING-FUP0199",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HCLCC1',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HCLCC1',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HCLCC1",
+	"Description": "MASKING-HCLCC1",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HCLCC2',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HCLCC2',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HCLCC2",
+	"Description": "MASKING-HCLCC2",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HDC0002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HDC0002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HDC0002",
+	"Description": "MASKING-HDC0002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HRD001",
+	"Description": "MASKING-HRD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HRD002",
+	"Description": "MASKING-HRD002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HRD003",
+	"Description": "MASKING-HRD003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HRD004",
+	"Description": "MASKING-HRD004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='HRD005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "HRD005",
+	"Description": "MASKING-HRD005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ITD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ITD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "ITD001",
+	"Description": "MASKING-ITD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ITD002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ITD002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "ITD002",
+	"Description": "MASKING-ITD002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='KU59999',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='KU59999',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "KU59999",
+	"Description": "MASKING-KU59999",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LGD001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LGD001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LGD001",
+	"Description": "MASKING-LGD001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LGD002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LGD002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LGD002",
+	"Description": "MASKING-LGD002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LGD003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LGD003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LGD003",
+	"Description": "MASKING-LGD003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LPG001",
+	"Description": "MASKING-LPG001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LPG002",
+	"Description": "MASKING-LPG002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LPG003",
+	"Description": "MASKING-LPG003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LPG004",
+	"Description": "MASKING-LPG004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LPG005",
+	"Description": "MASKING-LPG005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG006',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='LPG006',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "LPG006",
+	"Description": "MASKING-LPG006",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "MRG001",
+	"Description": "MASKING-MRG001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "MRG002",
+	"Description": "MASKING-MRG002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "MRG003",
+	"Description": "MASKING-MRG003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='MRG004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "MRG004",
+	"Description": "MASKING-MRG004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "PMC001",
+	"Description": "MASKING-PMC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "PMC002",
+	"Description": "MASKING-PMC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "PMC003",
+	"Description": "MASKING-PMC003",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC004',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC004',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "PMC004",
+	"Description": "MASKING-PMC004",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC005',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PMC005',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "PMC005",
+	"Description": "MASKING-PMC005",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PU10199',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='PU10199',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "PU10199",
+	"Description": "MASKING-PU10199",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='QU10199',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='QU10199',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "QU10199",
+	"Description": "MASKING-QU10199",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='SPLIT_TST',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='SPLIT_TST',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "SPLIT_TST",
+	"Description": "MASKING-SPLIT_TST",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='SPLIT_TST2',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='SPLIT_TST2',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "SPLIT_TST2",
+	"Description": "MASKING-SPLIT_TST2",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ZCCC001',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ZCCC001',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "ZCCC001",
+	"Description": "MASKING-ZCCC001",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ZCCC002',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ZCCC002',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "ZCCC002",
+	"Description": "MASKING-ZCCC002",
+	"CompanyCode": "JTC1"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ZCCC003',CompanyCode='JTC1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/VHCostCenterSet(CostCenter='ZCCC003',CompanyCode='JTC1')",
+		"type": "ZMMP_INV_COMMON_SRV.VHCostCenter"
+	},
+	"CostCenter": "ZCCC003",
+	"Description": "MASKING-ZCCC003",
+	"CompanyCode": "JTC1"
+}]

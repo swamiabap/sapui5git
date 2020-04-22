@@ -1,0 +1,421 @@
+ [{
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00001')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00001')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00001",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000181",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002392",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "535.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00002')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00002')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00002",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000181",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002393",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1070.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00003')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00003')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00003",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000174",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002386",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "500.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00004')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00004')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00004",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000174",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002387",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1000.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00005')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00005')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00005",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000175",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002384",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "500.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00006')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00006')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00006",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000175",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002385",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1000.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00007')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00007')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00007",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000176",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002382",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "500.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00008')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00008')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00008",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000176",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002383",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1000.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00009')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00009')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00009",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000177",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002380",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "500.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00010')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00010')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00010",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000177",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002381",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1000.000",
+ 	"TaxCode": "P7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00011')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00011')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00011",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000178",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002398",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "535.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00012')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00012')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00012",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000178",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002399",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1070.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00013')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00013')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00013",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000179",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002396",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "535.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00014')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00014')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00014",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000179",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002397",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1070.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00015')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00015')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00015",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000180",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002394",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "535.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00016')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00016')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00016",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000180",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002395",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1070.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00017')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00017')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00017",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000181",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002392",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "535.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00018')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00018')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00018",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000181",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002393",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1070.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00019')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00019')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00019",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000182",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002390",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "500.000",
+ 	"Amount": "535.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00020')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150001808',LineNumber='00020')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150001808",
+ 	"LineNumber": "00020",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "6500000182",
+ 	"POWOItemNumber": "00010",
+ 	"ShortText": "TEST 01",
+ 	"MatDocNumber": "5000002391",
+ 	"MatDocItem": "0001",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "1000.000",
+ 	"Amount": "1070.000",
+ 	"TaxCode": "X7",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150011219',LineNumber='00001')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLinkPOWOSet(InvoiceID='8150011219',LineNumber='00001')",
+ 		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLinkPOWO"
+ 	},
+ 	"InvoiceID": "8150011219",
+ 	"LineNumber": "00001",
+ 	"InvoiceReference": "",
+ 	"POWONumber": "",
+ 	"POWOItemNumber": "00000",
+ 	"ShortText": "",
+ 	"MatDocNumber": "",
+ 	"MatDocItem": "0000",
+ 	"MatDocYear": "2015",
+ 	"Quantity": "0.000",
+ 	"Amount": "0.000",
+ 	"TaxCode": "",
+ 	"DeletionIndicator": "X",
+ 	"TaxCodeDescription": ""
+ }]

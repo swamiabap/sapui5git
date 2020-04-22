@@ -1,0 +1,1431 @@
+[{
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000000',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000000',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000000",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000001',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000001',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000001",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000002',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000002',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000002",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000003',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000003',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000003",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000004',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000004',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000004",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000005',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000005',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000005",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000006',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000006',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000006",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000007',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000007',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000007",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000008',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000008',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000008",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000009',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC3',MainAssetNumber='9000009',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC3",
+	"MainAssetNumber": "9000009",
+	"AssetSubnumber": "0",
+	"AssetClass": "92004",
+	"AssetDescription": "TEST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700000',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700000',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700000",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Mallik",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700001",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet ( RAJU )",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700001",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(DIRECTOR IDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700001",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "FURNITURE - CABINET",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700001',AssetSubnumber='3')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700001",
+	"AssetSubnumber": "3",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(DIRECTOR IDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700002',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700002',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700002",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(BUSINESS PARKS ADMIN BUSINESS",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700003',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700003',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700003",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(WAFERFAB  PARKS ADMIN WAFERFAB",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700006',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700006',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700006",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(DIRECTOR'S OFFICE DIRECTOR'S O",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700006',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700006',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700006",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(DIRECTOR'S OFFICE DIRECTOR'S O",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700009',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700009',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700009",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "FURNITURE - CABINET",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700011',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700011',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700011",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CTG - HQ CTG - HQ CTG - HQ)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700011',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700011',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700011",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CTG - HQ CTG - HQ CTG - HQ)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700011',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700011',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700011",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CTG - HQ CTG - HQ CTG - HQ)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700012',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700012',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700012",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(SERVICE SUPPORT LM/PS/ES/BC SE",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700013',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700013',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700013",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CUSTOMER SERVICE CENTRE CUSTOM",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700015',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700015',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700015",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(VALUATION DEPARTMENT VALUATION",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700015',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700015',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700015",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(VALUATION DEPARTMENT VALUATION",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700016',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700016',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700016",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(BUILDING CONTROL UNIT BUILDING",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700016',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700016',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700016",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(BUILDING CONTROL UNIT BUILDING",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700016',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700016',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700016",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(BUILDING CONTROL UNIT BUILDING",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700017',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700017',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700017",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(LEGAL DEPARTMENT CONSULTANCY C",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700018',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700018',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700018",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CEO'S OFFICE CEO'S OFFICE CEO'",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700020',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700020',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700020",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(OFFICE MGT UNIT OFFICE MGT UNI",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700022',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700022',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700022",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(JTC BOARD/CORPORATE JTH BUILDI",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700023',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700023',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700023",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CORP. COMMUNICATIONS CORP. COM",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700023',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700023',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700023",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(CORP. COMMUNICATIONS CORP. COM",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700025',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700025',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700025",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(SURVEY SURVEY SURVEY)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700025',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700025',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700025",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(SURVEY SURVEY SURVEY)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700033',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700033',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700033",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(DIRECTOR JLC'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700033',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700033',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700033",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(DIRECTOR JLC'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700034',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700034',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700034",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(JTC LIBRARY JTC LIBRARY JTC LI",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700034',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700034',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700034",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(JTC LIBRARY JTC LIBRARY JTC LI",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700034',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700034',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700034",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(JTC LIBRARY JTC LIBRARY JTC LI",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700035',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700035',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700035",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(FINANCE DEPARTMENT FINANCE DEP",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700036',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700036',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700036",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(LAND SOURCING & ACQUISITION LA",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700036',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700036',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700036",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(LAND SOURCING & ACQUISITION LA",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700036',AssetSubnumber='3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700036',AssetSubnumber='3')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700036",
+	"AssetSubnumber": "3",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(LAND SOURCING & ACQUISITION LA",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700037',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700037',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700037",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(RESEARCH RESEARCH RESEARCH)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700037',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700037',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700037",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "FURNITURE - CABINET",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700037',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700037',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700037",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "FURNITURE - CABINET",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700039',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700039',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700039",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(INDUSTRY PLANNING INDUSTRY PLA",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700039',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700039',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700039",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(INDUSTRY PLANNING INDUSTRY PLA",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700040',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700040',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700040",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(STRATEGIC PLANNING STRATEGIC P",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700040',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700040',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700040",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(STRATEGIC PLANNING STRATEGIC P",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700041",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(INFRASTRUCTURE SUPPORT INFRAST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700041",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(INFRASTRUCTURE SUPPORT INFRAST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700041",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(INFRASTRUCTURE SUPPORT INFRAST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700041',AssetSubnumber='3')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700041",
+	"AssetSubnumber": "3",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(INFRASTRUCTURE SUPPORT INFRAST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700042',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700042',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700042",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Cabinet(HUMAN RESOURCE DEPT HUMAN RESO",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700044',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700044',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700044",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(DIRECTOR IDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700044',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700044',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700044",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(DIRECTOR IDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700045',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700045',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700045",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(BUSINESS PARKS ADMIN BUSINESS P",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700049',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700049',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700049",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(DIRECTOR'S OFFICE DIRECTOR'S OF",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700049',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700049',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700049",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(DIRECTOR'S OFFICE DIRECTOR'S OF",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700051',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700051',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700051",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "FURNITURE - CHAIR (STEPSTOOL)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700053',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700053',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700053",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(CTG - HQ CTG - HQ CTG - HQ)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700053',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700053',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700053",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(CTG - HQ CTG - HQ CTG - HQ)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700054',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700054',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700054",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(SERVICE SUPPORT LM/PS/ES/BC SER",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700056',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700056',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700056",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(VALUATION DEPARTMENT VALUATION",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700057',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700057',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700057",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(BUILDING CONTROL UNIT BUILDING",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700057',AssetSubnumber='3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700057',AssetSubnumber='3')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700057",
+	"AssetSubnumber": "3",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(BUILDING CONTROL UNIT BUILDING",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700058',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700058',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700058",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(LEGAL DEPARTMENT CONSULTANCY CO",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700058',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700058',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700058",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(LEGAL DEPARTMENT CONSULTANCY CO",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700059',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700059',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700059",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(CHAIRMAN'S OFFICE CHAIRMAN'S OF",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700060',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700060',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700060",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(CEO'S OFFICE CEO'S OFFICE CEO'S",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700061',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700061',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700061",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(OCL CENTRE OCL CENTRE OCL CENTR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700062',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700062',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700062",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(OFFICE MGT UNIT OFFICE MGT UNIT",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700062',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700062',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700062",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(OFFICE MGT UNIT OFFICE MGT UNIT",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700063',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700063',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700063",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(INTERNAL AUDIT INTERNAL AUDIT I",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700064',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700064',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700064",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(JTC BOARD/CORPORATE JTH BUILDIN",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700064',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700064',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700064",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(JTC BOARD/CORPORATE JTH BUILDIN",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700065',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700065',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700065",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(CORP. COMMUNICATIONS CORP. COMM",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700065',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700065',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700065",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(CORP. COMMUNICATIONS CORP. COMM",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700067',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700067',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700067",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(SURVEY SURVEY SURVEY)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700075',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700075',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700075",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(JTC LIBRARY JTC LIBRARY JTC LIB",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700076',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700076',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700076",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(FINANCE DEPARTMENT FINANCE DEPA",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700077',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700077',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700077",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(LAND SOURCING & ACQUISITION LAN",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700077',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700077',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700077",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(LAND SOURCING & ACQUISITION LAN",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700079',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700079',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700079",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(RESEARCH RESEARCH RESEARCH)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700079',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700079',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700079",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(RESEARCH RESEARCH RESEARCH)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700079',AssetSubnumber='3')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700079',AssetSubnumber='3')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700079",
+	"AssetSubnumber": "3",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(RESEARCH RESEARCH RESEARCH)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700081',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700081',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700081",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(INDUSTRY PLANNING INDUSTRY PLAN",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700081',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700081',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700081",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(INDUSTRY PLANNING INDUSTRY PLAN",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700082',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700082',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700082",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(STRATEGIC PLANNING STRATEGIC PL",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700082',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700082',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700082",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(STRATEGIC PLANNING STRATEGIC PL",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700083',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700083',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700083",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(INFRASTRUCTURE SUPPORT INFRASTR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700083',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700083',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700083",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(INFRASTRUCTURE SUPPORT INFRASTR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700084',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700084',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700084",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Chairs(HUMAN RESOURCE DEPT HUMAN RESOU",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700086',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700086',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700086",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(DIRECTOR IDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700086',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700086',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700086",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(DIRECTOR IDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700087',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700087',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700087",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(BUSINESS PARKS ADMIN BUSINESS P",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700088',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700088',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700088",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(WAFERFAB  PARKS ADMIN WAFERFAB",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700090',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700090',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700090",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(DIRECTOR SDG'S OFFICE DIRECTOR",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700092',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700092',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700092",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(DIRECTOR'S OFFICE DIRECTOR'S OF",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700092',AssetSubnumber='2')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700092',AssetSubnumber='2')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700092",
+	"AssetSubnumber": "2",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(DIRECTOR'S OFFICE DIRECTOR'S OF",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700094',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700094',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700094",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(EAST ZONE-DY DIR'S OFFICE EAST",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700096',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700096',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700096",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(CTG - HQ CTG - HQ CTG - HQ)",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700097',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700097',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700097",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(SERVICE SUPPORT LM/PS/ES/BC SER",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700097',AssetSubnumber='1')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700097',AssetSubnumber='1')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700097",
+	"AssetSubnumber": "1",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(SERVICE SUPPORT LM/PS/ES/BC SER",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700099',AssetSubnumber='0')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/AssetSet(CompanyCode='JTC1',MainAssetNumber='700099',AssetSubnumber='0')",
+		"type": "ZMMP_INV_COMMON_SRV.Asset"
+	},
+	"CompanyCode": "JTC1",
+	"MainAssetNumber": "700099",
+	"AssetSubnumber": "0",
+	"AssetClass": "8003",
+	"AssetDescription": "Furniture - Tables(VALUATION DEPARTMENT VALUATION",
+	"DeactivationDate": null,
+	"AssetLockIndicator": false
+}]

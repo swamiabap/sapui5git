@@ -1,0 +1,154 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout">
+	<VBox visible="{/view/linkEntry/naVisible}">
+		<!-- Information to prevent focus loss/jump: -->
+		<!-- If growing=true, specify key in items aggregation: e.g. { path: 'local>ToInvoiceLinkNA', key: 'InvoiceID' } -->
+		<Table width="auto" noDataText="No data" mode="{/view/tableMode}" showSeparators="All"
+			items="{/invDoc/linkNa}" id="tablePostingDetailsNA" delete=".handleDeleteNALine"
+			class="sapUiNoContentPadding sapUiSmallMarginTop" busy="{/view/procurementDetailsBusy}">
+			<infoToolbar>
+				<!--<Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">-->
+				<!--    <content>-->
+				<!--        <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>-->
+				<!--    </content>-->
+				<!--</Toolbar>-->
+			</infoToolbar>
+			<headerToolbar>
+				<OverflowToolbar id="toolbarNA" width="auto" height="2em" design="Transparent" visible="true" enabled="true" class="sapUiNoContentPadding sapUiNoMargin jtcNoPaddingLeft">
+					<content>
+						<!--<Text text="Posting Details" width="auto" textAlign="Begin" visible="true" wrapping="false" class="sapUiNoMargin"/>-->
+						<Button id="btnTemplate" text="Use Excel Template" press=".handleTemplateNA" type="Ghost" width="auto" enabled="{/view/editMode}" visible="true"/>
+						<ToolbarSpacer width=""/>
+						<!--<OverflowToolbarButton text="Sort" type="Transparent" icon="sap-icon://sort" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>-->
+						<!--<OverflowToolbarButton text="Filter" type="Transparent" icon="sap-icon://filter" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>-->
+						<!--<OverflowToolbarButton text="Group" type="Transparent" icon="sap-icon://group-2" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>-->
+						<Button text="+ Add" id="btnAddPostingDetailNA" press=".handleAddPostingDetailNA" type="Emphasized" width="auto" enabled="true" visible="{/view/editMode}" tooltip="Add item"
+							class="jtcInvAddLineButton"/>
+						<!--<Button text="Add" width="100px" id="btnAddPostingDetailNA" press="handleAddPostingDetailNA" />-->
+					</content>
+				</OverflowToolbar>
+			</headerToolbar>
+			<columns>
+				<Column width="3.1rem" hAlign="Left" vAlign="Top" minScreenWidth="Phone" demandPopin="false" popinDisplay="Inline" mergeDuplicates="false"
+					visible="true" class="sapUiNoMarginBegin">
+					<header>
+						<Label text="Item No." width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer/>
+				</Column>
+				<Column width="6.5rem" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="Acct Assignment" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer>
+						<Text text="Total" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</footer>
+				</Column>
+				<Column width="8.8rem" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="Asset No." width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer/>
+				</Column>
+				<!--<Column width="auto" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">-->
+				<!--    <header>-->
+				<!--        <Text text="Sub Asset" width="auto" maxLines="1" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>-->
+				<!--    </header>-->
+				<!--    <footer/>-->
+				<!--</Column>-->
+				<Column width="6.1rem" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="GL" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer></footer>
+				</Column>
+				<Column width="6.5rem" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="Cost Center" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer/>
+				</Column>
+				<Column width="6.8rem" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="Real Estate" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer/>
+				</Column>
+				<Column width="7rem" hAlign="End" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="Amount ($)" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer>
+						<HBox justifyContent="End">
+							<Input value="{/invDoc/total/linkNa/preGstAmt}" editable="false" textAlign="End" enabled="{/view/editMode}" visible="{/view/editMode}" id="inNATotal"/>
+							<Text text="{/invDoc/total/linkNa/preGstAmt}" visible="{/view/displayMode}" id="obNATotal"/>
+						</HBox>
+					</footer>
+				</Column>
+				<Column width="15rem" hAlign="Left" vAlign="Top" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" mergeDuplicates="false">
+					<header>
+						<Label text="Tax Code" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					</header>
+					<footer/>
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<ObjectIdentifier text="{lineNumberRx}" visible="true"/>
+						<VBox>
+							<Text text="{accntAssignRx}" visible="{/view/displayMode}"/>
+							<Select id="selAccountAssignment" visible="{/view/editMode}" forceSelection="false" selectedKey="{accntAssign}"
+								items="{ path: '/aux/accountAssignment/accountAssignments', templateShareable: false }" change="">
+								<core:Item key="{DomainValue}" text="{Description}"/>
+							</Select>
+						</VBox>
+						<VBox>
+							<Text text="{assetCombined}" visible="{/view/displayMode}"/>
+							<HBox visible="{/view/editMode}">
+								<Input value="{assetCombined}" id="idAssetNumNA" editable="{assetNoEditable}" showValueHelp="true"
+									valueHelpRequest=".handleValueHelpAsset($event, 'NA')"/>
+<!--								<Input value="{local>AssetSubnumber}" editable="{local>EditPostDetailNA/AssetSubnumber}" width="3em"/>-->
+							</HBox>
+						</VBox>
+						<VBox>
+							<Text text="{glAccountRx}" visible="{/view/displayMode}"/>
+							<Input value="{glAccountRx}" editable="{glAccountEditable}" id="glInput" visible="{/view/editMode}"
+								showValueHelp="true" valueHelpRequest=".handleValueHelpGL($event, 'NA')"/>
+						</VBox>
+						<VBox>
+							<Text text="{costCenter}" visible="{/view/displayMode}"/>
+							<Input value="{costCenter}" editable="{costCenterEditable}" visible="{/view/editMode}" showValueHelp="true"
+								valueHelpRequest=".handleValueHelpCostCenter($event, 'NA')"/>
+						</VBox>
+						<VBox>
+							<Text text="{realEstate}" visible="{/view/displayMode}"/>
+							<Input value="{realEstate}" editable="{realEstateEditable}" visible="{/view/editMode}" showValueHelp="true" valueHelpRequest=".handleValueHelpRE($event, 'NA')"/>
+						</VBox>
+						<VBox>
+							<Text text="{preGstAmtFormatted}" visible="{/view/displayMode}" />
+							<Input value="{preGstAmtFormatted}" editable="{/view/editMode}" textAlign="End" visible="{/view/editMode}" change=""/>
+						</VBox>
+						<VBox>
+							<Text text="{taxDescrEnglish}" visible="{/view/displayMode}"/>
+							<!--<Input value="{local>TaxCode}" editable="{local>EditPostDetailNA/TaxCode}"/>-->
+							<Select id="selTaxCode" enabled="{/view/editMode}" forceSelection="false"
+								selectedKey="{taxDescrRx}"
+								items="{ path: '/aux/taxCode/taxCodes', templateShareable: false }"
+								change="" visible="{/view/editMode}">
+								<core:Item key="{Sequence}" text="{TaxCodeDescription}"/>
+							</Select>
+						</VBox>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
+		<!--<layout:content>-->
+		<!--    <Toolbar width="100%" visible="{ui>/fvoOrRoEditMode}">-->
+		<!--        <content>-->
+		<!--            <Button text="Add" width="100px" id="btnAddPostingDetailNA" press="handleAddPostingDetailNA" />-->
+		<!--            <ToolbarSpacer/>-->
+		<!--        </content>-->
+		<!--    </Toolbar>-->
+		<!--</layout:content>-->
+	</VBox>
+</core:FragmentDefinition>

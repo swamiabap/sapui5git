@@ -1,0 +1,39 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog title="Reverse" contentWidth="28rem" contentHeight="" draggable="true"
+            afterClose=".handleAfterClose">
+        <content>
+            <VBox class="jtcSmallMarginLeft jtcSmallMarginRight">
+                <HBox class="sapUiSmallMarginTop" alignItems="Center">
+                    <VBox width="30%">
+                        <Text text="Reversal Reason:" />
+                    </VBox>
+                    <VBox width="70%">
+                        <Select forceSelection="false" selectedKey="{rev>/reversalReason}" items="{rev>/reversalReasons}"
+                                id="rev-sel-reasons" busy="{rev>/reversalReasonInputBusy}" showSecondaryValues="true">
+                            <core:ListItem key="{rev>stgrd}" text="{rev>text}" additionalText="{rev>stgrd}"/>
+                        </Select>
+                    </VBox>
+                </HBox>
+                <HBox class="sapUiTinyMarginTop" alignItems="Center">
+                    <VBox width="30%">
+                        <Text text="Posting Date:" />
+                    </VBox>
+                    <VBox width="70%">
+                        <DatePicker value="{rev>/postingDate}" displayFormat="{rev>/dateDisplayFormat}" valueFormat="{rev>/dateValueFormat}" width="50%"/>
+                    </VBox>
+                </HBox>
+                <VBox class="sapUiTinyMarginTop">
+                    <Text text="Remarks:" />
+                    <TextArea value="{rev>/remarks}" rows="4" class="jtcRemarks sapUiTinyMarginTop sapUiSmallMarginBottom" width=""/>
+                </VBox>
+                <HBox class="sapUiSmallMarginTop"/>
+            </VBox>
+        </content>
+        <beginButton>
+            <Button text="Reverse" press=".handleReverse" type="Emphasized"/>
+        </beginButton>
+        <endButton>
+            <Button text="Cancel" press=".handleClose" type="Ghost" class="jtcSmallMarginRight"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

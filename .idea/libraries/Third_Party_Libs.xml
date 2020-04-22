@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Third Party Libs" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/webapp/libs" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/webapp/libs" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

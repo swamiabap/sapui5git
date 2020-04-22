@@ -1,0 +1,10 @@
+[{
+    "__metadata": {
+        "id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/RemarkSet(InvoiceID='9190000092',LineNumber='%20%20%201')",
+        "uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/RemarkSet(InvoiceID='9190000092',LineNumber='%20%20%201')",
+        "type": "ZMMP_INV_MAINTAIN_SRV.Remark"
+    },
+    "InvoiceID": "9190000092",
+    "LineNumber": "   1",
+    "LineText": "Remarkable proposition"
+}]

@@ -1,0 +1,91 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog title="Search for Training to Add" id="jtc-training-search" class="jtcRoundDialog" contentHeight="78%"
+        afterOpen=".handleSearchTraining">
+        <beginButton>
+            <Button text="Add Selected" press="handleAddTrainingInfo" type="Emphasized" class="jtcInvFooterButton"/>
+        </beginButton>
+        <endButton>
+            <Button text="Cancel" press="handleCancelSearch" type="Ghost"/>
+        </endButton>
+        <content>
+            <VBox>
+                <HBox class="jtcSmallMarginLeft sapUiSmallMarginBottom">
+                    <VBox class="sapUiTinyMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd">
+                        <Label text="Course Title:"/>
+                        <SearchField value="{tsearch>/CourseTitle}" placeholder="Enter course title" liveChange=".handleSearchTrainingLive" search=".handleSearchTrainingLive"/>
+                    </VBox>
+                    <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd" width="13rem">
+                        <Label text="Start Date Range:"/>
+                        <DateRangeSelection delimiter="to" displayFormat="{tsearch>/DateFormat}" dateValue="{tsearch>/StartDateLow}"
+                            secondDateValue="{tsearch>/StartDateHigh}" placeholder="Select date" change=".handleSearchTraining"/>
+                    </VBox>
+                    <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                        <Label text="Employee Name:"/>
+                        <SearchField value="{tsearch>/EmployeeName}" placeholder="Enter employee name" liveChange=".handleSearchTrainingLive" search=".handleSearchTrainingLive"/>
+                    </VBox>
+<!--                    <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">-->
+<!--                        <Label text="" />-->
+<!--                        <Button text="Search" press=".handleSearchTraining"/>-->
+<!--                    </VBox>-->
+                </HBox>
+                <Toolbar width="auto" height="auto" design="Transparent" visible="true" enabled="true" class="sapUiNoContentPadding sapUiNoMargin">
+                    <content>
+                    </content>
+                </Toolbar>
+                <ScrollContainer horizontal="true" vertical="false" class="jtcSmallMarginLeft">
+                    <Table items="{tsearch>/TrainingInformation}" id="ti-search-result" busy="{tsearch>/ResultTableBusy}"
+                        sticky="ColumnHeaders" mode="MultiSelect" selectionChange="handleSelectionChange" rememberSelections="false">
+                        <headerToolbar>
+                        </headerToolbar>
+                        <columns>
+                            <Column width="22rem">
+                                <header><Label text="Course Title" tooltip="Course Title"/></header>
+                            </Column>
+                            <Column width="5rem">
+                                <header><Label text="Start Date" tooltip="Start Date"/></header>
+                            </Column>
+                            <Column width="5rem">
+                                <header><Label text="End Date" tooltip="End Date"/></header>
+                            </Column>
+                            <Column width="10rem">
+                                <header><Label text="Employee Name" tooltip="Employee Name"/></header>
+                            </Column>
+                            <Column width="6rem" hAlign="End">
+                                <header><Label text="Approved Course Fees $" tooltip="Approved Course Fees $"/></header>
+                            </Column>
+                            <Column width="5rem">
+                                <header><Label text="Status" tooltip="Status"/></header>
+                            </Column>
+                            <Column width="12rem">
+                                <header><Label text="Organizer" tooltip="Organizer"/></header>
+                            </Column>
+<!--                            <Column width="6rem" hAlign="End">-->
+<!--                                <header><Text text="Actual Course Fees $"/></header>-->
+<!--                            </Column>-->
+<!--                            <Column width="6rem" hAlign="End">-->
+<!--                                <header><Text text="Subsidy (if any) $"/></header>-->
+<!--                            </Column>-->
+<!--                            <Column width="6rem" hAlign="End">-->
+<!--                                <header><Text text="Penalty (if any) $"/></header>-->
+<!--                            </Column>-->
+                        </columns>
+                        <items>
+                            <ColumnListItem>
+                                <Text text="{tsearch>zzcrsname}" />
+                                <Text text="{ path: 'tsearch>zzsedate', formatter: '.formatter.formatDate' }" />
+                                <Text text="{ path: 'tsearch>zzedate', formatter: '.formatter.formatDate' }" />
+                                <Text text="{tsearch>zzename}" />
+                                <Text text="{ path: 'tsearch>zzestcost', formatter: '.formatter.currencyValueNoSign' }" />
+                                <Text text="{tsearch>zzstatus}" />
+                                <Text text="{tsearch>zzcrsorg}" />
+<!--                                <Text text="{tsearch>ActualCourseFeesLocal}" />-->
+<!--                                <Text text="{tsearch>SdfAmount}" />-->
+<!--                                <Text text="{tsearch>ActualPenalty}" />-->
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </ScrollContainer>
+            </VBox>
+        </content>
+    </Dialog>
+</core:FragmentDefinition>

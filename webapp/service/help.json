@@ -1,0 +1,904 @@
+{
+  "Assignments": [
+    {
+      "DomainValue": "ASSET",
+      "Description": "Asset"
+    },
+    {
+      "DomainValue": "GLCC",
+      "Description": "GL & CC"
+    },
+    {
+      "DomainValue": "GLRE",
+      "Description": "GL & RE"
+    }
+  ],
+  "EditPostDetailNA": [
+    {
+      "AccountAssignment": "ASSET",
+      "LineNumber": false,
+      "MainAssetNumber": true,
+      "AssetSubnumber": true,
+      "GLAccountNumber": false,
+      "CostCenter": false,
+      "Estate": false,
+      "AmountBeforeGst": true,
+      "TaxCode": true
+    },
+    {
+      "AccountAssignment": "GLCC",
+      "LineNumber": false,
+      "MainAssetNumber": false,
+      "AssetSubnumber": false,
+      "GLAccountNumber": true,
+      "CostCenter": true,
+      "Estate": false,
+      "AmountBeforeGst": true,
+      "TaxCode": true
+    },
+    {
+      "AccountAssignment": "GLRE",
+      "LineNumber": false,
+      "MainAssetNumber": false,
+      "AssetSubnumber": false,
+      "GLAccountNumber": true,
+      "CostCenter": false,
+      "Estate": true,
+      "AmountBeforeGst": true,
+      "TaxCode": true
+    },
+    {
+      "AccountAssignment": "DEFAULT",
+      "LineNumber": false,
+      "MainAssetNumber": false,
+      "AssetSubnumber": false,
+      "GLAccountNumber": false,
+      "CostCenter": false,
+      "Estate": false,
+      "AmountBeforeGst": false,
+      "TaxCode": false
+    }
+  ],
+  "InvoiceLinkNAInitial": {
+    "InvoiceID": "",
+    "LineNumber": "",
+    "InvoiceReference": "",
+    "AccountAssignment": "",
+    "MainAssetNumber": "",
+    "AssetSubnumber": "",
+    "GLAccountNumber": "",
+    "CostCenter": "",
+    "Estate": "",
+    "NumberOfLand": "",
+    "NumberOfBuilding": "",
+    "NumberOfRentalObject": "",
+    "AmountBeforeGst": "0",
+    "TaxCode": "",
+    "DeletionIndicator": "",
+    "TaxCodeDescription": "",
+    "PersonnelNumber": "",
+    "CourseID": ""
+  },
+  "ButtonGroups": [
+    {
+      "Group": "RO0",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnCancel"
+        },
+        {
+          "Button": "btnSubmit"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnWithdraw"
+        },
+        {
+          "Button": "btnSendCancel"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "00",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnSubmit"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "01",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnSubmit"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnCancel"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "10",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnSubmit"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "11",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnSubmit"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnCancel"
+        },
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "WTH",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnWithdraw"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "EXT",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "CN",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "WR",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnWithdraw"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "ED",
+      "Type": "Requestor",
+      "Buttons": [
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FV0",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnPark"
+        },
+        {
+          "Button": "btnRouteBack"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FV1",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FV2",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnPark"
+        },
+        {
+          "Button": "btnRouteBack"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FV3",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnPark"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FV4",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "WTH",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnWithdraw"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "UTY",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnPark"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "SSR",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnSubmit"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "SE",
+      "Type": "9110",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "EXT",
+      "Type": "9500",
+      "Buttons": [
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FP0",
+      "Type": "9510",
+      "Buttons": [
+        {
+          "Button": "btnPost"
+        },
+        {
+          "Button": "btnRouteBack"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "FP1",
+      "Type": "9510",
+      "Buttons": [
+        {
+          "Button": "btnReverse"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "UTY",
+      "Type": "9510",
+      "Buttons": [
+        {
+          "Button": "btnSave"
+        },
+        {
+          "Button": "btnPost"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "IA0",
+      "Type": "9120",
+      "Buttons": [
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnPost"
+        },
+        {
+          "Button": "btnReverse"
+        },
+        {
+          "Button": "btnRouteBackRO"
+        },
+        {
+          "Button": "btnRouteBackFVO"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "IA1",
+      "Type": "9120",
+      "Buttons": [
+        {
+          "Button": "btnPost"
+        },
+        {
+          "Button": "btnRouteBackFVO"
+        },
+        {
+          "Button": "btnRouteBackRO"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "IA2",
+      "Type": "9120",
+      "Buttons": [
+        {
+          "Button": "btnReverse"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "IA3",
+      "Type": "9120",
+      "Buttons": [
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "IA4",
+      "Type": "9120",
+      "Buttons": [
+        {
+          "Button": "btnPost"
+        },
+        {
+          "Button": "btnRouteBackFVO"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "IA5",
+      "Type": "9120",
+      "Buttons": [
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "CC1",
+      "Type": "9130",
+      "Buttons": [
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "CC0",
+      "Type": "9130",
+      "Buttons": [
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "WR",
+      "Type": "9130",
+      "Buttons": [
+        {
+          "Button": "btnWithdraw"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    },
+    {
+      "Group": "CC2",
+      "Type": "9130",
+      "Buttons": [
+        {
+          "Button": "btnRequestCancel"
+        },
+        {
+          "Button": "btnReroute"
+        },
+        {
+          "Button": "btnExit"
+        }
+      ]
+    }
+  ],
+  "Links": [
+    {
+      "Key": "POWO",
+      "Text": "POWO"
+    },
+    {
+      "Key": "AOR",
+      "Text": "AOR"
+    },
+    {
+      "Key": "NA",
+      "Text": "Others"
+    }
+  ],
+  "Statuses": [
+    {
+      "Status": "01",
+      "StatusText": "Draft"
+    },
+    {
+      "Status": "02",
+      "StatusText": "Pending Verification"
+    },
+    {
+      "Status": "03",
+      "StatusText": "Pending Approval"
+    },
+    {
+      "Status": "04",
+      "StatusText": "Approved"
+    },
+    {
+      "Status": "05",
+      "StatusText": "Parked"
+    },
+    {
+      "Status": "06",
+      "StatusText": "Posted"
+    },
+    {
+      "Status": "07",
+      "StatusText": "Completed"
+    },
+    {
+      "Status": "08",
+      "StatusText": "Pending Requestor"
+    },
+    {
+      "Status": "09",
+      "StatusText": "Pending Cancellation"
+    },
+    {
+      "Status": "10",
+      "StatusText": "Cancelled"
+    },
+    {
+      "Status": "12",
+      "StatusText": "Error Draft"
+    },
+    {
+      "Status": "13",
+      "StatusText": "Error"
+    },
+    {
+      "Status": "14",
+      "StatusText": "Deleted"
+    }
+  ],
+  "InvoiceTypes": [
+    {
+      "InvoiceType": "INV",
+      "InvoiceTypeDescription": "Invoice"
+    },
+    {
+      "InvoiceType": "CN",
+      "InvoiceTypeDescription": "Credit Note"
+    },
+    {
+      "InvoiceType": "PI",
+      "InvoiceTypeDescription": "Payment Instruction"
+    }
+  ],
+  "InvoiceCategories": [
+    {
+      "InvoiceCategory": "PAYR",
+      "InvoiceCategoryDescription": "Payment Request"
+    },
+    {
+      "InvoiceCategory": "EINV",
+      "InvoiceCategoryDescription": "e-Invoice"
+    },
+    {
+      "InvoiceCategory": "PPC",
+      "InvoiceCategoryDescription": "Progress Payment"
+    },
+    {
+      "InvoiceCategory": "BCI",
+      "InvoiceCategoryDescription": "Buyer Created Invoice"
+    }
+  ],
+  "PaymentMethods": [
+    {
+      "zlsch": "B",
+      "text1": "CITI BANK CFM"
+    },
+    {
+      "zlsch": "C",
+      "text1": "Check"
+    },
+    {
+      "zlsch": "D",
+      "text1": "Giro(HDG) - Dormitory"
+    },
+    {
+      "zlsch": "E",
+      "text1": "Giro- Wessex"
+    },
+    {
+      "zlsch": "F",
+      "text1": "Auto GIRO (SP Services)"
+    },
+    {
+      "zlsch": "G",
+      "text1": "GIRO (PPC)"
+    },
+    {
+      "zlsch": "H",
+      "text1": "Giro(HDG) - EM Services"
+    },
+    {
+      "zlsch": "I",
+      "text1": "Giro(CTG) - Incoming Payment"
+    },
+    {
+      "zlsch": "J",
+      "text1": "GIRO (All vendors excl. PPC)"
+    },
+    {
+      "zlsch": "K",
+      "text1": "Bankdraft/TT/IBG (Auto Upload)"
+    },
+    {
+      "zlsch": "L",
+      "text1": "MAS Electronic Payments System"
+    },
+    {
+      "zlsch": "M",
+      "text1": "Manual Payment (MTI)"
+    },
+    {
+      "zlsch": "N",
+      "text1": "Bankdraft/TT/IBG (OCBC)"
+    },
+    {
+      "zlsch": "O",
+      "text1": "OCBC Velocity"
+    },
+    {
+      "zlsch": "P",
+      "text1": "Giro(AR) - POSB"
+    },
+    {
+      "zlsch": "Q",
+      "text1": "Manual Check"
+    },
+    {
+      "zlsch": "R",
+      "text1": "Bankdraft/TT/IBG (OC686)"
+    },
+    {
+      "zlsch": "S",
+      "text1": "Giro(HDG) - ESMACO"
+    },
+    {
+      "zlsch": "T",
+      "text1": "Bank Transfer"
+    },
+    {
+      "zlsch": "U",
+      "text1": "GIRO (Power Supply)"
+    },
+    {
+      "zlsch": "V",
+      "text1": "Bankdraft/TT/IBG (Manual)"
+    },
+    {
+      "zlsch": "W",
+      "text1": "Telegraphic transfer (MTI)"
+    },
+    {
+      "zlsch": "X",
+      "text1": "No payment by JTC"
+    },
+    {
+      "zlsch": "Y",
+      "text1": "Giro(CTG) with arrears"
+    },
+    {
+      "zlsch": "Z",
+      "text1": "GIRO (MTI)"
+    }
+  ],
+  "zpr_invoice": {
+    "InvoiceID": "invId",
+    "InvoiceReference": "invRefnum",
+    "VendorUEN": "vendorUen",
+    "InvoiceReferenceDate": "invRefdate",
+    "CreatedOn": "createdOn",
+    "BusinessUnit": "busUnit",
+    "InvoiceCategory": "invCategory",
+    "InvoiceType": "invType",
+    "Status": "status",
+    "PaymentRequest": "payreqNum",
+    "PaymentRequestDate": "payreqDate",
+    "RequestorID": "requestor",
+    "PurchasingGroup": "purchGrp",
+    "VendorID": "vendorId",
+    "VendorName": "vendorName",
+    "VendorNameInterface": "vendorNameInt",
+    "SubVendorID": "subvendor",
+    "RelatedInvoiceNumber": "relatedInv",
+    "Description": "description",
+    "Currency": "currency",
+    "GstAmount": "gstAmt",
+    "AmountBeforeGst": "preGstAmt",
+    "AmountAfterGst": "postGstAmt",
+    "FreightAmount": "frghtAmt",
+    "ExchangeRate": "exRate",
+    "SgdEquivalentRate": "sgdEquiv",
+    "AttentionTo": "attentionTo",
+    "BatchID": "batchId",
+    "CreditTerm": "creditTerm",
+    "GebizPONumber": "gebizPo",
+    "ReferenceDocNumber": "refDocNo",
+    "LinkInvoiceID": "linkInvoiceId",
+    "DownloadDate": "downloadDate",
+    "VendorAddress": "vendAddress",
+    "VendorPhone": "vendPhone",
+    "VendorFax": "vendFax",
+    "VendorGstRegNumber": "vendGstNo",
+    "VendorEmail": "vendEmaill",
+    "FactoringCompanyID": "factorCompId",
+    "FactoringCompanyName": "factorCompNm",
+    "FmasDocumentNumber": "fmasDocnum",
+    "FmasCompanyCode": "fmasBukrs",
+    "FmasFiscalYear": "fmasGjahr",
+    "PaymentMethod": "payMethod",
+    "PermitPayee": "permitPayee",
+    "DeductionAmount": "nonTaxDeduc",
+    "SpecialGLIndicator": "specialGlInd",
+    "DocumentHeaderText": "docHeaderTxt",
+    "Assignment": "assignment",
+    "GstAmountSgd": "gstAmtSgd",
+    "ActualAmountBeforeGst": "actualPreGst",
+    "ActualAmountAfterGst": "actualPostGst",
+    "VerifyingOfficer": "verifyOfcr",
+    "ApprovingAuthority": "approveAuth",
+    "InvoiceApprovingOfficer": "iao",
+    "PreviousStatusBeforeReqCancel": "reqCancInd",
+    "LinkInvoiceTo": "linkInvoice",
+    "CompanyCode": "compCode",
+    "UtilitiesAccountNumber": "utilAccountNo",
+    "ContractNumber": "contractno",
+    "CertificateNumber": "certificateNo",
+    "SequentialNumber": "verRecnumber",
+    "AssigneeID": "assigneeId",
+    "AmountPayableToAssignee": "assigneeGstPay",
+    "AssigneePayableAmount": "assigneeAmtPay",
+    "JudgementCreditorID": "judgementId",
+    "GstAmountJC": "judgementGstPay",
+    "AmountJC": "judgementAmtPay",
+    "POReason": "poReason",
+    "SelfBillingIndicator": "selfBillInd",
+    "ChangedOn": "changedOn",
+    "PaymentDocumentNumber": "paymentNo",
+    "PaymentDocumentYear": "paymentYr",
+    "PaymentDocumentCompanyCode": "paymentCc",
+    "PendingRequestorDate": "pendreqDt",
+    "ParkedDate": "parkedDate",
+    "ApprovedDate": "approvDate",
+    "FinanceVerifyingOfficer": "fvoId",
+    "InvoiceApprovingAuthority": "iaoId",
+    "ExternalAgencyReferenceNumber": "extAgcRefno",
+    "ProcuremenyByJTC": "procByJtc",
+    "ReRouteIndicator": "rerouteInd",
+    "CustomerAccounting": "cusAcc",
+    "CustomerAccountingGstAmount": "gstAmtCa",
+    "EInvoiceGBillIndicator": "gbill",
+    "CayeIndicator": "caye",
+    "Nric": "nric",
+    "ExpenseType": "expenseType",
+    "SubexpenseType": "subexpenseType"
+  },
+  "zpr_invlink_na": {
+    "InvoiceID": "invId",
+    "LineNumber": "lineNumber",
+    "InvoiceReference": "invRefnum",
+    "AccountAssignment": "accntAssign",
+    "MainAssetNumber": "assetNo",
+    "AssetSubnumber": "subAssetNo",
+    "GLAccountNumber": "glAccount",
+    "CostCenter": "costCenter",
+    "Estate": "estate",
+    "NumberOfLand": "land",
+    "NumberOfBuilding": "building",
+    "NumberOfRentalObject": "reobjectentity",
+    "AmountBeforeGst": "preGstAmt",
+    "TaxCode": "taxCode",
+    "DeletionIndicator": "delInd",
+    "TaxCodeDescription": "taxDescr",
+    "PersonnelNumber": "zzpernr",
+    "CourseID": "zzcrsid"
+  }
+}

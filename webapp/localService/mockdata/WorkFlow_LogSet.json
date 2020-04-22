@@ -1,0 +1,55 @@
+ [{
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/WorkFlow_LogSet(ObjNo='8150001998',Wiid='%20%20%20%20%20%20%20%20%20%201')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/WorkFlow_LogSet(ObjNo='8150001998',Wiid='%20%20%20%20%20%20%20%20%20%201')",
+ 		"type": "ZMMP_INV_ODATA_SRV.WorkFlow_Log"
+ 	},
+ 	"CssWf": "",
+ 	"ObjNo": "8150001998",
+ 	"ObjType": "INV",
+ 	"State": "Success",
+ 	"Wiid": "          1",
+ 	"Action": "",
+ 	"Icon": "sap-icon://accept",
+ 	"Agentid": "PT_FVO1_FND",
+ 	"AgentName": "Vivien Ng",
+ 	"AgentDesc": "Rerouted by Vivien Ng on Jul 15, 2015 at 15:47PM",
+ 	"Remark": "",
+ 	"AgentDept": "( FND-FOD )"
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/WorkFlow_LogSet(ObjNo='8150001998',Wiid='%20%20%20%20%20%20%20%20%20%202')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/WorkFlow_LogSet(ObjNo='8150001998',Wiid='%20%20%20%20%20%20%20%20%20%202')",
+ 		"type": "ZMMP_INV_ODATA_SRV.WorkFlow_Log"
+ 	},
+ 	"CssWf": "",
+ 	"ObjNo": "8150001998",
+ 	"ObjType": "INV",
+ 	"State": "Success",
+ 	"Wiid": "          2",
+ 	"Action": "",
+ 	"Icon": "sap-icon://accept",
+ 	"Agentid": "SUBONGCM",
+ 	"AgentName": "Katulgon Na",
+ 	"AgentDesc": "Submitted by Katulgon Na on Aug 27, 2019 at 14:40PM",
+ 	"Remark": "",
+ 	"AgentDept": "( FED-PDD )"
+ }, {
+ 	"__metadata": {
+ 		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/WorkFlow_LogSet(ObjNo='8150001998',Wiid='%20%20%20%20%20%20%20%20%20%203')",
+ 		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/WorkFlow_LogSet(ObjNo='8150001998',Wiid='%20%20%20%20%20%20%20%20%20%203')",
+ 		"type": "ZMMP_INV_ODATA_SRV.WorkFlow_Log"
+ 	},
+ 	"CssWf": "",
+ 	"ObjNo": "8150001998",
+ 	"ObjType": "",
+ 	"State": "Warning",
+ 	"Wiid": "          3",
+ 	"Action": "Pending approval",
+ 	"Icon": "sap-icon://lateness",
+ 	"Agentid": "",
+ 	"AgentName": "",
+ 	"AgentDesc": "",
+ 	"Remark": "",
+ 	"AgentDept": ""
+ }]

@@ -1,0 +1,76 @@
+[{
+	"TaxCode": "C7",
+	"Sequence": "0003",
+	"TaxCodeDescription": "JTC Summit",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "C7",
+	"Sequence": "0006",
+	"TaxCodeDescription": "Office Admin",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "O7",
+	"Sequence": "0004",
+	"TaxCodeDescription": "Space@Tuas",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "P0",
+	"Sequence": "0009",
+	"TaxCodeDescription": "Airfare",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "P7",
+	"Sequence": "0001",
+	"TaxCodeDescription": "Industrial / Commercial properties",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "P7",
+	"Sequence": "0007",
+	"TaxCodeDescription": "Recoverable expenses",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "PS",
+	"Sequence": "0008",
+	"TaxCodeDescription": "No GST",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "T7",
+	"Sequence": "0005",
+	"TaxCodeDescription": "Fusionopolis Phase 1",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "X7",
+	"Sequence": "0002",
+	"TaxCodeDescription": "Residential / Dormitory properties",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "X7",
+	"Sequence": "0010",
+	"TaxCodeDescription": "Private/rental motor car related expenses",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "X7",
+	"Sequence": "0011",
+	"TaxCodeDescription": "Med & Acc Insurance (Not under Work Comp Act)",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "X7",
+	"Sequence": "0012",
+	"TaxCodeDescription": "Med Exp (Not under Work Comp Act)",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "X7",
+	"Sequence": "0013",
+	"TaxCodeDescription": "Family Benefits for Staff",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "X7",
+	"Sequence": "0014",
+	"TaxCodeDescription": "Club Subscription Fees",
+	"ActiveIndicator": "X"
+}, {
+	"TaxCode": "Z7",
+	"Sequence": "0015",
+	"TaxCodeDescription": "Customer Accounting on GST",
+	"ActiveIndicator": "X"
+}]

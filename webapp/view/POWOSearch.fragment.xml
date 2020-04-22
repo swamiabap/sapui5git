@@ -1,0 +1,54 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <TableSelectDialog items="{psearch>/SearchPowo}" id="po-select-table" busy="{psearch>/ResultTableBusy}"
+                       search="._handleSearch" liveChange="._handleSearch" cancel="._handleClose" confirm="._handleClose"
+                       title="Select POWO" noDataText="No PO found" growing="false">
+        <columns>
+            <Column width="5.5rem">
+                <header>
+                    <Label text="PO/WO No."/>
+                </header>
+            </Column>
+            <Column width="20rem">
+                <header>
+                    <Label text="Description"/>
+                </header>
+            </Column>
+            <Column width="6rem">
+                <header>
+                    <Label text="Contract No."/>
+                </header>
+            </Column>
+<!--            <Column width="5rem">-->
+<!--                <header>-->
+<!--                    <Text text="Vendor ID"/>-->
+<!--                </header>-->
+<!--            </Column>-->
+            <Column width="15rem">
+                <header>
+                    <Label text="Vendor Name"/>
+                </header>
+            </Column>
+<!--            <Column width="6rem">-->
+<!--                <header>-->
+<!--                    <Text text="Requestor"/>-->
+<!--                </header>-->
+<!--            </Column>-->
+<!--            <Column width="5rem">-->
+<!--                <header>-->
+<!--                    <Text text="PO Status"/>-->
+<!--                </header>-->
+<!--            </Column>-->
+        </columns>
+        <items>
+            <ColumnListItem>
+                <Text text="{psearch>ebeln}"/>
+                <Text text="{psearch>txz01}"/>
+                <Text text="{psearch>konnr}"/>
+<!--                <Text text="{ path: 'psearch>lifnr', formatter: '.formatter.removeLeadingZeros' }"/>-->
+                <Text text="{psearch>name1}"/>
+<!--                <Text text="{psearch>fullName}"/>-->
+<!--                <Text text="{psearch>postatus}"/>-->
+            </ColumnListItem>
+        </items>
+    </TableSelectDialog>
+</core:FragmentDefinition>

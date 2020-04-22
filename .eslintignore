@@ -1,0 +1,4 @@
+webapp/libs/*.js
+webapp/libs/**/*.js
+webapp/test/*.js
+webapp/test/**/*.js

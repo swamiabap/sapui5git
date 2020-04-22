@@ -1,0 +1,53 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <TableSelectDialog
+            id="vh-table-fundcategory"
+            noDataText="No fund category found"
+            title="Select Fund Category"
+            search=".handleSearchFundCategory"
+            confirm=".handleCloseFundCategoryVH"
+            cancel=".handleCloseFundCategoryVH"
+            multiSelect="false" growing="true"
+            contentWidth="65rem"
+            items="{fcSearch>/fcFiltered}">
+        <ColumnListItem>
+            <cells>
+                <Text text="{fcSearch>ktext}" wrapping="true"/>
+                <Text text="{fcSearch>assetCombined}" wrapping="true" />
+                <Text text="{fcSearch>glAccountFormatted}" wrapping="true" />
+                <Text text="{fcSearch>costCenter}" wrapping="true"/>
+                <Text text="{fcSearch>estate}" wrapping="true"/>
+                <Text text="{fcSearch>building}" wrapping="true"/>
+                <Text text="{fcSearch>land}" wrapping="true"/>
+                <Text text="{fcSearch>reobject}" wrapping="true"/>
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column width="15rem">
+                <Label text="Funding Category" tooltip="Funding Category"/>
+            </Column>
+            <Column width="4rem">
+                <Label text="Asset" tooltip="Asset"/>
+            </Column>
+            <Column width="5rem">
+                <Label text="GL Account" tooltip="GL Account"/>
+            </Column>
+            <Column width="5rem">
+                <Label text="Cost Center"  tooltip="Cost Center"/>
+            </Column>
+            <Column width="5rem">
+                <Label text="Business Entity" tooltip="Business Entity"/>
+            </Column>
+            <Column width="5rem">
+                <Label text="Building No." tooltip="Building No."/>
+            </Column>
+            <Column width="5rem">
+                <Label text="Land No." tooltip="Land No."/>
+            </Column>
+            <Column width="5rem">
+                <Label text="Rental Object" tooltip="Rental Object"/>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>

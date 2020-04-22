@@ -1,0 +1,296 @@
+{
+	"d": {
+		"__metadata": {
+			"type": "Collection(ZMMP_INV_COMMON_SRV.ApprovingAuthorities)"
+		},
+		"results": [{
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "ANHHTN_2",
+			"FullName": "ANHHTN_2"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER001",
+			"FullName": "AUTOUSER001"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER002",
+			"FullName": "AUTOUSER002"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER003",
+			"FullName": "AUTOUSER003"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER004",
+			"FullName": "AUTOUSER004"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER005",
+			"FullName": "AUTOUSER005"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER006",
+			"FullName": "AUTOUSER006"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER007",
+			"FullName": "AUTOUSER007"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER008",
+			"FullName": "AUTOUSER008"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER009",
+			"FullName": "AUTOUSER009"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "AUTOUSER010",
+			"FullName": "AUTOUSER010"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "FED_DEPDIR",
+			"FullName": "FED_DEPDIR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "FED_DIR",
+			"FullName": "FED_DIR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "FED_MGR",
+			"FullName": "FED_MGR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "FND_ASSTDIR",
+			"FullName": "FND_ASSTDIR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "FND_DEPDIR",
+			"FullName": "FND_DEPDIR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "FND_IAO",
+			"FullName": "FND_IAO"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "ITD_DEPDIR",
+			"FullName": "ITD_DEPDIR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "ITD_DIR",
+			"FullName": "ITD_DIR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "ITD_SRMGR",
+			"FullName": "ITD_SRMGR"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "JOSEMSB",
+			"FullName": "JOSEMSB"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "NGUYENPH",
+			"FullName": "NGUYENPH"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_AA1_FED",
+			"FullName": "PT_AA1_FED"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_AA1_FND",
+			"FullName": "PT_AA1_FND"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_AA1_ITD",
+			"FullName": "PT_AA1_ITD"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_ACEO1",
+			"FullName": "David Tan Tin Liung"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_ACEO2",
+			"FullName": "Tay Ter Long"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_ACEO3",
+			"FullName": "Amirun Nessa Khathun Mohd Nurul Haque"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_CEO1",
+			"FullName": "Prompt CEO1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_DD1_FED",
+			"FullName": "PT_DD1_FED"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_DD1_FIN",
+			"FullName": "PT_DD1_FIN"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_DD1_ITD",
+			"FullName": "PT_DD1_ITD"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_DIR_FED",
+			"FullName": "PT_DIR_FED"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_DIR_FIN",
+			"FullName": "PT_DIR_FIN"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "PT_DIR_ITD",
+			"FullName": "PT_DIR_ITD"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO01",
+			"FullName": "TESTAUTO01"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO02",
+			"FullName": "TESTAUTO02"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO03",
+			"FullName": "TESTAUTO03"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO04",
+			"FullName": "TESTAUTO04"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO05",
+			"FullName": "TESTAUTO05"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO101",
+			"FullName": "TESTAUTO101"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TESTAUTO11",
+			"FullName": "TESTAUTO11"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "TRITP",
+			"FullName": "TRITP"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "WILLIETAN",
+			"FullName": "Tan Wee Lee Willie"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "WLTAN",
+			"FullName": "WLTAN"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "XUANVP",
+			"FullName": "XUANVP"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "ZIPG_ARREARS",
+			"FullName": "ZIPG_ARREARS"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.ApprovingAuthorities"
+			},
+			"UserID": "ZPHAPVMCF",
+			"FullName": "ZPHAPVMCF"
+		}]
+	}
+}

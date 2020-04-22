@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Popover showHeader="false" class="sapUiContentPadding jtcInvPopOverWorkflow" placement="HorizontalPreferredRight">
+		<VBox class="jtcTinyMarginLeft jtcTinyMarginRight">
+			<VBox>
+				<Label text="{/view/wfHistorySelected/AgentName} {/view/wfHistorySelected/AgentDept}" design='Bold' class='lbl'/>
+			</VBox>
+			<VBox>
+				<Text text="{/view/wfHistorySelected/AgentDesc}" class='des_pop'/>
+			</VBox>
+			<VBox>
+				<Text text="{/view/wfHistorySelected/Remark}" class='des_pop'/>
+			</VBox>
+		</VBox>
+	</Popover>
+</core:FragmentDefinition>

@@ -1,0 +1,5276 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001000010",
+			"GLAccountDescription": "MASKING-0001000010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001000011",
+			"GLAccountDescription": "MASKING-0001000011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001000012",
+			"GLAccountDescription": "MASKING-0001000012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001001006",
+			"GLAccountDescription": "MASKING-0001001006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001001010",
+			"GLAccountDescription": "MASKING-0001001010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001001012",
+			"GLAccountDescription": "MASKING-0001001012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001002010",
+			"GLAccountDescription": "MASKING-0001002010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001002011",
+			"GLAccountDescription": "MASKING-0001002011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001002012",
+			"GLAccountDescription": "MASKING-0001002012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001003010",
+			"GLAccountDescription": "MASKING-0001003010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001003011",
+			"GLAccountDescription": "MASKING-0001003011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001003012",
+			"GLAccountDescription": "MASKING-0001003012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001003020",
+			"GLAccountDescription": "MASKING-0001003020",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001003021",
+			"GLAccountDescription": "MASKING-0001003021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001003022",
+			"GLAccountDescription": "MASKING-0001003022",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001004010",
+			"GLAccountDescription": "MASKING-0001004010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001004012",
+			"GLAccountDescription": "MASKING-0001004012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001006010",
+			"GLAccountDescription": "MASKING-0001006010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001006011",
+			"GLAccountDescription": "MASKING-0001006011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001006012",
+			"GLAccountDescription": "MASKING-0001006012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001007010",
+			"GLAccountDescription": "MASKING-0001007010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001007011",
+			"GLAccountDescription": "MASKING-0001007011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001007012",
+			"GLAccountDescription": "MASKING-0001007012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008010",
+			"GLAccountDescription": "MASKING-0001008010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008011",
+			"GLAccountDescription": "MASKING-0001008011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008012",
+			"GLAccountDescription": "MASKING-0001008012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008020",
+			"GLAccountDescription": "MASKING-0001008020",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008021",
+			"GLAccountDescription": "MASKING-0001008021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008022",
+			"GLAccountDescription": "MASKING-0001008022",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008030",
+			"GLAccountDescription": "MASKING-0001008030",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008031",
+			"GLAccountDescription": "MASKING-0001008031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001008032",
+			"GLAccountDescription": "MASKING-0001008032",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001009010",
+			"GLAccountDescription": "MASKING-0001009010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001009011",
+			"GLAccountDescription": "MASKING-0001009011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001009012",
+			"GLAccountDescription": "MASKING-0001009012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001010010",
+			"GLAccountDescription": "MASKING-0001010010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001010011",
+			"GLAccountDescription": "MASKING-0001010011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001010012",
+			"GLAccountDescription": "MASKING-0001010012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001011010",
+			"GLAccountDescription": "MASKING-0001011010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001011011",
+			"GLAccountDescription": "MASKING-0001011011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001011012",
+			"GLAccountDescription": "MASKING-0001011012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001012010",
+			"GLAccountDescription": "COST - RIGHT OF USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001012011",
+			"GLAccountDescription": "ACC DEPRECIATION - RIGHT OF USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001012012",
+			"GLAccountDescription": "IMPAIRMENT - RIGHT OF USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001039019",
+			"GLAccountDescription": "MASKING-0001039019",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001039028",
+			"GLAccountDescription": "MASKING-0001039028",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001039029",
+			"GLAccountDescription": "MASKING-0001039029",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001039039",
+			"GLAccountDescription": "MASKING-0001039039",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001040010",
+			"GLAccountDescription": "MASKING-0001040010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001043010",
+			"GLAccountDescription": "MASKING-0001043010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001043030",
+			"GLAccountDescription": "MASKING-0001043030",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001043040",
+			"GLAccountDescription": "MASKING-0001043040",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001046010",
+			"GLAccountDescription": "MASKING-0001046010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001047010",
+			"GLAccountDescription": "MASKING-0001047010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001049010",
+			"GLAccountDescription": "MASKING-0001049010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001051010",
+			"GLAccountDescription": "MASKING-0001051010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001300001",
+			"GLAccountDescription": "MASKING-0001300001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001300002",
+			"GLAccountDescription": "MASKING-0001300002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001300003",
+			"GLAccountDescription": "MASKING-0001300003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001300004",
+			"GLAccountDescription": "MASKING-0001300004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001303001",
+			"GLAccountDescription": "MASKING-0001303001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001303002",
+			"GLAccountDescription": "MASKING-0001303002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001303003",
+			"GLAccountDescription": "MASKING-0001303003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001303004",
+			"GLAccountDescription": "MASKING-0001303004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001320001",
+			"GLAccountDescription": "MASKING-0001320001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001330001",
+			"GLAccountDescription": "MASKING-0001330001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001330002",
+			"GLAccountDescription": "MASKING-0001330002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530011",
+			"GLAccountDescription": "MASKING-0001530011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530012",
+			"GLAccountDescription": "MASKING-0001530012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530013",
+			"GLAccountDescription": "MASKING-0001530013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530014",
+			"GLAccountDescription": "MASKING-0001530014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530015",
+			"GLAccountDescription": "MASKING-0001530015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530016",
+			"GLAccountDescription": "MASKING-0001530016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530017",
+			"GLAccountDescription": "MASKING-0001530017",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530018",
+			"GLAccountDescription": "MASKING-0001530018",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001530021",
+			"GLAccountDescription": "MASKING-0001530021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001700001",
+			"GLAccountDescription": "MASKING-0001700001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001700501",
+			"GLAccountDescription": "MASKING-0001700501",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001701001",
+			"GLAccountDescription": "MASKING-0001701001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001720001",
+			"GLAccountDescription": "MASKING-0001720001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001720501",
+			"GLAccountDescription": "MASKING-0001720501",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001720502",
+			"GLAccountDescription": "MASKING-0001720502",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001720503",
+			"GLAccountDescription": "MASKING-0001720503",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001720506",
+			"GLAccountDescription": "MASKING-0001720506",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001721001",
+			"GLAccountDescription": "MASKING-0001721001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001721101",
+			"GLAccountDescription": "MASKING-0001721101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001723001",
+			"GLAccountDescription": "MASKING-0001723001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001725001",
+			"GLAccountDescription": "MASKING-0001725001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001728001",
+			"GLAccountDescription": "MASKING-0001728001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001730001",
+			"GLAccountDescription": "MASKING-0001730001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001730002",
+			"GLAccountDescription": "MASKING-0001730002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001888888",
+			"GLAccountDescription": "MASKING-0001888888",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0001999999",
+			"GLAccountDescription": "MASKING-0001999999",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002000001",
+			"GLAccountDescription": "MASKING-0002000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002000002",
+			"GLAccountDescription": "MASKING-0002000002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002600001",
+			"GLAccountDescription": "MASKING-0002600001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002600002",
+			"GLAccountDescription": "MASKING-0002600002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002600101",
+			"GLAccountDescription": "MASKING-0002600101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002600102",
+			"GLAccountDescription": "MASKING-0002600102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601001",
+			"GLAccountDescription": "MASKING-0002601001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601002",
+			"GLAccountDescription": "MASKING-0002601002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601003",
+			"GLAccountDescription": "MASKING-0002601003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601004",
+			"GLAccountDescription": "MASKING-0002601004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601005",
+			"GLAccountDescription": "MASKING-0002601005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601006",
+			"GLAccountDescription": "MASKING-0002601006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601007",
+			"GLAccountDescription": "MASKING-0002601007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601009",
+			"GLAccountDescription": "MASKING-0002601009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601010",
+			"GLAccountDescription": "MASKING-0002601010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601101",
+			"GLAccountDescription": "MASKING-0002601101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002601102",
+			"GLAccountDescription": "MASKING-0002601102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002605101",
+			"GLAccountDescription": "MASKING-0002605101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002605102",
+			"GLAccountDescription": "MASKING-0002605102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002605104",
+			"GLAccountDescription": "MASKING-0002605104",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620001",
+			"GLAccountDescription": "MASKING-0002620001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620002",
+			"GLAccountDescription": "MASKING-0002620002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620003",
+			"GLAccountDescription": "MASKING-0002620003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620051",
+			"GLAccountDescription": "MASKING-0002620051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620052",
+			"GLAccountDescription": "MASKING-0002620052",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620053",
+			"GLAccountDescription": "MASKING-0002620053",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620054",
+			"GLAccountDescription": "MASKING-0002620054",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620081",
+			"GLAccountDescription": "MASKING-0002620081",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620101",
+			"GLAccountDescription": "MASKING-0002620101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620102",
+			"GLAccountDescription": "MASKING-0002620102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620103",
+			"GLAccountDescription": "MASKING-0002620103",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620104",
+			"GLAccountDescription": "MASKING-0002620104",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620105",
+			"GLAccountDescription": "MASKING-0002620105",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620106",
+			"GLAccountDescription": "MASKING-0002620106",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620107",
+			"GLAccountDescription": "MASKING-0002620107",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620108",
+			"GLAccountDescription": "MASKING-0002620108",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620109",
+			"GLAccountDescription": "MASKING-0002620109",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620110",
+			"GLAccountDescription": "MASKING-0002620110",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620111",
+			"GLAccountDescription": "MASKING-0002620111",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620112",
+			"GLAccountDescription": "MASKING-0002620112",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620113",
+			"GLAccountDescription": "MASKING-0002620113",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620114",
+			"GLAccountDescription": "MASKING-0002620114",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620115",
+			"GLAccountDescription": "MASKING-0002620115",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620116",
+			"GLAccountDescription": "MASKING-0002620116",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620117",
+			"GLAccountDescription": "MASKING-0002620117",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620118",
+			"GLAccountDescription": "MASKING-0002620118",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620119",
+			"GLAccountDescription": "MASKING-0002620119",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620120",
+			"GLAccountDescription": "MASKING-0002620120",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620121",
+			"GLAccountDescription": "MASKING-0002620121",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620122",
+			"GLAccountDescription": "MASKING-0002620122",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620123",
+			"GLAccountDescription": "MASKING-0002620123",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620124",
+			"GLAccountDescription": "MASKING-0002620124",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620125",
+			"GLAccountDescription": "MASKING-0002620125",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620126",
+			"GLAccountDescription": "MASKING-0002620126",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620129",
+			"GLAccountDescription": "MASKING-0002620129",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620130",
+			"GLAccountDescription": "MASKING-0002620130",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620131",
+			"GLAccountDescription": "MASKING-0002620131",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620132",
+			"GLAccountDescription": "MASKING-0002620132",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620133",
+			"GLAccountDescription": "MASKING-0002620133",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620134",
+			"GLAccountDescription": "MASKING-0002620134",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620135",
+			"GLAccountDescription": "MASKING-0002620135",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620138",
+			"GLAccountDescription": "MASKING-0002620138",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620139",
+			"GLAccountDescription": "MASKING-0002620139",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620141",
+			"GLAccountDescription": "MASKING-0002620141",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620142",
+			"GLAccountDescription": "MASKING-0002620142",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620143",
+			"GLAccountDescription": "MASKING-0002620143",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620144",
+			"GLAccountDescription": "MASKING-0002620144",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620145",
+			"GLAccountDescription": "MASKING-0002620145",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620146",
+			"GLAccountDescription": "MASKING-0002620146",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620147",
+			"GLAccountDescription": "MASKING-0002620147",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620148",
+			"GLAccountDescription": "MASKING-0002620148",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620149",
+			"GLAccountDescription": "MASKING-0002620149",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620150",
+			"GLAccountDescription": "MASKING-0002620150",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620151",
+			"GLAccountDescription": "MASKING-0002620151",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620152",
+			"GLAccountDescription": "MASKING-0002620152",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620153",
+			"GLAccountDescription": "MASKING-0002620153",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620154",
+			"GLAccountDescription": "MASKING-0002620154",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620155",
+			"GLAccountDescription": "MASKING-0002620155",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620156",
+			"GLAccountDescription": "MASKING-0002620156",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620157",
+			"GLAccountDescription": "MASKING-0002620157",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620158",
+			"GLAccountDescription": "MASKING-0002620158",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620159",
+			"GLAccountDescription": "MASKING-0002620159",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620160",
+			"GLAccountDescription": "MASKING-0002620160",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620161",
+			"GLAccountDescription": "MASKING-0002620161",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620162",
+			"GLAccountDescription": "MASKING-0002620162",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620801",
+			"GLAccountDescription": "MASKING-0002620801",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620802",
+			"GLAccountDescription": "MASKING-0002620802",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002620851",
+			"GLAccountDescription": "MASKING-0002620851",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002623001",
+			"GLAccountDescription": "MASKING-0002623001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002623002",
+			"GLAccountDescription": "MASKING-0002623002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002623003",
+			"GLAccountDescription": "MASKING-0002623003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002623101",
+			"GLAccountDescription": "MASKING-0002623101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002624001",
+			"GLAccountDescription": "MASKING-0002624001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002625001",
+			"GLAccountDescription": "MASKING-0002625001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626001",
+			"GLAccountDescription": "MASKING-0002626001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626002",
+			"GLAccountDescription": "MASKING-0002626002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626003",
+			"GLAccountDescription": "MASKING-0002626003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626004",
+			"GLAccountDescription": "MASKING-0002626004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626005",
+			"GLAccountDescription": "MASKING-0002626005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626010",
+			"GLAccountDescription": "MASKING-0002626010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626011",
+			"GLAccountDescription": "MASKING-0002626011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626099",
+			"GLAccountDescription": "MASKING-0002626099",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626100",
+			"GLAccountDescription": "MASKING-0002626100",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626101",
+			"GLAccountDescription": "MASKING-0002626101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626102",
+			"GLAccountDescription": "MASKING-0002626102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626103",
+			"GLAccountDescription": "MASKING-0002626103",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626104",
+			"GLAccountDescription": "MASKING-0002626104",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626105",
+			"GLAccountDescription": "MASKING-0002626105",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626106",
+			"GLAccountDescription": "MASKING-0002626106",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626107",
+			"GLAccountDescription": "MASKING-0002626107",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626108",
+			"GLAccountDescription": "MASKING-0002626108",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626109",
+			"GLAccountDescription": "MASKING-0002626109",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626110",
+			"GLAccountDescription": "MASKING-0002626110",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626111",
+			"GLAccountDescription": "MASKING-0002626111",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626112",
+			"GLAccountDescription": "MASKING-0002626112",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626113",
+			"GLAccountDescription": "MASKING-0002626113",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626114",
+			"GLAccountDescription": "MASKING-0002626114",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626115",
+			"GLAccountDescription": "MASKING-0002626115",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626116",
+			"GLAccountDescription": "MASKING-0002626116",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626117",
+			"GLAccountDescription": "MASKING-0002626117",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626118",
+			"GLAccountDescription": "MASKING-0002626118",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626119",
+			"GLAccountDescription": "MASKING-0002626119",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626120",
+			"GLAccountDescription": "MASKING-0002626120",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626121",
+			"GLAccountDescription": "MASKING-0002626121",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626122",
+			"GLAccountDescription": "MASKING-0002626122",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626123",
+			"GLAccountDescription": "MASKING-0002626123",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626124",
+			"GLAccountDescription": "MASKING-0002626124",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626125",
+			"GLAccountDescription": "MASKING-0002626125",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626127",
+			"GLAccountDescription": "MASKING-0002626127",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626129",
+			"GLAccountDescription": "MASKING-0002626129",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626130",
+			"GLAccountDescription": "MASKING-0002626130",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626131",
+			"GLAccountDescription": "MASKING-0002626131",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626132",
+			"GLAccountDescription": "MASKING-0002626132",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626133",
+			"GLAccountDescription": "MASKING-0002626133",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626134",
+			"GLAccountDescription": "MASKING-0002626134",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626135",
+			"GLAccountDescription": "MASKING-0002626135",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626136",
+			"GLAccountDescription": "MASKING-0002626136",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626137",
+			"GLAccountDescription": "MASKING-0002626137",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626138",
+			"GLAccountDescription": "MASKING-0002626138",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626139",
+			"GLAccountDescription": "MASKING-0002626139",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626141",
+			"GLAccountDescription": "MASKING-0002626141",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626142",
+			"GLAccountDescription": "MASKING-0002626142",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626144",
+			"GLAccountDescription": "MASKING-0002626144",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626145",
+			"GLAccountDescription": "MASKING-0002626145",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626146",
+			"GLAccountDescription": "MASKING-0002626146",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626147",
+			"GLAccountDescription": "MASKING-0002626147",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626148",
+			"GLAccountDescription": "MASKING-0002626148",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626149",
+			"GLAccountDescription": "MASKING-0002626149",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626150",
+			"GLAccountDescription": "MASKING-0002626150",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626151",
+			"GLAccountDescription": "MASKING-0002626151",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626152",
+			"GLAccountDescription": "MASKING-0002626152",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626153",
+			"GLAccountDescription": "MASKING-0002626153",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626154",
+			"GLAccountDescription": "MASKING-0002626154",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626155",
+			"GLAccountDescription": "MASKING-0002626155",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626156",
+			"GLAccountDescription": "MASKING-0002626156",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626157",
+			"GLAccountDescription": "MASKING-0002626157",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626158",
+			"GLAccountDescription": "MASKING-0002626158",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626159",
+			"GLAccountDescription": "MASKING-0002626159",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626160",
+			"GLAccountDescription": "MASKING-0002626160",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626161",
+			"GLAccountDescription": "MASKING-0002626161",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626162",
+			"GLAccountDescription": "MASKING-0002626162",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626163",
+			"GLAccountDescription": "MASKING-0002626163",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626164",
+			"GLAccountDescription": "MASKING-0002626164",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626165",
+			"GLAccountDescription": "MASKING-0002626165",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626301",
+			"GLAccountDescription": "MASKING-0002626301",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626799",
+			"GLAccountDescription": "MASKING-0002626799",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626801",
+			"GLAccountDescription": "MASKING-0002626801",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626802",
+			"GLAccountDescription": "MASKING-0002626802",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626851",
+			"GLAccountDescription": "MASKING-0002626851",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626861",
+			"GLAccountDescription": "MASKING-0002626861",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626871",
+			"GLAccountDescription": "MASKING-0002626871",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626881",
+			"GLAccountDescription": "MASKING-0002626881",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626891",
+			"GLAccountDescription": "MASKING-0002626891",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002626901",
+			"GLAccountDescription": "MASKING-0002626901",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002640001",
+			"GLAccountDescription": "MASKING-0002640001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002700001",
+			"GLAccountDescription": "MASKING-0002700001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002900001",
+			"GLAccountDescription": "MASKING-0002900001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002900002",
+			"GLAccountDescription": "MASKING-0002900002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002939999",
+			"GLAccountDescription": "MASKING-0002939999",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002940000",
+			"GLAccountDescription": "MASKING-0002940000",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002940001",
+			"GLAccountDescription": "MASKING-0002940001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002940002",
+			"GLAccountDescription": "MASKING-0002940002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002940010",
+			"GLAccountDescription": "MASKING-0002940010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002940011",
+			"GLAccountDescription": "MASKING-0002940011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002940012",
+			"GLAccountDescription": "MASKING-0002940012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941000",
+			"GLAccountDescription": "MASKING-0002941000",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941001",
+			"GLAccountDescription": "MASKING-0002941001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941002",
+			"GLAccountDescription": "MASKING-0002941002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941010",
+			"GLAccountDescription": "MASKING-0002941010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941011",
+			"GLAccountDescription": "MASKING-0002941011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941012",
+			"GLAccountDescription": "MASKING-0002941012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002941020",
+			"GLAccountDescription": "MASKING-0002941020",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942000",
+			"GLAccountDescription": "MASKING-0002942000",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942001",
+			"GLAccountDescription": "MASKING-0002942001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942002",
+			"GLAccountDescription": "MASKING-0002942002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942010",
+			"GLAccountDescription": "MASKING-0002942010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942011",
+			"GLAccountDescription": "MASKING-0002942011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942012",
+			"GLAccountDescription": "MASKING-0002942012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942020",
+			"GLAccountDescription": "MASKING-0002942020",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942021",
+			"GLAccountDescription": "MASKING-0002942021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942022",
+			"GLAccountDescription": "MASKING-0002942022",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942030",
+			"GLAccountDescription": "MASKING-0002942030",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942040",
+			"GLAccountDescription": "MASKING-0002942040",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942041",
+			"GLAccountDescription": "MASKING-0002942041",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942042",
+			"GLAccountDescription": "MASKING-0002942042",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942060",
+			"GLAccountDescription": "MASKING-0002942060",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942070",
+			"GLAccountDescription": "MASKING-0002942070",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942080",
+			"GLAccountDescription": "MASKING-0002942080",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942090",
+			"GLAccountDescription": "MASKING-0002942090",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942100",
+			"GLAccountDescription": "MASKING-0002942100",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942110",
+			"GLAccountDescription": "MASKING-0002942110",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002942999",
+			"GLAccountDescription": "MASKING-0002942999",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002943010",
+			"GLAccountDescription": "MASKING-0002943010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002943011",
+			"GLAccountDescription": "MASKING-0002943011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002943012",
+			"GLAccountDescription": "MASKING-0002943011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002943030",
+			"GLAccountDescription": "MASKING-0002943030",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002990000",
+			"GLAccountDescription": "MASKING-0002990000",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0002990001",
+			"GLAccountDescription": "MASKING-0002990001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003000001",
+			"GLAccountDescription": "MASKING-0003000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003000002",
+			"GLAccountDescription": "MASKING-0003000002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800001",
+			"GLAccountDescription": "MASKING-0003800001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800011",
+			"GLAccountDescription": "MASKING-0003800011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800012",
+			"GLAccountDescription": "MASKING-0003800012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800013",
+			"GLAccountDescription": "MASKING-0003800013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800014",
+			"GLAccountDescription": "MASKING-0003800014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800099",
+			"GLAccountDescription": "MASKING-0003800099",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800101",
+			"GLAccountDescription": "MASKING-0003800101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800102",
+			"GLAccountDescription": "MASKING-0003800102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800103",
+			"GLAccountDescription": "MASKING-0003800103",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800104",
+			"GLAccountDescription": "MASKING-0003800104",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800199",
+			"GLAccountDescription": "MASKING-0003800199",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800201",
+			"GLAccountDescription": "MASKING-0003800201",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800202",
+			"GLAccountDescription": "MASKING-0003800202",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800203",
+			"GLAccountDescription": "MASKING-0003800203",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800204",
+			"GLAccountDescription": "MASKING-0003800204",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800299",
+			"GLAccountDescription": "MASKING-0003800299",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800301",
+			"GLAccountDescription": "MASKING-0003800301",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800302",
+			"GLAccountDescription": "MASKING-0003800302",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800303",
+			"GLAccountDescription": "MASKING-0003800303",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800304",
+			"GLAccountDescription": "MASKING-0003800304",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800399",
+			"GLAccountDescription": "MASKING-0003800399",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003800400",
+			"GLAccountDescription": "MASKING-0003800400",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0003801001",
+			"GLAccountDescription": "MASKING-0003801001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100001",
+			"GLAccountDescription": "MASKING-0004100001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100002",
+			"GLAccountDescription": "MASKING-0004100002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100003",
+			"GLAccountDescription": "MASKING-0004100003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100101",
+			"GLAccountDescription": "MASKING-0004100101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100201",
+			"GLAccountDescription": "MASKING-0004100201",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100301",
+			"GLAccountDescription": "MASKING-0004100301",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004100401",
+			"GLAccountDescription": "MASKING-0004100401",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004200001",
+			"GLAccountDescription": "MASKING-0004200001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004400001",
+			"GLAccountDescription": "MASKING-0004400001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004400011",
+			"GLAccountDescription": "MASKING-0004400011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004400021",
+			"GLAccountDescription": "MASKING-0004400021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004400031",
+			"GLAccountDescription": "MASKING-0004400031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004400101",
+			"GLAccountDescription": "MASKING-0004400101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004400111",
+			"GLAccountDescription": "MASKING-0004400111",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600001",
+			"GLAccountDescription": "MASKING-0004600001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600002",
+			"GLAccountDescription": "MASKING-0004600002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600003",
+			"GLAccountDescription": "MASKING-0004600003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600004",
+			"GLAccountDescription": "MASKING-0004600004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600005",
+			"GLAccountDescription": "MASKING-0004600005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600006",
+			"GLAccountDescription": "MASKING-0004600006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600007",
+			"GLAccountDescription": "MASKING-0004600007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600008",
+			"GLAccountDescription": "MASKING-0004600008",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600009",
+			"GLAccountDescription": "MASKING-0004600009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600011",
+			"GLAccountDescription": "MASKING-0004600011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600012",
+			"GLAccountDescription": "MASKING-0004600012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600013",
+			"GLAccountDescription": "MASKING-0004600013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600014",
+			"GLAccountDescription": "MASKING-0004600014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600015",
+			"GLAccountDescription": "MASKING-0004600015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600016",
+			"GLAccountDescription": "MASKING-0004600016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600017",
+			"GLAccountDescription": "MASKING-0004600017",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600018",
+			"GLAccountDescription": "MASKING-0004600018",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600019",
+			"GLAccountDescription": "MASKING-0004600019",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600021",
+			"GLAccountDescription": "MASKING-0004600021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600101",
+			"GLAccountDescription": "MASKING-0004600101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600102",
+			"GLAccountDescription": "MASKING-0004600102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600103",
+			"GLAccountDescription": "MASKING-0004600103",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600104",
+			"GLAccountDescription": "MASKING-0004600104",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600105",
+			"GLAccountDescription": "MASKING-0004600105",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600106",
+			"GLAccountDescription": "MASKING-0004600106",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600107",
+			"GLAccountDescription": "MASKING-0004600107",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600108",
+			"GLAccountDescription": "MASKING-0004600108",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600109",
+			"GLAccountDescription": "MASKING-0004600109",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600111",
+			"GLAccountDescription": "MASKING-0004600111",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600113",
+			"GLAccountDescription": "MASKING-0004600113",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600114",
+			"GLAccountDescription": "MASKING-0004600114",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600115",
+			"GLAccountDescription": "MASKING-0004600115",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600116",
+			"GLAccountDescription": "MASKING-0004600116",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0004600119",
+			"GLAccountDescription": "MASKING-0004600119",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000000",
+			"GLAccountDescription": "MASKING-0005000000",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000001",
+			"GLAccountDescription": "MASKING-0005000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000002",
+			"GLAccountDescription": "MASKING-0005000002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000003",
+			"GLAccountDescription": "MASKING-0005000003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000005",
+			"GLAccountDescription": "MASKING-0005000005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000006",
+			"GLAccountDescription": "MASKING-0005000006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000007",
+			"GLAccountDescription": "MASKING-0005000007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005000091",
+			"GLAccountDescription": "MASKING-0005000091",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010001",
+			"GLAccountDescription": "MASKING-0005010001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010002",
+			"GLAccountDescription": "MASKING-0005010002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010003",
+			"GLAccountDescription": "MASKING-0005010003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010004",
+			"GLAccountDescription": "GST INPUT TAX (A/P)",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010005",
+			"GLAccountDescription": "MASKING-0005010005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010006",
+			"GLAccountDescription": "NET GST O/I TAX PAYABLE TO IRAS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005010007",
+			"GLAccountDescription": "GST INPUT/OUTPUT TAX (Customer Accounting)",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020001",
+			"GLAccountDescription": "MASKING-0005020001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020011",
+			"GLAccountDescription": "MASKING-0005020011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020021",
+			"GLAccountDescription": "MASKING-0005020021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020031",
+			"GLAccountDescription": "MASKING-0005020031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020041",
+			"GLAccountDescription": "MASKING-0005020041",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020051",
+			"GLAccountDescription": "MASKING-0005020051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020061",
+			"GLAccountDescription": "MASKING-0005020061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005020062",
+			"GLAccountDescription": "MASKING-0005020062",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050001",
+			"GLAccountDescription": "MASKING-0005050001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050011",
+			"GLAccountDescription": "MASKING-0005050011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050012",
+			"GLAccountDescription": "MASKING-0005050012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050013",
+			"GLAccountDescription": "MASKING-0005050013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050014",
+			"GLAccountDescription": "MASKING-0005050014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050015",
+			"GLAccountDescription": "MASKING-0005050015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050016",
+			"GLAccountDescription": "MASKING-0005050016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050017",
+			"GLAccountDescription": "MASKING-0005050017",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050021",
+			"GLAccountDescription": "MASKING-0005050021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050022",
+			"GLAccountDescription": "MASKING-0005050022",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050026",
+			"GLAccountDescription": "MASKING-0005050026",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050027",
+			"GLAccountDescription": "MASKING-0005050027",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050101",
+			"GLAccountDescription": "MASKING-0005050101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050102",
+			"GLAccountDescription": "MASKING-0005050102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050201",
+			"GLAccountDescription": "MASKING-0005050201",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050301",
+			"GLAccountDescription": "MASKING-0005050301",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050401",
+			"GLAccountDescription": "MASKING-0005050401",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050402",
+			"GLAccountDescription": "MASKING-0005050402",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050501",
+			"GLAccountDescription": "MASKING-0005050501",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005050502",
+			"GLAccountDescription": "MASKING-0005050502",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005051001",
+			"GLAccountDescription": "MASKING-0005051001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005051011",
+			"GLAccountDescription": "MASKING-0005051011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052001",
+			"GLAccountDescription": "MASKING-0005052001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052011",
+			"GLAccountDescription": "MASKING-0005052011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052012",
+			"GLAccountDescription": "MASKING-0005052012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052013",
+			"GLAccountDescription": "MASKING-0005052013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052021",
+			"GLAccountDescription": "MASKING-0005052021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052031",
+			"GLAccountDescription": "MASKING-0005052031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005052032",
+			"GLAccountDescription": "MASKING-0005052032",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053001",
+			"GLAccountDescription": "MASKING-0005053001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053002",
+			"GLAccountDescription": "MASKING-0005053002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053011",
+			"GLAccountDescription": "MASKING-0005053011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053012",
+			"GLAccountDescription": "MASKING-0005053012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053013",
+			"GLAccountDescription": "MASKING-0005053013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053014",
+			"GLAccountDescription": "MASKING-0005053014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005053015",
+			"GLAccountDescription": "MASKING-0005053015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005059001",
+			"GLAccountDescription": "MASKING-0005059001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005059011",
+			"GLAccountDescription": "BANKER GUARANTEE - SHIFT (EM SERVICES)",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005059012",
+			"GLAccountDescription": "BANKER GUARANTEE - SHIFT (UNITED PREMAS)",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005059013",
+			"GLAccountDescription": "MASKING-0005059013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005059014",
+			"GLAccountDescription": "MASKING-0005059014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005059999",
+			"GLAccountDescription": "BANKER GUARANTEE - CLEARING ACCOUNT",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070001",
+			"GLAccountDescription": "MASKING-0005070001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070002",
+			"GLAccountDescription": "MASKING-0005070002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070011",
+			"GLAccountDescription": "MASKING-0005070011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070012",
+			"GLAccountDescription": "MASKING-0005070012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070013",
+			"GLAccountDescription": "MASKING-0005070013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070014",
+			"GLAccountDescription": "MASKING-0005070014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070015",
+			"GLAccountDescription": "MASKING-0005070015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005070016",
+			"GLAccountDescription": "MASKING-0005070016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005072001",
+			"GLAccountDescription": "MASKING-0005072001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005072002",
+			"GLAccountDescription": "MASKING-0005072002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005073001",
+			"GLAccountDescription": "MASKING-0005073001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005073002",
+			"GLAccountDescription": "MASKING-0005073002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005076001",
+			"GLAccountDescription": "MASKING-0005076001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005076002",
+			"GLAccountDescription": "MASKING-0005076002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005076003",
+			"GLAccountDescription": "Collections of legislated fines",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005078001",
+			"GLAccountDescription": "MASKING-0005078001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005078002",
+			"GLAccountDescription": "MASKING-0005078002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005078003",
+			"GLAccountDescription": "MASKING-0005078003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005078004",
+			"GLAccountDescription": "MASKING-0005078004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005079001",
+			"GLAccountDescription": "MASKING-0005079001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005079002",
+			"GLAccountDescription": "MASKING-0005079002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005079003",
+			"GLAccountDescription": "MASKING-0005079003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005079030",
+			"GLAccountDescription": "MASKING-0005079030",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005079101",
+			"GLAccountDescription": "MASKING-0005079101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005079102",
+			"GLAccountDescription": "MASKING-0005079102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005100001",
+			"GLAccountDescription": "MASKING-0005100001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005100002",
+			"GLAccountDescription": "MASKING-0005100002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0005900001",
+			"GLAccountDescription": "MASKING-0005900001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006000001",
+			"GLAccountDescription": "MASKING-0006000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006000002",
+			"GLAccountDescription": "MASKING-0006000002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006000004",
+			"GLAccountDescription": "MASKING-0006000004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006000009",
+			"GLAccountDescription": "MASKING-0006000009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006000011",
+			"GLAccountDescription": "MASKING-0006000011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006000101",
+			"GLAccountDescription": "MASKING-0006000101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006001001",
+			"GLAccountDescription": "MASKING-0006001001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006001002",
+			"GLAccountDescription": "MASKING-0006001002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006001011",
+			"GLAccountDescription": "MASKING-0006001011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006001012",
+			"GLAccountDescription": "MASKING-0006001012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006002001",
+			"GLAccountDescription": "MASKING-0006002001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006002009",
+			"GLAccountDescription": "MASKING-0006002009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006003001",
+			"GLAccountDescription": "MASKING-0006003001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006005001",
+			"GLAccountDescription": "MASKING-0006005001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006006001",
+			"GLAccountDescription": "MASKING-0006006001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006006051",
+			"GLAccountDescription": "MASKING-0006006051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006006052",
+			"GLAccountDescription": "MASKING-0006006052",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006006061",
+			"GLAccountDescription": "MASKING-0006006061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006006062",
+			"GLAccountDescription": "MASKING-0006006062",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200001",
+			"GLAccountDescription": "MASKING-0006200001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200002",
+			"GLAccountDescription": "MASKING-0006200002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200003",
+			"GLAccountDescription": "MASKING-0006200003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200004",
+			"GLAccountDescription": "MASKING-0006200004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200005",
+			"GLAccountDescription": "MASKING-0006200005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200006",
+			"GLAccountDescription": "MASKING-0006200006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200007",
+			"GLAccountDescription": "MASKING-0006200007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006200009",
+			"GLAccountDescription": "MASKING-0006200009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006201001",
+			"GLAccountDescription": "MASKING-0006201001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006201002",
+			"GLAccountDescription": "MASKING-0006201002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006201011",
+			"GLAccountDescription": "MASKING-0006201011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006201012",
+			"GLAccountDescription": "MASKING-0006201012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006202001",
+			"GLAccountDescription": "MASKING-0006202001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006203001",
+			"GLAccountDescription": "MASKING-0006203001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006204001",
+			"GLAccountDescription": "MASKING-0006204001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006204011",
+			"GLAccountDescription": "MASKING-0006204011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006205001",
+			"GLAccountDescription": "MASKING-0006205001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006206001",
+			"GLAccountDescription": "MASKING-0006206001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006206051",
+			"GLAccountDescription": "MASKING-0006206051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006206052",
+			"GLAccountDescription": "MASKING-0006206052",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006206061",
+			"GLAccountDescription": "MASKING-0006206061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006206062",
+			"GLAccountDescription": "MASKING-0006206062",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006207001",
+			"GLAccountDescription": "MASKING-0006207001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006207011",
+			"GLAccountDescription": "MASKING-0006207011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006400001",
+			"GLAccountDescription": "MASKING-0006400001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006400002",
+			"GLAccountDescription": "MASKING-0006400002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006400009",
+			"GLAccountDescription": "MASKING-0006400009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006500001",
+			"GLAccountDescription": "MASKING-0006500001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006600001",
+			"GLAccountDescription": "MASKING-0006600001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006600002",
+			"GLAccountDescription": "MASKING-0006600002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006600021",
+			"GLAccountDescription": "MASKING-0006600021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006610030",
+			"GLAccountDescription": "MASKING-0006610030",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006610031",
+			"GLAccountDescription": "MASKING-0006610031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800001",
+			"GLAccountDescription": "MASKING-0006800001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800002",
+			"GLAccountDescription": "MASKING-0006800002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800003",
+			"GLAccountDescription": "Advertising & Promotion (A&P)",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800007",
+			"GLAccountDescription": "MASKING-0006800007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800009",
+			"GLAccountDescription": "MASKING-0006800009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800011",
+			"GLAccountDescription": "MASKING-0006800011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800012",
+			"GLAccountDescription": "MASKING-0006800012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800013",
+			"GLAccountDescription": "MASKING-0006800013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800014",
+			"GLAccountDescription": "MASKING-0006800014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800015",
+			"GLAccountDescription": "MASKING-0006800015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800016",
+			"GLAccountDescription": "MASKING-0006800016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800017",
+			"GLAccountDescription": "MASKING-0006800017",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800018",
+			"GLAccountDescription": "MASKING-0006800018",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800019",
+			"GLAccountDescription": "MASKING-0006800019",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0006800101",
+			"GLAccountDescription": "MASKING-0006800101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007000001",
+			"GLAccountDescription": "MASKING-0007000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007000002",
+			"GLAccountDescription": "MASKING-0007000002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007000003",
+			"GLAccountDescription": "MASKING-0007000003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007000011",
+			"GLAccountDescription": "MASKING-0007000011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007000061",
+			"GLAccountDescription": "MASKING-0007000061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100001",
+			"GLAccountDescription": "MASKING-0007100001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100002",
+			"GLAccountDescription": "MASKING-0007100002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100011",
+			"GLAccountDescription": "MASKING-0007100011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100012",
+			"GLAccountDescription": "MASKING-0007100012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100015",
+			"GLAccountDescription": "MASKING-0007100015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100016",
+			"GLAccountDescription": "MASKING-0007100016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100017",
+			"GLAccountDescription": "MASKING-0007100017",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100018",
+			"GLAccountDescription": "MASKING-0007100018",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100019",
+			"GLAccountDescription": "MASKING-0007100019",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100020",
+			"GLAccountDescription": "MASKING-0007100020",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100021",
+			"GLAccountDescription": "SALES PROCEEDS ON RIGHT-OF-USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100022",
+			"GLAccountDescription": "NBV ON DISPOSAL - RIGHT OF USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007100099",
+			"GLAccountDescription": "MASKING-0007100099",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200001",
+			"GLAccountDescription": "MASKING-0007200001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200011",
+			"GLAccountDescription": "MASKING-0007200011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200021",
+			"GLAccountDescription": "MASKING-0007200021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200031",
+			"GLAccountDescription": "MASKING-0007200031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200041",
+			"GLAccountDescription": "MASKING-0007200041",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200051",
+			"GLAccountDescription": "MASKING-0007200051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200052",
+			"GLAccountDescription": "MASKING-0007200052",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200053",
+			"GLAccountDescription": "MASKING-0007200053",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200054",
+			"GLAccountDescription": "MASKING-0007200054",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200055",
+			"GLAccountDescription": "MASKING-0007200055",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200061",
+			"GLAccountDescription": "MASKING-0007200061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007200071",
+			"GLAccountDescription": "MASKING-0007200071",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007300001",
+			"GLAccountDescription": "MASKING-0007300001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007300002",
+			"GLAccountDescription": "MASKING-0007300002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007300003",
+			"GLAccountDescription": "MASKING-0007300003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800001",
+			"GLAccountDescription": "MASKING-0007800001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800002",
+			"GLAccountDescription": "MASKING-0007800002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800003",
+			"GLAccountDescription": "MASKING-0007800003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800004",
+			"GLAccountDescription": "MASKING-0007800004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800005",
+			"GLAccountDescription": "MASKING-0007800005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800006",
+			"GLAccountDescription": "MASKING-0007800006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800007",
+			"GLAccountDescription": "MASKING-0007800007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800008",
+			"GLAccountDescription": "MASKING-0007800008",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800009",
+			"GLAccountDescription": "MASKING-0007800009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800011",
+			"GLAccountDescription": "MASKING-0007800011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800013",
+			"GLAccountDescription": "MASKING-0007800013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800014",
+			"GLAccountDescription": "MASKING-0007800014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800015",
+			"GLAccountDescription": "MASKING-0007800015",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800016",
+			"GLAccountDescription": "MASKING-0007800016",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0007800019",
+			"GLAccountDescription": "MASKING-0007800019",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000001",
+			"GLAccountDescription": "MASKING-0008000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000002",
+			"GLAccountDescription": "MASKING-0008000002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000011",
+			"GLAccountDescription": "MASKING-0008000011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000021",
+			"GLAccountDescription": "MASKING-0008000021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000031",
+			"GLAccountDescription": "MASKING-0008000031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000032",
+			"GLAccountDescription": "MASKING-0008000032",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000033",
+			"GLAccountDescription": "MASKING-0008000033",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000034",
+			"GLAccountDescription": "MASKING-0008000034",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000035",
+			"GLAccountDescription": "MASKING-0008000035",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000039",
+			"GLAccountDescription": "MASKING-0008000039",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000041",
+			"GLAccountDescription": "MASKING-0008000041",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000042",
+			"GLAccountDescription": "MASKING-0008000042",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000043",
+			"GLAccountDescription": "MASKING-0008000043",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000044",
+			"GLAccountDescription": "MASKING-0008000044",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000045",
+			"GLAccountDescription": "MASKING-0008000045",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000049",
+			"GLAccountDescription": "MASKING-0008000049",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000051",
+			"GLAccountDescription": "MASKING-0008000051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000052",
+			"GLAccountDescription": "MASKING-0008000052",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000053",
+			"GLAccountDescription": "MASKING-0008000053",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000061",
+			"GLAccountDescription": "MASKING-0008000061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000062",
+			"GLAccountDescription": "MASKING-0008000062",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000065",
+			"GLAccountDescription": "MASKING-0008000065",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000081",
+			"GLAccountDescription": "MASKING-0008000081",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008000091",
+			"GLAccountDescription": "MASKING-0008000091",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001001",
+			"GLAccountDescription": "MASKING-0008001001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001002",
+			"GLAccountDescription": "MASKING-0008001002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001003",
+			"GLAccountDescription": "MASKING-0008001003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001011",
+			"GLAccountDescription": "MASKING-0008001011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001012",
+			"GLAccountDescription": "MASKING-0008001012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001014",
+			"GLAccountDescription": "MASKING-0008001014",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001101",
+			"GLAccountDescription": "MASKING-0008001101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001102",
+			"GLAccountDescription": "MASKING-0008001102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001201",
+			"GLAccountDescription": "MASKING-0008001201",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001202",
+			"GLAccountDescription": "MASKING-0008001202",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001501",
+			"GLAccountDescription": "MASKING-0008001501",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001502",
+			"GLAccountDescription": "MASKING-0008001502",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001601",
+			"GLAccountDescription": "MASKING-0008001601",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001602",
+			"GLAccountDescription": "MASKING-0008001602",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001701",
+			"GLAccountDescription": "MASKING-0008001701",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008001702",
+			"GLAccountDescription": "MASKING-0008001702",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008002001",
+			"GLAccountDescription": "MASKING-0008002001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008003001",
+			"GLAccountDescription": "MASKING-0008003001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008003011",
+			"GLAccountDescription": "MASKING-0008003011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004001",
+			"GLAccountDescription": "MASKING-0008004001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004002",
+			"GLAccountDescription": "MASKING-0008004002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004011",
+			"GLAccountDescription": "MASKING-0008004011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004012",
+			"GLAccountDescription": "MASKING-0008004012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004021",
+			"GLAccountDescription": "MASKING-0008004021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004022",
+			"GLAccountDescription": "MASKING-0008004022",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004031",
+			"GLAccountDescription": "MASKING-0008004031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004061",
+			"GLAccountDescription": "MASKING-0008004061",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004071",
+			"GLAccountDescription": "MASKING-0008004071",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004072",
+			"GLAccountDescription": "MASKING-0008004072",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004091",
+			"GLAccountDescription": "MASKING-0008004091",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008004092",
+			"GLAccountDescription": "MASKING-0008004092",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005001",
+			"GLAccountDescription": "MASKING-0008005001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005002",
+			"GLAccountDescription": "MASKING-0008005002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005003",
+			"GLAccountDescription": "MASKING-0008005003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005004",
+			"GLAccountDescription": "MASKING-0008005004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005005",
+			"GLAccountDescription": "MASKING-0008005005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005006",
+			"GLAccountDescription": "MASKING-0008005006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005007",
+			"GLAccountDescription": "MASKING-0008005007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005008",
+			"GLAccountDescription": "MASKING-0008005008",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005009",
+			"GLAccountDescription": "MASKING-0008005009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005010",
+			"GLAccountDescription": "MASKING-0008005010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005011",
+			"GLAccountDescription": "MASKING-0008005011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005101",
+			"GLAccountDescription": "MASKING-0008005101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008005102",
+			"GLAccountDescription": "MASKING-0008005102",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008006001",
+			"GLAccountDescription": "MASKING-0008006001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008006002",
+			"GLAccountDescription": "MASKING-0008006002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008006003",
+			"GLAccountDescription": "MASKING-0008006003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008006004",
+			"GLAccountDescription": "MASKING-0008006004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008006005",
+			"GLAccountDescription": "MASKING-0008006005",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008006011",
+			"GLAccountDescription": "MASKING-0008006011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008007001",
+			"GLAccountDescription": "MASKING-0008007001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008008001",
+			"GLAccountDescription": "MASKING-0008008001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008009001",
+			"GLAccountDescription": "MASKING-0008009001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008009002",
+			"GLAccountDescription": "MASKING-0008009002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008010001",
+			"GLAccountDescription": "MASKING-0008010001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008010002",
+			"GLAccountDescription": "MASKING-0008010002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008010003",
+			"GLAccountDescription": "MASKING-0008010003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008010004",
+			"GLAccountDescription": "MASKING-0008010004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008010009",
+			"GLAccountDescription": "MASKING-0008010009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008087980",
+			"GLAccountDescription": "MASKING-0008087980",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411001",
+			"GLAccountDescription": "MASKING-0008411001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411002",
+			"GLAccountDescription": "MASKING-0008411002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411003",
+			"GLAccountDescription": "MASKING-0008411003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411011",
+			"GLAccountDescription": "MASKING-0008411011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411012",
+			"GLAccountDescription": "MASKING-0008411012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411021",
+			"GLAccountDescription": "MASKING-0008411021",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411031",
+			"GLAccountDescription": "MASKING-0008411031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411032",
+			"GLAccountDescription": "MASKING-0008411032",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411051",
+			"GLAccountDescription": "MASKING-0008411051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411101",
+			"GLAccountDescription": "MASKING-0008411101",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411111",
+			"GLAccountDescription": "MASKING-0008411111",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411112",
+			"GLAccountDescription": "MASKING-0008411112",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411121",
+			"GLAccountDescription": "MASKING-0008411121",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411131",
+			"GLAccountDescription": "MASKING-0008411131",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411140",
+			"GLAccountDescription": "MASKING-0008411140",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411141",
+			"GLAccountDescription": "MASKING-0008411141",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411142",
+			"GLAccountDescription": "STATIONERY",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411151",
+			"GLAccountDescription": "MASKING-0008411151",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411152",
+			"GLAccountDescription": "MASKING-0008411152",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411161",
+			"GLAccountDescription": "MASKING-0008411161",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411171",
+			"GLAccountDescription": "MASKING-0008411171",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411181",
+			"GLAccountDescription": "MASKING-0008411181",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411201",
+			"GLAccountDescription": "MASKING-0008411201",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411211",
+			"GLAccountDescription": "MASKING-0008411211",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411221",
+			"GLAccountDescription": "MASKING-0008411221",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411231",
+			"GLAccountDescription": "MASKING-0008411231",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411241",
+			"GLAccountDescription": "MASKING-0008411241",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411299",
+			"GLAccountDescription": "MASKING-0008411299",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411601",
+			"GLAccountDescription": "MASKING-0008411601",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411602",
+			"GLAccountDescription": "MASKING-0008411602",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411603",
+			"GLAccountDescription": "MASKING-0008411603",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411611",
+			"GLAccountDescription": "MASKING-0008411611",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411612",
+			"GLAccountDescription": "MASKING-0008411612",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411613",
+			"GLAccountDescription": "MASKING-0008411613",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008411901",
+			"GLAccountDescription": "MASKING-0008411901",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500001",
+			"GLAccountDescription": "MASKING-0008500001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500002",
+			"GLAccountDescription": "MASKING-0008500002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500003",
+			"GLAccountDescription": "MASKING-0008500003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500004",
+			"GLAccountDescription": "MASKING-0008500004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500006",
+			"GLAccountDescription": "MASKING-0008500006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500007",
+			"GLAccountDescription": "MASKING-0008500007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500008",
+			"GLAccountDescription": "MASKING-0008500008",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500009",
+			"GLAccountDescription": "MASKING-0008500009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500010",
+			"GLAccountDescription": "MASKING-0008500010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500011",
+			"GLAccountDescription": "MASKING-0008500011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500012",
+			"GLAccountDescription": "MASKING-0008500012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500013",
+			"GLAccountDescription": "MASKING-0008500013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008500014",
+			"GLAccountDescription": "DEPRECIATION - RIGHT OF USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501001",
+			"GLAccountDescription": "MASKING-0008501001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501002",
+			"GLAccountDescription": "MASKING-0008501002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501003",
+			"GLAccountDescription": "MASKING-0008501003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501004",
+			"GLAccountDescription": "MASKING-0008501004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501006",
+			"GLAccountDescription": "MASKING-0008501006",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501007",
+			"GLAccountDescription": "MASKING-0008501007",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501008",
+			"GLAccountDescription": "MASKING-0008501008",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501009",
+			"GLAccountDescription": "MASKING-0008501009",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501010",
+			"GLAccountDescription": "MASKING-0008501010",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501011",
+			"GLAccountDescription": "MASKING-0008501011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501012",
+			"GLAccountDescription": "MASKING-0008501012",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501013",
+			"GLAccountDescription": "MASKING-0008501013",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008501014",
+			"GLAccountDescription": "IMPAIRMENT - RIGHT OF USE ASSETS",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008600001",
+			"GLAccountDescription": "MASKING-0008600001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0008600002",
+			"GLAccountDescription": "MASKING-0008600002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009000001",
+			"GLAccountDescription": "MASKING-0009000001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009000011",
+			"GLAccountDescription": "MASKING-0009000011",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009000031",
+			"GLAccountDescription": "MASKING-0009000031",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009000051",
+			"GLAccountDescription": "MASKING-0009000051",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009700001",
+			"GLAccountDescription": "MASKING-0009700001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009700004",
+			"GLAccountDescription": "MASKING-0009700004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "0009800001",
+			"GLAccountDescription": "MASKING-0009800001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "A990001",
+			"GLAccountDescription": "MASKING-A990001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "A990002",
+			"GLAccountDescription": "MASKING-A990002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "Z999001",
+			"GLAccountDescription": "MASKING-Z999001",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "Z999002",
+			"GLAccountDescription": "MASKING-Z999002",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "Z999003",
+			"GLAccountDescription": "MASKING-Z999003",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "Z999004",
+			"GLAccountDescription": "MASKING-Z999004",
+			"CompanyCode": "JTC1"
+		}, {
+			"__metadata": {
+				"type": "ZMMP_INV_COMMON_SRV.GLAccounts"
+			},
+			"GLAccountNumber": "Z999005",
+			"GLAccountDescription": "MASKING-Z999005",
+			"CompanyCode": "JTC1"
+		}]
+	}
+}

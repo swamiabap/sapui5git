@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="ZMMP_INV_ODATA_SRV" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="Header" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                </Key>
+                <Property Name="SubmitTime" Type="Edm.Time" Nullable="false" Precision="0" sap:unicode="false" sap:label="Actual end time" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="InvRefNumber" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjType" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="BtnStatus1" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="SubmittedDateTxt" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjNoType" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjDesc" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="Amount" Type="Edm.Decimal" Nullable="false" Precision="18" Scale="3" sap:unicode="false" sap:unit="Waers" sap:label="Estimated Procuremen" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Waers" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:label="Currency" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="currency-code"/>
+                <Property Name="SubmitDate" Type="Edm.DateTime" Precision="7" sap:unicode="false" sap:label="Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DocType" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DocTypeAbbr" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DocTypeDesc" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AjdSign" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StatusGroup" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="WiId" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="WiTaskid" Type="Edm.String" Nullable="false" MaxLength="14" sap:unicode="false" sap:label="Task" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="WiAgentid" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Agent" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AorExpType" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="VendorId" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="VendorName" Type="Edm.String" Nullable="false" MaxLength="80" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RefDocType" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RefObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RefObjDesc" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RefAmount" Type="Edm.Decimal" Nullable="false" Precision="18" Scale="3" sap:unicode="false" sap:unit="RefWaers" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RefBalance" Type="Edm.Decimal" Nullable="false" Precision="18" Scale="3" sap:unicode="false" sap:unit="RefWaers" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RefWaers" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="currency-code"/>
+                <Property Name="AttSumNo" Type="Edm.Int16" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="BtnStatus" Type="Edm.String" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <NavigationProperty Name="Items" Relationship="ZMMP_INV_ODATA_SRV.Header_Items" FromRole="FromRole_Header_Items" ToRole="ToRole_Header_Items"/>
+                <NavigationProperty Name="AttachmentSet" Relationship="ZMMP_INV_ODATA_SRV.Header_Attachment" FromRole="FromRole_Header_Attachment" ToRole="ToRole_Header_Attachment"/>
+                <NavigationProperty Name="WorkFlow_LogSet" Relationship="ZMMP_INV_ODATA_SRV.Header_Workflow" FromRole="FromRole_Header_Workflow" ToRole="ToRole_Header_Workflow"/>
+                <NavigationProperty Name="DelegateListSet" Relationship="ZMMP_INV_ODATA_SRV.Header_DelegateList" FromRole="FromRole_Header_DelegateList" ToRole="ToRole_Header_DelegateList"/>
+            </EntityType>
+            <EntityType Name="Items" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                    <PropertyRef Name="ItemNo"/>
+                </Key>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ItemUprice" Type="Edm.Decimal" Nullable="false" Precision="18" Scale="3" sap:unicode="false" sap:unit="Waers" sap:label="Amount" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjType" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ItemQty" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ItemNo" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Meins" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ItemDesc" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ItemAmount" Type="Edm.Decimal" Nullable="false" Precision="18" Scale="3" sap:unicode="false" sap:unit="Waers" sap:label="Amount" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Waers" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:label="Currency" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="currency-code"/>
+            </EntityType>
+            <EntityType Name="Attachment" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                    <PropertyRef Name="Zattchid"/>
+                </Key>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zdesc" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjType" Type="Edm.String" MaxLength="3" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Mimetype" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zattchid" Type="Edm.String" Nullable="false" MaxLength="34" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zfname" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Filecontent" Type="Edm.Binary" Nullable="false" sap:unicode="false" sap:label="Binary String" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Filetype" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="WorkFlow_Log" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                    <PropertyRef Name="Wiid"/>
+                </Key>
+                <Property Name="CssWf" Type="Edm.String" Nullable="false" MaxLength="6" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjType" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="State" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Wiid" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Action" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Icon" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Agentid" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AgentName" Type="Edm.String" Nullable="false" MaxLength="100" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AgentDesc" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Remark" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AgentDept" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="msgReturn" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Type"/>
+                    <PropertyRef Name="Code"/>
+                </Key>
+                <Property Name="Type" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Message type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Code" Type="Edm.String" Nullable="false" MaxLength="5" sap:unicode="false" sap:label="Message code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Message" Type="Edm.String" Nullable="false" MaxLength="220" sap:unicode="false" sap:label="Message text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="LogNo" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Log number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="LogMsgNo" Type="Edm.String" Nullable="false" MaxLength="6" sap:unicode="false" sap:label="Message no." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MessageV1" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Message Variable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MessageV2" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Message Variable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MessageV3" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Message Variable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MessageV4" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Message Variable" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="RecordCount" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="PendingCount"/>
+                    <PropertyRef Name="ProcessCount"/>
+                </Key>
+                <Property Name="PendingCount" Type="Edm.Int16" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProcessCount" Type="Edm.Int16" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="DelegateList" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                    <PropertyRef Name="DelegateId"/>
+                </Key>
+                <Property Name="ObjType" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DelegateId" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DelegateName" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DelegateDepartment" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="AppNavigation" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="AppModule"/>
+                </Key>
+                <Property Name="AppModule" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="Module" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="icon" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="intent" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="title" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="FileContent" m:HasStream="true" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                    <PropertyRef Name="Zattchid"/>
+                </Key>
+                <Property Name="ObjType" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zattchid" Type="Edm.String" Nullable="false" MaxLength="34" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Zfname" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Filecontent" Type="Edm.Binary" Nullable="false" sap:unicode="false" sap:label="Binary String" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Filetype" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Mimetype" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="TileCount" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjNo"/>
+                </Key>
+                <Property Name="ObjNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <Association Name="Header_Attachment" sap:content-version="1">
+                <End Type="ZMMP_INV_ODATA_SRV.Header" Multiplicity="1" Role="FromRole_Header_Attachment"/>
+                <End Type="ZMMP_INV_ODATA_SRV.Attachment" Multiplicity="*" Role="ToRole_Header_Attachment"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Header_Attachment">
+                        <PropertyRef Name="ObjNo"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Header_Attachment">
+                        <PropertyRef Name="ObjNo"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Header_Workflow" sap:content-version="1">
+                <End Type="ZMMP_INV_ODATA_SRV.Header" Multiplicity="1" Role="FromRole_Header_Workflow"/>
+                <End Type="ZMMP_INV_ODATA_SRV.WorkFlow_Log" Multiplicity="*" Role="ToRole_Header_Workflow"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Header_Workflow">
+                        <PropertyRef Name="ObjNo"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Header_Workflow">
+                        <PropertyRef Name="ObjNo"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Header_DelegateList" sap:content-version="1">
+                <End Type="ZMMP_INV_ODATA_SRV.Header" Multiplicity="1" Role="FromRole_Header_DelegateList"/>
+                <End Type="ZMMP_INV_ODATA_SRV.DelegateList" Multiplicity="*" Role="ToRole_Header_DelegateList"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Header_DelegateList">
+                        <PropertyRef Name="ObjNo"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Header_DelegateList">
+                        <PropertyRef Name="ObjNo"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Header_Items" sap:content-version="1">
+                <End Type="ZMMP_INV_ODATA_SRV.Header" Multiplicity="1" Role="FromRole_Header_Items"/>
+                <End Type="ZMMP_INV_ODATA_SRV.Items" Multiplicity="*" Role="ToRole_Header_Items"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Header_Items">
+                        <PropertyRef Name="ObjNo"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Header_Items">
+                        <PropertyRef Name="ObjNo"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="ZMMP_INV_ODATA_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="Header" EntityType="ZMMP_INV_ODATA_SRV.Header" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="Items" EntityType="ZMMP_INV_ODATA_SRV.Items" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="Attachment" EntityType="ZMMP_INV_ODATA_SRV.Attachment" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="WorkFlow_LogSet" EntityType="ZMMP_INV_ODATA_SRV.WorkFlow_Log" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="msgReturnSet" EntityType="ZMMP_INV_ODATA_SRV.msgReturn" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="RecordCountSet" EntityType="ZMMP_INV_ODATA_SRV.RecordCount" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="DelegateListSet" EntityType="ZMMP_INV_ODATA_SRV.DelegateList" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="AppNavigationSet" EntityType="ZMMP_INV_ODATA_SRV.AppNavigation" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="FileContentSet" EntityType="ZMMP_INV_ODATA_SRV.FileContent" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="TileCountSet" EntityType="ZMMP_INV_ODATA_SRV.TileCount" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <AssociationSet Name="Header_Items_AssocSet" Association="ZMMP_INV_ODATA_SRV.Header_Items" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Header" Role="FromRole_Header_Items"/>
+                    <End EntitySet="Items" Role="ToRole_Header_Items"/>
+                </AssociationSet>
+                <AssociationSet Name="Header_Workflow" Association="ZMMP_INV_ODATA_SRV.Header_Workflow" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Header" Role="FromRole_Header_Workflow"/>
+                    <End EntitySet="WorkFlow_LogSet" Role="ToRole_Header_Workflow"/>
+                </AssociationSet>
+                <AssociationSet Name="Header_DelegateListSet" Association="ZMMP_INV_ODATA_SRV.Header_DelegateList" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Header" Role="FromRole_Header_DelegateList"/>
+                    <End EntitySet="DelegateListSet" Role="ToRole_Header_DelegateList"/>
+                </AssociationSet>
+                <AssociationSet Name="Header_Attachment" Association="ZMMP_INV_ODATA_SRV.Header_Attachment" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Header" Role="FromRole_Header_Attachment"/>
+                    <End EntitySet="Attachment" Role="ToRole_Header_Attachment"/>
+                </AssociationSet>
+                <FunctionImport Name="ApproveINV" ReturnType="ZMMP_INV_ODATA_SRV.msgReturn" EntitySet="msgReturnSet" m:HttpMethod="POST" sap:action-for="ZMMP_INV_ODATA_SRV.Header">
+                    <Parameter Name="Remark" Type="Edm.String" Mode="In" MaxLength="128"/>
+                    <Parameter Name="ApproveFlag" Type="Edm.Boolean" Mode="In"/>
+                    <Parameter Name="ObjNo" Type="Edm.String" Mode="In" MaxLength="10"/>
+                </FunctionImport>
+                <FunctionImport Name="ReRouteINV" ReturnType="ZMMP_INV_ODATA_SRV.msgReturn" EntitySet="msgReturnSet" m:HttpMethod="POST" sap:action-for="ZMMP_INV_ODATA_SRV.Header">
+                    <Parameter Name="Remark" Type="Edm.String" Mode="In" MaxLength="128"/>
+                    <Parameter Name="ReRouteFlag" Type="Edm.Boolean" Mode="In"/>
+                    <Parameter Name="ObjNo" Type="Edm.String" Mode="In" MaxLength="10"/>
+                    <Parameter Name="DelegateID" Type="Edm.String" Mode="In" MaxLength="12"/>
+                </FunctionImport>
+                <FunctionImport Name="RejectINV" ReturnType="ZMMP_INV_ODATA_SRV.msgReturn" EntitySet="msgReturnSet" m:HttpMethod="POST" sap:action-for="ZMMP_INV_ODATA_SRV.Header">
+                    <Parameter Name="Remark" Type="Edm.String" Mode="In" MaxLength="128"/>
+                    <Parameter Name="RejectFlag" Type="Edm.Boolean" Mode="In"/>
+                    <Parameter Name="ObjNo" Type="Edm.String" Mode="In" MaxLength="10"/>
+                </FunctionImport>
+                <FunctionImport Name="RouteBackINV" ReturnType="ZMMP_INV_ODATA_SRV.msgReturn" EntitySet="msgReturnSet" m:HttpMethod="POST" sap:action-for="ZMMP_INV_ODATA_SRV.Header">
+                    <Parameter Name="Remark" Type="Edm.String" Mode="In" MaxLength="128"/>
+                    <Parameter Name="ObjNo" Type="Edm.String" Mode="In" MaxLength="10"/>
+                    <Parameter Name="RouteBackFlag" Type="Edm.Boolean" Mode="In"/>
+                </FunctionImport>
+            </EntityContainer>
+            <atom:link rel="self" href="https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+            <atom:link rel="latest-version" href="https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

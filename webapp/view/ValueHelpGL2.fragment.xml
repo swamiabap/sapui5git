@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <TableSelectDialog
+            id="vh-table-gl-2"
+            noDataText="No GL Account found"
+            title="Select GL Account"
+            search=".handleSearch"
+            confirm=".handleClose"
+            cancel=".handleClose"
+            multiSelect="false" growing="true"
+            items="{glSearch>/glFiltered}">
+        <ColumnListItem>
+            <cells>
+                <Text text="{glSearch>glAccountFormatted}"/>
+                <Text text="{glSearch>GLAccountDescription}"/>
+                <Text text="{glSearch>CompanyCode}"/>
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column
+                    hAlign="Begin" width="5rem"
+                    popinDisplay="Inline"
+                    demandPopin="true">
+                <Label text="GL Account"/>
+            </Column>
+            <Column
+                    hAlign="Begin"
+                    popinDisplay="Inline"
+                    demandPopin="true"
+                    minScreenWidth="Tablet">
+                <Label text="Description"/>
+            </Column>
+            <Column
+                    hAlign="Begin" width="5rem"
+                    popinDisplay="Inline"
+                    demandPopin="false"
+                    minScreenWidth="Tablet">
+                <Label text="Company"/>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>

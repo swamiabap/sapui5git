@@ -1,0 +1,23 @@
+{
+    "d": {
+        "__metadata": {
+            "type": "Collection(ZMMP_INV_COMMON_SRV.CompanyCodes)"
+        },
+        "results": [
+            {
+                "__metadata": {
+                    "type": "ZMMP_INV_COMMON_SRV.CompanyCodes"
+                },
+                "CompanyCode": "JTC1",
+                "CompanyName": "JTC Corporation"
+            },
+            {
+                "__metadata": {
+                    "type": "ZMMP_INV_COMMON_SRV.CompanyCodes"
+                },
+                "CompanyCode": "JTC3",
+                "CompanyName": "JTC Corporation"
+            }
+        ]
+    }
+}

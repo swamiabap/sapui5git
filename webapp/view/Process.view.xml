@@ -1,0 +1,607 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.uxap" xmlns:m="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+		  xmlns:core="sap.ui.core" xmlns:commons="sap.suite.ui.commons" xmlns:x="sap.f" controllerName="sg.gov.jtc.JTC-InvoiceApp.controller.Process"
+		  height="100%" afterRendering=".onAfterViewRendered" busy="{/view/processViewBusy}">
+	<ObjectPageLayout upperCaseAnchorBar="false" showFooter="true" headerContentPinnable="false">
+		<headerTitle>
+			<ObjectPageHeader
+					objectTitle="{/invDoc/header/invCategoryRx} {/invDoc/header/invRefnum} {/invDoc/header/invRefdateRx}"
+					id="idPageHeader">
+				<actions>
+					<m:Button text="Print" type="Ghost" icon="sap-icon://print" tooltip="Print invoice" press="handlePrintInvoice"/>
+					<m:Button text="Related Documents" type="Ghost" icon="sap-icon://copy" tooltip="Show related documents" press=".handleRelatedDocuments"/>
+					<m:Button text="Add Credit Notes" type="Ghost" tooltip="Add credit notes" press=".handleShowCreditNotes" visible="{/view/cnButtonVisible}"
+						enabled="{/view/roEditMode}"/>
+					<!--					<ObjectPageHeaderActionButton text="Display" hideIcon="true" hideText="false" press="handleDisplayInvoice" visible="{view>/editMode}"/>-->
+					<!--					<ObjectPageHeaderActionButton text="Edit" hideIcon="true" hideText="false" press="handleEditInvoice" visible="{view>/editButton}"/>-->
+				</actions>
+			</ObjectPageHeader>
+			<!--<ObjectPageDynamicHeaderTitle>-->
+			<!--	<expandedHeading>-->
+			<!--		<m:Title text="E-Invoice"/>-->
+			<!--	</expandedHeading>-->
+			<!--	<snappedHeading>-->
+			<!--		<m:Title text="E-Invoice"/>-->
+			<!--	</snappedHeading>-->
+			<!--	<actions>-->
+			<!--		<m:Button text="Exit"/>-->
+			<!--	</actions>-->
+			<!--</ObjectPageDynamicHeaderTitle>-->
+		</headerTitle>
+		<headerContent>
+			<l:VerticalLayout width="96%">
+				<!--<m:ObjectHeader -->
+				<!--	title="{ path: 'local>Description', formatter: '.formatter.truncateDescription'}" -->
+				<!--	number="{ parts: [{path: 'local>AmountBeforeGst'}, {path: 'local>Currency'}], -->
+				<!--		type: 'sap.ui.model.type.Currency',       -->
+				<!--		formatOptions: {showMeasure: false} }" -->
+				<!--    numberUnit="{local>Currency}" responsive="false">-->
+				<!--</m:ObjectHeader>-->
+				<!--<m:ObjectHeader id="objectHeader" title="" number="" numberUnit="">-->
+				<m:HBox visible="true" width="100%" displayInline="false" renderType="Div" justifyContent="SpaceBetween" height="auto" fitContainer="false"
+						direction="Row" alignItems="Start">
+					<m:Text id="hdrtitle" visible="true" text="{/invDoc/header/description}" textDirection="Inherit" textAlign="Begin" wrapping="true"
+							class="jtcInvHeaderTitle" width="63rem"/>
+					<!--<m:Text id="hdramount" visible="true" width="auto" text="{ path: 'local>AmountBeforeGst', formatter: '.formatter.currencyValue' }" textDirection="Inherit" textAlign="End" wrapping="false" maxLines="1" class="jtcInvHeaderTitle"/>-->
+<!--					<m:ObjectNumber-->
+<!--							number="{ parts: [{path: '/invDoc/total/netPayment/postGstAmtRaw'}, {path: '/invDoc/header/currency'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: true} }"-->
+<!--							unit="" class="jtcInvHeaderTitle"/>-->
+					<m:Text text="{/invDoc/header/currency} {/invDoc/total/netPayment/postGstAmt}" class="jtcInvHeaderTitle"/>
+				</m:HBox>
+				<!--	<ObjectAttribute title="" visible="true" text="{InvRefNumber} ({DocTypeDesc})"/>-->
+				<!--	<ObjectAttribute title="" visible="true" text="{VendorName}"/>-->
+				<!--</m:ObjectHeader>-->
+				<m:HBox height="2em"/>
+				<m:Text text="{/invDoc/header/vendorNameInt}"/>
+				<m:Text text="Attention To: {/invDoc/header/attentionTo} ({/invDoc/header/purchGrp})"/>
+				<!-- <m:HBox> -->
+				<!-- <m:Text text="{ path: 'local>InvoiceReferenceDate', formatter: '.formatter.formatDate' }"/> -->
+				<!--<m:Text text="({ parts: [{path: 'local>InvoiceType'}, {path: 'local>LinkInvoiceTo'}], -->
+				<!--                 formatter: '.formatter.invoiceType' })"-->
+				<!--        class="sapUiSmallMarginBegin"/>-->
+				<!-- </m:HBox> -->
+
+				<m:HBox height="2em"/>
+				<m:VBox>
+					<m:HBox height="6em">
+						<m:VBox width="100%">
+<!--							<m:ScrollContainer id="scroll-wf-history" horizontal="true">-->
+								<!-- <m:VBox height="2em" justifyContent="Center">
+                                    <m:Text text="Workflow History Log" textAlign="Begin" width="100%"/>
+                                </m:VBox> -->
+								<m:HBox height="auto" backgroundDesign="Transparent">
+									<!-- <m:Text text="(To be implemented)"/> -->
+
+									<commons:MicroProcessFlow content="{/invDoc/workflowHistory}" renderType="NoWrap" width="75.6rem" id="idWorkFlowHistoryLog">
+										<commons:content >
+											<commons:MicroProcessFlowItem state="{State}" icon="{Icon}" showIntermediary="true" press="onPressSubmitNode">
+												<commons:intermediary class="appr">
+													<m:HBox class="appr">
+														<m:Label text="{Action}"/>
+														<m:Link class="appr_link" text="{AgentName}" press="onPressSubmitNode"/>
+													</m:HBox>
+													<!--<FlexBox class="appr" direction="Column">
+                                                        <Title id="WrappingTitle" wrapping="true" text="{ApproverName}"/>
+                                                    </FlexBox>-->
+												</commons:intermediary>
+											</commons:MicroProcessFlowItem>
+										</commons:content>
+									</commons:MicroProcessFlow>
+
+								</m:HBox>
+<!--							</m:ScrollContainer>-->
+						</m:VBox>
+						<m:VBox width="50%" visible="false">
+							<!-- <m:VBox height="2em" justifyContent="Center">
+								<m:Text width="100%" textAlign="Center"/>
+							</m:VBox> -->
+							<m:VBox width="100%" justifyContent="End" height="4em" alignItems="End">
+								<m:Button text="Attachment{att>Total}" press="handleAttachment" id="idBtnAttachment"/>
+							</m:VBox>
+						</m:VBox>
+					</m:HBox>
+					<m:HBox id="idAttachmentBox"
+							alignItems="Start" justifyContent="Start"
+							items="{att>AttachmentSet}" visible="false">
+						<m:items>
+							<m:VBox class="fileItemVBox" width="5rem">
+								<core:Icon press="getLink" size="2rem" src="{ path: 'att>Mimetype', formatter: '.formatter.getIcon' }" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" />
+								<m:Link class="fileItemLink" text="{att>Zdesc}" target="_blank" tooltip="{att>Zfname}"
+										href="/sap/opu/odata/sap/ZMMP_INV_ODATA_SRV/FileContentSet(ObjNo='{att>ObjNo}',Zattchid='{att>Zattchid}')/$value"/>
+							</m:VBox>
+						</m:items>
+					</m:HBox>
+				</m:VBox>
+			</l:VerticalLayout>
+		</headerContent>
+		<sections>
+			<ObjectPageSection title="Basic Data" titleUppercase="false" class="jtcInvSectionTitle">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<!--<m:VBox>-->
+							<!--	<f:SimpleForm title="Basic Information" -->
+							<!--		editable="true"-->
+							<!--		layout="ResponsiveGridLayout"-->
+							<!--		labelSpanXL="2"-->
+							<!--		labelSpanL="2"-->
+							<!--		labelSpanM="2"-->
+							<!--		labelSpanS="12"-->
+							<!--		adjustLabelSpan="false"-->
+							<!--		emptySpanXL="6"-->
+							<!--		emptySpanL="6"-->
+							<!--		emptySpanM="6"-->
+							<!--		emptySpanS="0"-->
+							<!--		columnsXL="1"-->
+							<!--		columnsL="1"-->
+							<!--		columnsM="1"-->
+							<!--		singleContainerFullSize="false">-->
+							<!--		<f:content>-->
+							<!--			<m:Label text="Purchasing Group" width="auto" />-->
+							<!--			<m:Select forceSelection="false" width="50%">-->
+							<!--				<core:Item key="AAD" text="AAD"></core:Item>-->
+							<!--			</m:Select>-->
+							<!--			<m:Label text="Vendor ID" width="auto"/>-->
+							<!--			<m:Input placeholder="Enter vendor ID" />-->
+							<!--			<m:Label text="Description" width="auto"/>-->
+							<!--			<m:Input placeholder="Enter description" />-->
+							<!--		</f:content>-->
+							<!--	</f:SimpleForm>-->
+							<!--	<m:Panel headerText="More Information" expandable="true" expanded="false">-->
+							<!--		<m:Text text="More information here" />-->
+							<!--	</m:Panel>-->
+							<!--</m:VBox>-->
+							<!--<l:VerticalLayout width="100%">-->
+							<!--	<l:BlockLayout visible="true">-->
+							<!--		<l:BlockLayoutRow>-->
+							<!--			<l:BlockLayoutCell width="4" title="" titleAlignment="Left" titleLevel="Auto">-->
+							<!--				<m:HBox>-->
+							<!--					<m:Text text="2-Years Term Contract For Landscape Maintenance Works at Tuas View"/>-->
+							<!--					<m:Text text="SGD 5800" width="auto" textAlign="End"/>-->
+							<!--				</m:HBox>-->
+							<!--			</l:BlockLayoutCell>-->
+							<!--		</l:BlockLayoutRow>-->
+							<!--	</l:BlockLayout>-->
+							<!--</l:VerticalLayout>-->
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Finance Information" visible="{/view/financeInfoVisible}" id="inv-finance-info" class="jtcInvSectionTitle">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<m:HBox>
+									<m:VBox width="32rem">
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="FMAS Document No." width="13rem"/>
+											<m:Text text="{/invDoc/header/fmasDocnum}" class="jtcSmallMarginLeft" width="14rem"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Payment Document No." width="13rem"/>
+											<m:Text text="{/ecc/GV_PAY_DOCNUM}" class="jtcSmallMarginLeft" width="14rem"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Payment Method" width="13rem"/>
+<!--											<m:Input value="{local>PaymentMethod}" class="jtcSmallMarginLeft" width="14rem"/>-->
+											<m:Select id="sel-pay-methods" enabled="{/view/fvoEditMode}" width="14rem" forceSelection="false" selectedKey="{/invDoc/header/payMethod}"
+													  items="{/aux/paymentMethods}" showSecondaryValues="false" change="" class="jtcSmallMarginLeft">
+												<core:ListItem key="{zlsch}" text="{= ${zlsch} + ' - ' + ${text1} }" additionalText="{text1}"/>
+											</m:Select>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Document Header Text" width="13rem"/>
+											<m:Input value="{/invDoc/header/docHeaderTxt}" class="jtcSmallMarginLeft" width="14rem" editable="{/view/fvoEditMode}"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Assignment" width="13rem"/>
+											<m:Input value="{/invDoc/header/assignment}" class="jtcSmallMarginLeft" width="14rem" editable="{/view/fvoEditMode}"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem" visible="{/view/docIsForeignCurrency}">
+											<m:Label text="GST Amount (SGD) $" width="13rem"/>
+											<m:Input value="{/invDoc/header/gstAmtSgdRx}" class="jtcSmallMarginLeft" width="14rem" textAlign="End" editable="{/view/fvoEditMode}"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem" visible="{/view/docIsForeignCurrency}">
+											<m:Label text="SGD equivalent (After GST) $" width="13rem"/>
+											<m:Input value="{/invDoc/header/actualPostGstRx}" class="jtcSmallMarginLeft" width="14rem" textAlign="End" editable="{/view/fvoEditMode}"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem" visible="{/view/docIsForeignCurrency}">
+											<m:Label text="SGD equivalent (Before GST) $" width="13rem"/>
+											<m:Input value="{/invDoc/header/actualPreGstRx}" class="jtcSmallMarginLeft" width="14rem" textAlign="End" editable="false"/>
+										</m:HBox>
+									</m:VBox>
+									<m:VBox width="auto">
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="FMAS Posted Date" width="10rem"/>
+											<m:Text text="{/ecc/gvFmasPostdt}" class="jtcSmallMarginLeft" width="10.9rem"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Payment Clearing Date" width="10rem"/>
+											<m:Text text="{/ecc/gvPayCleardt}" class="jtcSmallMarginLeft" width="10.9rem"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Permitted Payee ID" width="10rem"/>
+<!--											<m:Input value="{local>PermitPayee}" class="jtcSmallMarginLeft" width="10.9rem"/>-->
+											<m:Select id="sel-permited-payee" enabled="{/invDoc/header/permitPayeeEditable}" width="10.9rem" forceSelection="false" selectedKey="{/invDoc/header/permitPayee}"
+													  items="{/invDoc/permittedPayees}" showSecondaryValues="false" class="jtcSmallMarginLeft">
+												<core:ListItem key="{empfk}" text="{text}"/>
+											</m:Select>
+											<m:Button text="{/view/textMultiplePayee}" visible="{= ${/invDoc/header/permitPayee} === '' }" press=".handleMultiplePayees" class="jtcLargeMarginLeft" type="Ghost" icon="{/view/iconMultiplePayee}"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Permitted Payee Name" width="10rem"/>
+											<m:Text text="{/invDoc/header/permitPayeeRx}" class="jtcSmallMarginLeft" width="10.9rem"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="Special GL Indicator" width="10rem"/>
+<!--											<m:Input value="{local>SpecialGLIndicator}" class="jtcSmallMarginLeft" width="10.9rem"/>-->
+											<m:Select id="sel-sgli" enabled="{/view/fvoEditMode}" width="10.9rem" forceSelection="false" selectedKey="{/invDoc/header/specialGlInd}"
+													  items="{/aux/specialGlIndicators}" showSecondaryValues="false" change="" class="jtcSmallMarginLeft">
+												<core:ListItem key="{shbkz}" text="{= ${shbkz} + ' - ' + ${ltext} }" additionalText="{ltext}"/>
+											</m:Select>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem">
+											<m:Label text="CAYE Indicator" width="10rem"/>
+											<m:Text text="{/invDoc/header/caye}" class="jtcSmallMarginLeft" width="10.9rem"/>
+										</m:HBox>
+										<m:HBox alignItems="Center" height="2rem" visible="{/invDoc/header/nricVisible}">
+											<m:Label text="NRIC Details" width="10rem"/>
+											<m:Text text="{/invDoc/header/nric}" class="jtcSmallMarginLeft" width="10.9rem"/>
+										</m:HBox>
+									</m:VBox>
+								</m:HBox>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Invoice Information" titleUppercase="false" class="jtcInvSectionTitle">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:Table noDataText="No data" growing="true" items="{/invDoc/lines}" id="idInvoiceLinesTable"
+									 updateFinished=".handleUpdateFinished">
+								<m:headerToolbar>
+									<m:Toolbar class="sapUiNoMarginTop" height="2em">
+										<!--<m:Text text="Invoice Lines"/>-->
+										<m:ToolbarSpacer/>
+										<!--<m:Button text="" icon="sap-icon://hint" id="moreInfoButton" tooltip="More information" press="onMoreInfoPress"/>-->
+										<x:Avatar src="sap-icon://hint" tooltip="More information" displaySize="Custom" customDisplaySize="1.25rem" customFontSize="1rem"
+												  press="onMoreInfoPress"/>
+									</m:Toolbar>
+								</m:headerToolbar>
+								<m:columns>
+									<m:Column width="2em">
+										<m:header>
+											<m:Label text="No."/>
+										</m:header>
+									</m:Column>
+									<m:Column width="auto">
+										<m:header>
+											<m:Label text="Description"/>
+										</m:header>
+										<m:footer>
+											<m:VBox>
+												<m:Text text="Total"/>
+												<m:HBox alignItems="Center" height="2rem" visible="{/view/docIsForeignCurrency}">
+													<m:Text text="Exchange Rate:" width="7.5rem"/>
+<!--													<m:Input value="{path: '/view/exRate', mode: 'OneWay'}" change=".handleChangeExchangeRate(${$parameters>/value})" width="5rem" textAlign="End" visible="{/view/roEditMode}"/>-->
+													<m:Input value="{/invDoc/header/exRateRx}" width="5rem" textAlign="End" visible="{/view/roEditMode}"/>
+													<m:Text text="{/invDoc/header/exRateRx}" width="5rem" textAlign="End" visible="{= !${/view/roEditMode} }"/>
+													<m:Text text="SGD equivalent (For Approval) $:" width="30rem" textAlign="End"/>
+												</m:HBox>
+											</m:VBox>
+										</m:footer>
+									</m:Column>
+									<m:Column width="11em" hAlign="End">
+										<m:header>
+											<m:Label text="Amount ($)"/>
+										</m:header>
+										<m:footer>
+											<m:VBox>
+												<m:Text text="{/invDoc/total/lines/preGstAmt}"/>
+												<m:HBox height="2rem" alignItems="Center" justifyContent="End" visible="{/view/docIsForeignCurrency}">
+													<m:Text text="{/invDoc/header/sgdEquivRx}"/>
+												</m:HBox>
+											</m:VBox>
+										</m:footer>
+									</m:Column>
+									<m:Column width="7em" hAlign="End">
+										<m:header>
+											<m:Label text="GST ($)"/>
+										</m:header>
+										<m:footer>
+											<m:Text text="{/invDoc/total/lines/gstAmt}"/>
+										</m:footer>
+									</m:Column>
+									<m:Column width="10em" hAlign="End">
+										<m:header>
+											<m:Label text="Amount (After GST $)"/>
+										</m:header>
+										<m:footer>
+											<m:Text text="{/invDoc/total/lines/postGstAmt}"/>
+										</m:footer>
+									</m:Column>
+								</m:columns>
+								<m:items>
+									<m:ColumnListItem>
+										<m:cells>
+											<m:ObjectIdentifier text="{invLineNoRx}"/>
+											<m:ObjectIdentifier text="{lineDesc}"/>
+											<m:Text	text="{preGstAmtRx}"/>
+											<m:Text	text="{gstAmtRx}"/>
+											<m:Text	text="{postGstAmtRx}"/>
+										</m:cells>
+									</m:ColumnListItem>
+								</m:items>
+							</m:Table>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Credit Notes" titleUppercase="false" class="jtcInvSectionTitle" visible="{/view/cnSectionVisible}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<core:Fragment fragmentName="sg.gov.jtc.JTC-InvoiceApp.view.CreditNotes" type="XML" />
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Procurement Information" titleUppercase="false" class="jtcInvSectionTitle">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox busy="{/view/procurementDetailsBusy}">
+								<m:HBox height="auto" justifyContent="Start" alignItems="Start" class="sapUiNoContentPadding">
+									<m:HBox width="80%">
+										<m:VBox alignItems="Start">
+											<m:Text text="Link Invoice To:" class="sapUiNoMargin"/>
+											<m:RadioButtonGroup columns="3" enabled="{/view/roEditMode}" class="sapUiNoMarginBegin" id="rbg-linkto" selectedIndex="{ path: '/view/linkEntry/index', mode: 'OneWay' }">
+												<m:buttons>
+													<m:RadioButton id="rb0" text="POWO" select=".handleSelectLinkToRadioButton(${$parameters>/selected}, 'POWO')" class="jtcLeftMostRB"/>
+													<m:RadioButton id="rb1" text="AOR" select=".handleSelectLinkToRadioButton(${$parameters>/selected}, 'AOR')"/>
+													<m:RadioButton id="rb2" text="Others" select=".handleSelectLinkToRadioButton(${$parameters>/selected}, 'NA')"/>
+												</m:buttons>
+											</m:RadioButtonGroup>
+											<!--										<m:SegmentedButton selectedKey="{local>LinkInvoiceTo}" selectionChange="onInvoiceLinkSelected" class="sapUiTinyMarginBegin"-->
+											<!--											enabled="{view>/editMode}" items="{help>/Links}">-->
+											<!--											<m:items>-->
+											<!--												<m:SegmentedButtonItem text="{help>Text}" key="{help>Key}" width="auto"/>-->
+											<!--											</m:items>-->
+											<!--										</m:SegmentedButton>-->
+										</m:VBox>
+										<m:VBox alignItems="Start" fitContainer="false" width="9rem" height="auto" justifyContent="Start" renderType="Div"
+												displayInline="false" class="jtcSmallMarginLeft">
+											<m:Text text="Company Code:" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"
+													class="sapUiNoMargin" visible="{= ${/invDoc/header/linkInvoice} !== 'POWO' }"/>
+											<m:HBox width="9rem" class="sapUiNoMarginBegin" visible="{= ${/invDoc/header/linkInvoice} !== 'POWO' }">
+												<m:Select id="selCompanyCode" enabled="{/view/editMode}" width="9rem" forceSelection="false" selectedKey="{/invDoc/header/compCode}"
+														  items="{/aux/companyCode/companyCodes}" showSecondaryValues="true">
+													<core:ListItem key="{CompanyCode}" text="{CompanyCode}" additionalText="{CompanyName}"/>
+												</m:Select>
+											</m:HBox>
+										</m:VBox>
+										<m:VBox class="jtcSmallMarginLeft" visible="{/view/expenseTypeVisible}" width="14.5rem">
+											<m:Label text="Expense Type:"/>
+<!--											<m:Input value="{local>ExpenseType}" editable="{view>/editMode}"/>-->
+											<m:Select enabled="{/view/roEditMode}" width="14.5rem" forceSelection="false" selectedKey="{/invDoc/header/expenseTypeRx}"
+													  items="{/aux/expenseTypes}" showSecondaryValues="true" change=".handleChangeExpenseType" id="sel-expense-type">
+												<core:ListItem key="{key}" text="{expenseType}" additionalText="{subExpenseType}"/>
+											</m:Select>
+										</m:VBox>
+										<m:VBox class="jtcSmallMarginLeft" visible="{/view/expenseTypeVisible}" width="14.5rem">
+											<m:Label text="Expense Subtype:"/>
+											<m:Input value="{/invDoc/header/subexpenseType}" editable="false"/>
+										</m:VBox>
+									</m:HBox>
+									<m:HBox width="19.8%" justifyContent="End">
+										<m:VBox visible="{= ${/invDoc/header/linkInvoice} === 'NA' }">
+											<m:Label text=""/>
+											<m:Button text="{/view/textTrainingInfo}" type="Ghost" press=".handleTrainingPress"/>
+										</m:VBox>
+									</m:HBox>
+
+								</m:HBox>
+								<m:VBox id="linkingPanel" class="sapUiNoContentPadding">
+									<core:Fragment fragmentName="sg.gov.jtc.JTC-InvoiceApp.view.POWOSelection" type="XML" />
+									<core:Fragment fragmentName="sg.gov.jtc.JTC-InvoiceApp.view.AORSelection" type="XML" />
+									<core:Fragment fragmentName="sg.gov.jtc.JTC-InvoiceApp.view.NASelection" type="XML" />
+								</m:VBox>
+								<m:HBox></m:HBox>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Related Contract Information" titleUppercase="false" class="jtcInvSectionTitle"
+							   visible="{/view/relatedContracts/visible}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<m:Table growing="false" items="{/invDoc/assignees}" id="table-assignee" mode="None"
+										 visible="{/view/relatedContracts/assigneeVisible}">
+									<m:headerToolbar>
+									</m:headerToolbar>
+									<m:columns>
+										<m:Column width="6rem">
+											<m:header>
+												<m:Label text="Contract No."/>
+											</m:header>
+										</m:Column>
+										<m:Column width="9rem">
+											<m:header>
+												<m:Label text="Assignee ID"/>
+											</m:header>
+										</m:Column>
+										<m:Column width="">
+											<m:header>
+												<m:Label text="Assignee Name"/>
+											</m:header>
+										</m:Column>
+										<m:Column width="" hAlign="End">
+											<m:header>
+												<m:Label text="Amount Payable to Assignee (excl. GST) $"/>
+											</m:header>
+										</m:Column>
+										<m:Column width="13rem">
+											<m:header>
+												<m:Label text="GST Payable to Original Vendor"/>
+											</m:header>
+										</m:Column>
+									</m:columns>
+									<m:items>
+										<m:ColumnListItem>
+											<m:cells>
+												<m:ObjectIdentifier text="{contractno}"/>
+												<m:ObjectIdentifier text="{assigneeId}"/>
+												<m:ObjectIdentifier text="{assigneeName}"/>
+												<m:Text text="{assigneeAmtPayRx}"/>
+												<m:ObjectIdentifier text="{assigneeGstPay}"/>
+											</m:cells>
+										</m:ColumnListItem>
+									</m:items>
+								</m:Table>
+								<m:Table growing="false" items="{/invDoc/judgements}" id="table-judgement" mode="None"
+										 class="sapUiMediumMarginTop" visible="{/view/relatedContracts/judgementVisible}">
+									<m:headerToolbar>
+									</m:headerToolbar>
+									<m:columns>
+										<m:Column width="6rem">
+											<m:header>
+												<m:Label text="Contract No."/>
+											</m:header>
+										</m:Column>
+										<m:Column width="9rem">
+											<m:header>
+												<m:Label text="Judgement Creditor ID"/>
+											</m:header>
+										</m:Column>
+										<m:Column width="">
+											<m:header>
+												<m:Label text="Judgement Creditor Name"/>
+											</m:header>
+										</m:Column>
+										<m:Column width="" hAlign="End">
+											<m:header>
+												<m:Label text="Max. Amount Payable to Judgement Creditor $"/>
+											</m:header>
+										</m:Column>
+										<m:Column width="13rem">
+											<m:header>
+												<m:Label text="Effective Date"/>
+											</m:header>
+										</m:Column>
+									</m:columns>
+									<m:items>
+										<m:ColumnListItem>
+											<m:cells>
+												<m:ObjectIdentifier text="{contractno}"/>
+												<m:ObjectIdentifier text="{judgementId}"/>
+												<m:ObjectIdentifier text="{judgementName}"/>
+												<m:Text text="{judgementAmtPayRx}"/>
+												<m:ObjectIdentifier text="{effectivedatRx}"/>
+											</m:cells>
+										</m:ColumnListItem>
+									</m:items>
+								</m:Table>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Attachments" titleUppercase="false" class="jtcInvSectionTitle" visible="{/view/attachmentSectionVisible}">
+				<subSections>
+					<ObjectPageSubSection busy="{/view/attachmentSectionBusy}">
+						<blocks>
+							<m:VBox class="">
+								<core:Fragment fragmentName="sg.gov.jtc.JTC-InvoiceApp.view.Attachment" type="XML" />
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Approval Information" titleUppercase="false" class="jtcInvSectionTitle" visible="{/view/roEditMode}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:VBox>
+								<m:HBox>
+									<m:VBox>
+										<m:Label text="Verifying Officer" width="auto"/>
+										<m:Select id="selVerifyingOfficer" enabled="{/view/approversEditable}" forceSelection="false" showSecondaryValues="false"
+												  selectedKey="{/invDoc/header/verifyOfcr}" items="{/aux/verifyingOfficers}" busy="{/view/voListIsUpdating}"
+												  change="handleChangeVerifyingOfficer" width="15.5rem">
+											<core:Item key="{VOUserID}" text="{VOFullName}"/>
+										</m:Select>
+									</m:VBox>
+									<m:VBox class="sapUiLargeMarginBegin">
+										<m:Label text="Approving Officer" width="auto" required="{/view/approversEditable}"/>
+										<m:Select id="selApprovingAuthorities" enabled="{/view/approversEditable}" forceSelection="false" showSecondaryValues="false"
+												  selectedKey="{/invDoc/header/approveAuth}" items="{/aux/approvingAuthorities}" busy="{/view/aaListIsUpdating}"
+												  change="handleChangeApprovingAuthority" width="15.5rem">
+											<core:Item key="{AAUserID}" text="{AAFullName}"/>
+										</m:Select>
+									</m:VBox>
+									<m:VBox class="sapUiLargeMarginBegin" width="36rem">
+										<m:Label text="Remarks" width="auto"/>
+										<m:TextArea id="ta-remarks" value="{/invDoc/remarks}" rows="4" editable="{/view/roEditMode}" class="jtcRemarks" width="100%"/>
+									</m:VBox>
+								</m:HBox>
+							</m:VBox>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection title="Other Information" titleUppercase="false" class="jtcInvSectionTitle"
+							   visible="{/view/systemMessagesVisible}">
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<m:List items="{/invDoc/systemMessages}">
+								<m:items>
+									<m:StandardListItem
+											title="{description}"
+											icon="{icon}"
+											iconDensityAware="false"
+									/>
+								</m:items>
+							</m:List>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+		<footer>
+			<m:OverflowToolbar id="proc-foot-buttons" class="jtcInvFooterToolbar">
+				<m:Button id="btnMessages"
+						icon="sap-icon://alert"
+						text="{=${message>/}.length}"
+						visible="{=${message>/}.length > 0}"
+						type="Emphasized"
+						press="onMessagePopoverPress">
+				</m:Button>
+				<m:ToolbarSpacer id="proc-foot-spacer"/>
+				<m:Button id="btnSave" text="Save" width="8rem" type="Emphasized" press=".handleSaveInvoice('SAVE')" class="jtcInvFooterButton"/>
+				<m:Button id="btnCancel" text="Cancel" width="8rem" press=".handleCancelInvoice" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnSubmit" text="Submit" width="8rem" press=".handleSaveInvoice('SUBMIT')" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnReroute" text="Re-Route" width="8rem" press=".handleRerouteInvoice" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnRequestCancel" text="Request for Cancellation" width="11rem" press=".handleRequestCancel" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnWithdraw" text="Withdraw" width="8rem" press=".handleWithdraw" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnSendCancel" text="Send for Cancellation" width="11rem" press=".handleRequestCancel" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnExit" text="Exit" width="8rem" press="handleExit" type="Ghost" class="jtcInvGhostButton"/>
+
+				<m:Button id="btnPark" text="Park" width="8rem" press=".handlePark" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnPost" text="Post" width="8rem" press=".handlePost" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnReverse" text="Reverse" width="8rem" press=".handleReverse" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnRouteBack" text="Route Back" width="8rem" press=".handleRouteBack('Route Back')" type="Ghost" class="jtcInvGhostButton"/>
+
+				<m:Button id="btnRouteBackRO" text="Route Back to RO" width="11rem" press=".handleRouteBack('Route Back to RO')" type="Ghost" class="jtcInvGhostButton"/>
+				<m:Button id="btnRouteBackFVO" text="Route Back to FVO" width="11rem" press=".handleRouteBack('Route Back to FVO')" type="Ghost" class="jtcInvGhostButton"/>
+			</m:OverflowToolbar>
+		</footer>
+	</ObjectPageLayout>
+</mvc:View>

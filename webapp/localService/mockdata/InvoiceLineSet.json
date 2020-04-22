@@ -1,0 +1,137 @@
+[{
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8150001808',InvoiceLineNumber='00001')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8150001808',InvoiceLineNumber='00001')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8150001808",
+	"InvoiceLineNumber": "00001",
+	"BusinessUnit": "JTC10",
+	"LineDescription": "PRINTING A-0020 NAME CARDS - DIGITAL PRINTING",
+	"Quantity": "1.0000",
+	"UnitPrice": "1000.00000",
+	"AmountBeforeGst": "1000.00",
+	"GstAmount": "70.00",
+	"GstRate": "0.07",
+	"AmountAfterGst": "1070.00",
+	"InvoiceReference": "INT_15"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8150001998',InvoiceLineNumber='00001')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8150001998',InvoiceLineNumber='00001')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8150001998",
+	"InvoiceLineNumber": "00001",
+	"BusinessUnit": "JTC01",
+	"LineDescription": "IP Testing",
+	"Quantity": "1000.0000",
+	"UnitPrice": "1.00000",
+	"AmountBeforeGst": "1000.00",
+	"GstAmount": "70.00",
+	"GstRate": "0.07",
+	"AmountAfterGst": "1070.00",
+	"InvoiceReference": "IP_INV_8"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8150011219',InvoiceLineNumber='00001')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8150011219',InvoiceLineNumber='00001')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8150011219",
+	"InvoiceLineNumber": "00001",
+	"BusinessUnit": "",
+	"LineDescription": "Sep'15 PIXEL & CBP",
+	"Quantity": "1.0000",
+	"UnitPrice": "1232.00000",
+	"AmountBeforeGst": "1232.00",
+	"GstAmount": "86.24",
+	"GstRate": "0.07",
+	"AmountAfterGst": "1318.24",
+	"InvoiceReference": ""
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000032',InvoiceLineNumber='00001')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000032',InvoiceLineNumber='00001')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8180000032",
+	"InvoiceLineNumber": "00001",
+	"BusinessUnit": "JTC19",
+	"LineDescription": "Please refer to SP Services website for details of bill",
+	"Quantity": "1.0000",
+	"UnitPrice": "50.58000",
+	"AmountBeforeGst": "50.58",
+	"GstAmount": "3.54",
+	"GstRate": "0.07",
+	"AmountAfterGst": "54.12",
+	"InvoiceReference": "041082684134"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000195',InvoiceLineNumber='00001')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000195',InvoiceLineNumber='00001')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8180000195",
+	"InvoiceLineNumber": "00001",
+	"BusinessUnit": "JTC05",
+	"LineDescription": "Add GST @ 7%",
+	"Quantity": "1.0000",
+	"UnitPrice": "1.00000",
+	"AmountBeforeGst": "500.01",
+	"GstAmount": "0.00",
+	"GstRate": "0.07",
+	"AmountAfterGst": "500.01",
+	"InvoiceReference": "NonCA.Einv.AOR"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000195',InvoiceLineNumber='00002')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000195',InvoiceLineNumber='00002')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8180000195",
+	"InvoiceLineNumber": "00002",
+	"BusinessUnit": "JTC05",
+	"LineDescription": "Rounding off (for payment in full)",
+	"Quantity": "1.0000",
+	"UnitPrice": "1.00000",
+	"AmountBeforeGst": "-0.01",
+	"GstAmount": "0.00",
+	"GstRate": "0.07",
+	"AmountAfterGst": "-0.01",
+	"InvoiceReference": "NonCA.Einv.AOR"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000195',InvoiceLineNumber='00003')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='8180000195',InvoiceLineNumber='00003')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "8180000195",
+	"InvoiceLineNumber": "00003",
+	"BusinessUnit": "JTC05",
+	"LineDescription": "Essential Improvements",
+	"Quantity": "1.0000",
+	"UnitPrice": "1.00000",
+	"AmountBeforeGst": "-300.00",
+	"GstAmount": "0.00",
+	"GstRate": "0.07",
+	"AmountAfterGst": "-300.00",
+	"InvoiceReference": "NonCA.Einv.AOR"
+}, {
+	"__metadata": {
+		"id": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='9190000092',InvoiceLineNumber='00001')",
+		"uri": "https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_MAINTAIN_SRV/InvoiceLineSet(InvoiceID='9190000092',InvoiceLineNumber='00001')",
+		"type": "ZMMP_INV_MAINTAIN_SRV.InvoiceLine"
+	},
+	"InvoiceID": "9190000092",
+	"InvoiceLineNumber": "00001",
+	"BusinessUnit": "JTC10",
+	"LineDescription": "ADD GST @ 7%",
+	"Quantity": "1.0000",
+	"UnitPrice": "1840.00000",
+	"AmountBeforeGst": "1840.00",
+	"GstAmount": "128.80",
+	"GstRate": "0.07",
+	"AmountAfterGst": "1968.80",
+	"InvoiceReference": "20190823/CARL"
+}]

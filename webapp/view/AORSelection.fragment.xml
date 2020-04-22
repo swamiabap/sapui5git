@@ -1,0 +1,92 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox class="sapUiSmallMarginTop" visible="{/view/linkEntry/aorVisible}">
+        <Toolbar class="sapUiNoMarginTop" height="2em">
+            <ToolbarSpacer width=""/>
+            <Button text="+ Add" id="btn-add-aor" press=".handleAddAor" type="Emphasized" width="auto" enabled="true"
+                    visible="{/view/roEditMode}" tooltip="Add AOR" class="jtcInvAddLineButton"/>
+        </Toolbar>
+        <ScrollContainer horizontal="true" vertical="false">
+        <Table items="{/invDoc/linkAor}" mode="{/view/roTableMode}" id="table-aor" delete=".handleDeleteAor" width="auto"
+            busy="{/view/procurementDetailsBusy}">
+            <headerToolbar>
+            </headerToolbar>
+            <columns>
+                <Column width="3.4rem">
+                    <header>
+                        <Label text="Item No."/>
+                    </header>
+                </Column>
+                <Column width="7.7rem">
+                    <header>
+                        <Label text="AOR No./PRE No." tooltip="AOR No./PRE No."/>
+                    </header>
+                </Column>
+                <Column width="7rem">
+                    <header>
+                        <Label text="Account Assignment" tooltip="Account Assignment"/>
+                    </header>
+                </Column>
+                <Column width="10rem">
+                    <header>
+                        <Label text="Funding Category" tooltip="Funding Category"/>
+                    </header>
+                </Column>
+                <Column width="7rem">
+                    <header>
+                        <Label text="Asset No."/>
+                    </header>
+                </Column>
+                <Column width="6.5rem">
+                    <header>
+                        <Label text="GL"/>
+                    </header>
+                </Column>
+                <Column width="7rem">
+                    <header>
+                        <Label text="Cost Center" tooltip="Cost Center"/>
+                    </header>
+                </Column>
+                <Column width="7rem">
+                    <header>
+                        <Label text="Real Estate"/>
+                    </header>
+                </Column>
+                <Column width="8rem" hAlign="End">
+                    <header>
+                        <Label text="Amount ($)"/>
+                    </header>
+                </Column>
+                <Column width="15rem">
+                    <header>
+                        <Label text="Tax Code"/>
+                    </header>
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <Text text="{itemnoFormatted}"/>
+                    <Input value="{banfnRx}" editable="{banfnEditable}" showValueHelp="true" valueHelpRequest="handleValueHelpAor" id="in-aor" class="jtcInvUnderline"/>
+<!--                    <Text text="{aor>accntAssign}"/>-->
+                    <Select forceSelection="false" selectedKey="{accntAssignRx}" items="{ path: '/aux/accountAssignment/accountAssignments', templateShareable: false }"
+                            enabled="{accntAssignEditable}" change="">
+                        <core:Item key="{DomainValue}" text="{Description}"/>
+                    </Select>
+                    <Input value="{fundCategory}" editable="{fundCategoryEditable}" showValueHelp="true" valueHelpRequest=".handleValueHelpFundCategory"/>
+                    <Input value="{assetCombined}" editable="{assetNoEditable}" showValueHelp="true" valueHelpRequest=".handleValueHelpAsset($event, 'AOR')"/>
+                    <Input value="{glAccountFormatted}" editable="{glAccountEditable}" showValueHelp="true" valueHelpRequest=".handleValueHelpGL($event, 'AOR')"/>
+                    <Input value="{costCenter}" editable="{costCenterEditable}" showValueHelp="true" valueHelpRequest=".handleValueHelpCostCenter($event, 'AOR')"/>
+                    <Input value="{realEstateComputed}" editable="{realEstateEditable}" showValueHelp="true" valueHelpRequest=".handleValueHelpRE($event, 'AOR')"/>
+                    <Input value="{preGstAmtFormatted}" textAlign="End" editable="{preGstAmtEditable}"/>
+<!--                    <Text text="{aor>taxDescr}"/>-->
+                    <Select forceSelection="false"
+                            selectedKey="{taxDescr}"
+                            items="{ path: '/aux/taxCode/taxCodes', templateShareable: false }"
+                            change="" enabled="{taxDescrEditable}">
+                        <core:Item key="{Sequence}" text="{TaxCodeDescription}"/>
+                    </Select>
+                </ColumnListItem>
+            </items>
+        </Table>
+        </ScrollContainer>
+    </VBox>
+</core:FragmentDefinition>

@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog title="Related Documents" contentWidth="24rem" contentHeight="" draggable="true"
+            afterClose=".handleAfterClose">
+        <content>
+            <VBox class="jtcSmallMarginLeft jtcSmallMarginRight">
+                <Table items="{rel>/relatedDocuments}">
+                    <columns>
+                        <Column width="10rem">
+                            <header>
+                                <Label text="Module"/>
+                            </header>
+                        </Column>
+                        <Column width="5rem">
+                            <header>
+                                <Label text="Document Number"/>
+                            </header>
+                        </Column>
+                    </columns>
+                    <ColumnListItem press=".handleSelect" type="Active">
+                        <Text text="{rel>moduleText}"/>
+                        <Text text="{rel>docNum}"/>
+                    </ColumnListItem>
+                </Table>
+<!--                <List items="{rel>/relatedDocuments}">-->
+<!--                    <StandardListItem title="{rel>moduleText}" description="{rel>docNum}"/>-->
+<!--                </List>-->
+            </VBox>
+        </content>
+        <endButton>
+            <Button text="Close" press=".handleClose" type="Emphasized" class="jtcSmallMarginRight"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

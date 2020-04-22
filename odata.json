@@ -1,0 +1,6 @@
+{
+  "sap": {
+    "target": "https://sapdevfio1.jtcdev.gov.sg:9001",
+    "auth": "userxxx:passwordxxx"
+  }
+}

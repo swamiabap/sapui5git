@@ -1,0 +1,58 @@
+{
+	"name": "ui5-jtc-invoice",
+	"version": "0.0.1",
+	"description": "",
+	"private": true,
+	"devDependencies": {
+		"@babel/core": "^7.7.4",
+		"@babel/preset-env": "^7.7.4",
+		"@openui5/ts-types": "^1.60.5",
+		"@ui5/cli": "^1.14.0",
+		"cross-env": "^6.0.3",
+		"http-proxy": "^1.18.0",
+		"mkdirp": "~0.5.1",
+		"npm-run-all": "^4.1.5",
+		"npm-watch": "^0.6.0",
+		"nwabap-ui5uploader": "^0.3.4",
+		"rimraf": "^3.0.0",
+		"ui5-middleware-livereload": "^0.1.4",
+		"ui5-middleware-livetranspile": "^0.1.4",
+		"ui5-middleware-servestatic": "^0.1.2",
+		"ui5-schemas": "^0.5.0",
+		"ui5-task-nwabap-deployer": "1.0.5",
+		"ui5-task-transpile": "^0.1.2"
+	},
+	"ui5": {
+		"dependencies": [
+			"ui5-middleware-livereload",
+			"ui5-middleware-servestatic",
+			"ui5-task-nwabap-deployer",
+			"ui5-middleware-livetranspile",
+			"ui5-task-transpile"
+		]
+	},
+	"dependencies": {},
+	"scripts": {
+		"prepare": "mkdirp dist",
+		"build": "ui5 build --clean-dest",
+		"start": "ui5 serve --config ui5-dist.yaml --port 1081 --open index2.html",
+		"dev": "ui5 serve --port 1081 --open index2.html",
+		"dev:chrome": "ui5 serve --config ui5-chrome.yaml --port 1081",
+		"debug": "node --inspect node_modules/.bin/ui5 serve --port 1081",
+		"watch:build": "npm-watch build",
+		"watch": "npm-run-all prepare --parallel watch:build start",
+		"deploy": "npm-run-all build upload",
+		"upload": "ui5 build --config ui5-dist.yaml --exclude-task * --include-task ui5-task-nwabap-deployer",
+		"deploy:test": "npm-run-all build upload:test",
+		"upload:test": "ui5 build --config ui5-dist-test.yaml --exclude-task * --include-task ui5-task-nwabap-deployer"
+	},
+	"watch": {
+		"build": {
+			"patterns": [
+				"webapp"
+			],
+			"extensions": "html,js,json,xml,properties",
+			"quiet": false
+		}
+	}
+}

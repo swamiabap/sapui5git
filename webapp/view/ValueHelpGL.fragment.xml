@@ -1,0 +1,62 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core">
+    <TableSelectDialog
+            id="idGLTableSelect"
+            noDataText="No GL Account found"
+            title="Select GL Account"
+            search="_handleValueHelpSearchGL"
+            confirm="_handleValueHelpCloseGL"
+            cancel="_handleValueHelpCloseGL"
+            multiSelect="false" growing="true"
+            items="{help>/GLAccounts}">
+        <ColumnListItem>
+            <cells>
+                <Text text="{ path: 'help>GLAccountNumber', formatter: '.formatter.removeLeadingZeros' }"/>
+                <Text text="{help>GLAccountDescription}"/>
+                <Text text="{help>CompanyCode}"/>
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column
+                    hAlign="Begin" width="5rem"
+                    popinDisplay="Inline"
+                    demandPopin="true">
+                <Label text="GL Account"/>
+            </Column>
+            <Column
+                    hAlign="Begin"
+                    popinDisplay="Inline"
+                    demandPopin="true"
+                    minScreenWidth="Tablet">
+                <Label text="Description"/>
+            </Column>
+            <Column
+                    hAlign="Begin" width="5rem"
+                    popinDisplay="Inline"
+                    demandPopin="false"
+                    minScreenWidth="Tablet">
+                <Label text="Company"/>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>
+        <!--<core:FragmentDefinition-->
+        <!--	xmlns="sap.m"-->
+        <!--	xmlns:core="sap.ui.core">-->
+        <!--	<SelectDialog-->
+        <!--		title="GL Accounts"-->
+        <!--		class="sapUiPopupWithPadding"-->
+        <!--		items="{help>/GLAccounts}"-->
+        <!--		search="_handleValueHelpSearchGL"-->
+        <!--		confirm="_handleValueHelpCloseGL"-->
+        <!--		cancel="_handleValueHelpCloseGL"-->
+        <!--		contentWidth="30rem">-->
+        <!--		<StandardListItem-->
+        <!--			icon=""-->
+        <!--			iconDensityAware="false"-->
+        <!--			iconInset="false"-->
+        <!--			title="{help>GLAccountDescription}"-->
+        <!--			description="{ path: 'help>GLAccountNumber', formatter: '.formatter.removeLeadingZeros' }" />-->
+        <!--	</SelectDialog>-->
+        <!--</core:FragmentDefinition>-->

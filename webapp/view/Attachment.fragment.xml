@@ -1,0 +1,83 @@
+<core:FragmentDefinition
+        id="jtc-inv-attachment"
+        xmlns:m="sap.m"
+        xmlns:core="sap.ui.core">
+
+    <m:VBox>
+        <m:UploadCollection id="UploadCollection"
+                            uploadEnabled="true"
+                            uploadButtonInvisible="false"
+                            maximumFilenameLength="55"
+                            maximumFileSize="10"
+                            multiple="true"
+                            sameFilenameAllowed="false"
+                            instantUpload="false"
+                            noDataDescription="Drop files or use the &quot;File Upload&quot; button for pending upload"
+                            change=".onAddAttachment"
+                            fileDeleted=".onDeleteAttachment"
+                            fileRenamed=".onFileRenamed"
+                            uploadComplete=".onUploadComplete"
+                            beforeUploadStarts=".onBeforeUploadStarts"
+                            uploadUrl=""
+                            visible="{/view/uploadEnabled}">
+            <!--<m:toolbar>
+                <m:OverflowToolbar id="toolAtt">
+                    <m:Title value="attachmentTitle" />
+                    <m:ToolbarSpacer />
+                    <m:Button type="Emphasized" icon="sap-icon://upload" text="File upload" press="onBrowseAttachment"
+                        visible="{objectView>/editable}"/>
+                    <m:UploadCollectionToolbarPlaceholder />
+                </m:OverflowToolbar>
+            </m:toolbar>-->
+            <m:items>
+<!--                <m:UploadCollectionItem-->
+<!--                        enableEdit="true"-->
+<!--                        enableDelete="true"-->
+<!--                        visibleDelete="true"-->
+<!--                        visibleEdit="true"-->
+<!--                        documentId="{Zattchid}"-->
+<!--                        fileName="{Zfname}"-->
+<!--                        mimeType="{Filetype}"-->
+<!--                        url="{__metadata/media_src}">-->
+<!--                    <m:attributes>-->
+<!--                        &lt;!&ndash;<m:ObjectAttribute title="{objectView>Zdesc}" text="Edit" active="true" press="onChangeAttDes"/>&ndash;&gt;-->
+<!--                        &lt;!&ndash;<m:ObjectAttribute title="Description" text="{objectView>Zdesc}" active="true" press="onEditDesciption"/>&ndash;&gt;-->
+<!--                    </m:attributes>-->
+<!--                    <m:statuses>-->
+<!--                        <m:ObjectStatus title="Status" text="{= ${Zattchid} === '' ? 'Pending' : 'Uploaded' }"-->
+<!--                                        state="{= ${ObjNo} === '' ? 'Success' : 'None' }"/>-->
+<!--                    </m:statuses>-->
+<!--                </m:UploadCollectionItem>-->
+            </m:items>
+        </m:UploadCollection>
+
+        <m:UploadCollection id="UploadCollectionDisplay"
+                            items="{path: '/invDoc/attachments', templateShareable: false}"
+                            visible="{= !${/view/uploadEnabled} }"
+                            instantUpload="false"
+                            uploadEnabled="false">
+            <m:items>
+                <m:UploadCollectionItem
+                        enableEdit="false"
+                        enableDelete="false"
+                        visibleDelete="false"
+                        visibleEdit="false"
+                        documentId="{Zattchid}"
+                        fileName="{Zfname}"
+                        mimeType="{Filetype}"
+                        url="{__metadata/media_src}">
+                    <m:attributes>
+                        <!--<m:ObjectAttribute title="{objectView>Zdesc}" text="Edit" active="true" press="onChangeAttDes"/>-->
+                        <!--<m:ObjectAttribute title="Description" text="{objectView>Zdesc}" active="true" press="onEditDesciption"/>-->
+                    </m:attributes>
+                    <m:statuses>
+                        <m:ObjectStatus title="Status" text="{= ${Zattchid} === '' ? 'Pending' : 'Uploaded' }"
+                                        state="{= ${ObjNo} === '' ? 'Success' : 'None' }"/>
+                    </m:statuses>
+                </m:UploadCollectionItem>
+            </m:items>
+        </m:UploadCollection>
+
+    </m:VBox>
+
+</core:FragmentDefinition>

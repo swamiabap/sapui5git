@@ -1,0 +1,200 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <VBox class="sapUiSmallMarginTop" visible="{/view/linkEntry/poVisible}">
+        <VBox visible="{/view/roEditMode}">
+<!--            <Toolbar>-->
+<!--                <Label text="POWO Number:" labelFor="in-powo-no" width="6.5rem"/>-->
+<!--                <Input placeholder="Enter POWO no." id="in-powo-no" width="8rem"/>-->
+<!--                <Button text="Add POWO"/>-->
+<!--                <ToolbarSpacer/>-->
+<!--            </Toolbar>-->
+            <Table items="{/invDoc/linkPo/po}" mode="{/view/roTableMode}" id="table-po" delete=".handleRemovePowo" busy="{/view/procurementDetailsBusy}">
+                <headerToolbar>
+                    <Toolbar class="sapUiNoMarginTop" height="2em">
+                        <ToolbarSpacer width=""/>
+                        <Button text="+ Add" id="btn-add-powo" press=".handleAddPowo" type="Emphasized" width="auto" enabled="true" visible="{/view/roEditMode}" tooltip="Add POWO" class="jtcInvAddLineButton"/>
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="5.5rem">
+                        <header>
+                            <Label text="POWO"/>
+                        </header>
+                    </Column>
+                    <Column width="3rem">
+                        <header>
+                            <Label text="Item"/>
+                        </header>
+                    </Column>
+                    <Column width="16rem">
+                        <header>
+                            <Label text="PO Text"/>
+                        </header>
+                    </Column>
+                    <Column width="5rem" hAlign="End">
+                        <header>
+                            <Label text="Quantity"/>
+                        </header>
+                    </Column>
+                    <Column hAlign="End" width="7.6rem">
+                        <header>
+                            <Label text="Amount"/>
+                        </header>
+                    </Column>
+                    <Column width="12rem">
+                        <header>
+                            <Label text="Tax Code"/>
+                        </header>
+                    </Column>
+                    <Column width="7rem">
+                        <header>
+                            <Label text="Contract No."/>
+                        </header>
+                    </Column>
+                    <Column width="7rem">
+                        <header>
+                            <Label text="AOR No./PRE No."/>
+                        </header>
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+<!--                        <Text text="{ebeln}"/>-->
+                        <Link text="{ebeln}" press=".handleOpenDocument('PO/WO', ${ebeln})" class="jtcInvMasterLink"/>
+                        <Text text="{ebelpRx}"/>
+                        <Text text="{txz01}"/>
+                        <Text text="{mengeRx}"/>
+                        <Text text="{netwrRx}"/>
+                        <Text text="{descr}" tooltip="{descr}" wrapping="false"/>
+                        <Text text="{konnr}"/>
+<!--                        <Text text="{banfn}"/>-->
+                        <Link text="{banfn}" press=".handleOpenDocument('AOR', ${banfn})" class="jtcInvMasterLink"/>
+                    </ColumnListItem>
+                </items>
+            </Table>
+
+            <Table mode="None" class="sapUiSmallMarginTop" items="{/invDoc/linkPo/gr}" id="table-gr" width="43.65rem"
+                rememberSelections="false" busy="{/view/procurementDetailsBusy}">
+                <headerToolbar>
+                    <Toolbar class="jtcNoPaddingLeft">
+                        <Title text="Goods Receipt/Service Entry" class="jtcInvDefaultFontSize"/>
+                        <ToolbarSpacer/>
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="5.5rem">
+                        <header>
+                            <Label text="POWO"/>
+                        </header>
+                    </Column>
+                    <Column width="3rem">
+                        <header>
+                            <Label text="Item"/>
+                        </header>
+                    </Column>
+                    <Column width="16rem">
+                        <header>
+                            <Label text="GRSE"/>
+                        </header>
+                    </Column>
+                    <Column width="5rem" hAlign="End">
+                        <header>
+                            <Label text="Quantity"/>
+                        </header>
+                    </Column>
+                    <Column width="7.6rem" hAlign="End">
+                        <header>
+                            <Label text="Amount"/>
+                        </header>
+                    </Column>
+                    <Column width="2rem" styleClass="jtcInvTableSelectColumn">
+                        <header>
+                            <CheckBox selected="{ path: '/invDoc/linkPo/grAllSelected', mode: 'OneWay' }" select=".handleGrCheckboxSelectAll"/>
+                        </header>
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem selected="{= ${selcl} === 'X' }">
+<!--                        <Text text="{ebeln}"/>-->
+                        <Link text="{ebeln}" press=".handleOpenDocument('PO/WO', ${ebeln})" class="jtcInvMasterLink"/>
+                        <Text text="{ebelpRx}"/>
+<!--                        <Text text="{mblnr}"/>-->
+                        <Link text="{mblnr}" press=".handleOpenDocument('GR/SE', ${mblnr})" class="jtcInvMasterLink"/>
+                        <Text text="{erfmgRx}"/>
+                        <Text text="{dmbtrRx}"/>
+                        <CheckBox selected="{= ${selcl} === 'X' }" select=".handleGrCheckbox"/>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </VBox>
+
+        <VBox visible="{/view/roDisplayMode}">
+            <Table items="{/invDoc/linkPo/summary}" id="table-po-link">
+                <headerToolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="6rem">
+                        <header>
+                            <Label text="POWO"/>
+                        </header>
+                    </Column>
+                    <Column width="2rem">
+                        <header>
+                            <Label text="Item"/>
+                        </header>
+                    </Column>
+                    <Column width="auto">
+                        <header>
+                            <Label text="PO Text"/>
+                        </header>
+                    </Column>
+                    <Column width="6rem">
+                        <header>
+                            <Label text="GRSE"/>
+                        </header>
+                    </Column>
+                    <Column width="6rem" hAlign="End">
+                        <header>
+                            <Label text="Quantity"/>
+                        </header>
+                    </Column>
+                    <Column width="7.6rem" hAlign="End">
+                        <header>
+                            <Label text="Amount"/>
+                        </header>
+                    </Column>
+                    <Column width="4rem">
+                        <header>
+                            <Label text="Tax Code"/>
+                        </header>
+                    </Column>
+                    <Column width="6rem">
+                        <header>
+                            <Label text="Contract No."/>
+                        </header>
+                    </Column>
+                    <Column width="7rem">
+                        <header>
+                            <Label text="AOR No./PRE No."/>
+                        </header>
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+<!--                        <Text text="{ebeln}"/>-->
+                        <Link text="{ebeln}" press=".handleOpenDocument('PO/WO', ${ebeln})" class="jtcInvMasterLink"/>
+                        <Text text="{ebelpRx}"/>
+                        <Text text="{txz01}"/>
+<!--                        <Text text="{mblnr}"/>-->
+                        <Link text="{mblnr}" press=".handleOpenDocument('GR/SE', ${mblnr})" class="jtcInvMasterLink"/>
+                        <Text text="{erfmgRx}"/>
+                        <Text text="{dmbtrRx}"/>
+                        <Text text="{mwskz}"/>
+                        <Text text="{konnr}"/>
+<!--                        <Text text="{banfn}"/>-->
+                        <Link text="{banfn}" press=".handleOpenDocument('AOR', ${banfn})" class="jtcInvMasterLink"/>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </VBox>
+    </VBox>
+</core:FragmentDefinition>

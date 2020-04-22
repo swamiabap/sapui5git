@@ -1,0 +1,283 @@
+<mvc:View xmlns:core="sap.ui.core"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          xmlns:html="http://www.w3.org/1999/xhtml"
+          xmlns:l="sap.ui.layout"
+          xmlns:t="sap.ui.table"
+          xmlns:c="sap.ui.core" controllerName="sg.gov.jtc.JTC-InvoiceApp.controller.Master">
+    <Page showHeader="false" class="jtcInvPage">
+        <headerContent/>
+        <subHeader/>
+        <content>
+            <VBox class="jtcInvMasterHeader">
+                <HBox class="sapUiNoMargin sapUiNoContentPadding" justifyContent="SpaceBetween">
+                    <HBox class="sapUiResponsiveMargin sapUiNoContentPadding">
+                        <VBox width="15.5rem" class="sapUiTinyMarginTop sapUiNoMarginBegin sapUiSmallMarginEnd">
+                            <Label text="Search"/>
+                            <SearchField placeholder="Search" showSearchButton="true" visible="true" width="100%"
+                                         value="{/search/searchTerm}" class="jtcInvRoundCorners" busy="{/view/searchIsRunning}"/>
+                        </VBox>
+                        <VBox width="15.5rem" class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                            <Label text="Inv/CN Date"/>
+                            <DateRangeSelection delimiter="to" displayFormat="{/search/dateFormat}"
+                                                dateValue="{/search/invDateLow}"
+                                                secondDateValue="{/search/invDateHigh}" placeholder="Select date"
+                                                busy="{/view/searchIsRunning}" class="jtcInvRoundCorners"/>
+                        </VBox>
+                        <VBox width="15.5rem" class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                            <Label text="Requestor"/>
+<!--                            <ComboBox id="search-sel-requestor" items="{/userStore/users}" width="100%"-->
+<!--                                      selectedKey="{/search/userId}" busy="{/view/searchIsRunning}"-->
+<!--                                      class="jtcInvMasterSelect jtcInvRoundCorners">-->
+<!--                                <core:Item key="{UserID}" text="{FullName}" />-->
+<!--                            </ComboBox>-->
+    <!--                        <MultiComboBox width="15.625rem" class="jtcInvMasterSelect jtcInvRoundCorners"-->
+    <!--                                       items="{/userStore/users}" selectedKeys="{/selectedRequestorsRx}">-->
+    <!--                            <core:Item key="{UserID}" text="{FullName}"/>-->
+    <!--                        </MultiComboBox>-->
+                            <MultiInput width="15.625rem" maxSuggestionWidth="34rem" class="jtcInvMasterSelect jtcInvRoundCorners"
+                                suggestionItems="{/userStore/users}" enableMultiLineMode="true"
+                                tokens="{/search/requestors}" tokenUpdate="handleRequestorsChange"
+                                id="search-requestors" busy="{/view/searchIsRunning}"
+                                valueHelpRequest=".handleValueHelpRequestors">
+                                <tokens>
+                                    <Token key="{UserID}" text="{FullName}"/>
+                                </tokens>
+                                <core:ListItem key="{UserID}" text="{FullName}" additionalText="{UserID}" />
+                            </MultiInput>
+                        </VBox>
+    <!--                    <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd" visible="false">-->
+    <!--                        <Label text="Status"/>-->
+    <!--                        <Select id="search-sel-status" forceSelection="false" change="" items="{help>/Statuses}"-->
+    <!--                                selectedKey="{invSearch>/status}">-->
+    <!--                            <core:Item key="{help>Status}" text="{help>StatusText}"/>-->
+    <!--                        </Select>-->
+    <!--                    </VBox>-->
+                        <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                            <Label text=""/>
+                            <VBox justifyContent="Center" height="2.3rem">
+                                <Link text="Reset Filters" press=".handleResetFilters" class="jtcInvMasterLink" busy="{/view/searchIsRunning}"/>
+                            </VBox>
+                        </VBox>
+                        <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                            <Label text=""/>
+                            <VBox justifyContent="Center" height="2.3rem">
+                                <Link text="Advanced Search" press=".handleToggleAdvancedSearch" class="jtcInvMasterLink"/>
+                            </VBox>
+                        </VBox>
+                    </HBox>
+                    <HBox class="sapUiResponsiveMargin sapUiNoContentPadding">
+                        <VBox class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiTinyMarginEnd">
+                            <Label text=""/>
+                            <Button text="Help" press=".handleHelpPress"/>
+                        </VBox>
+                    </HBox>
+                </HBox>
+
+                <!-- Advanced Search -->
+                <HBox class="sapUiResponsiveMargin sapUiNoContentPadding jtcInvAdvancedSearch" justifyContent="Start"
+                    visible="{/view/advancedSearchVisible}">
+                    <VBox width="15.5rem" class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                        <Label text="Purchasing Group"/>
+                        <ComboBox items="{/aux/purchasingGroups}" width="100%" class="jtcInvMasterSelect jtcInvRoundCorners"
+                                  selectedKey="{/search/purchasingGroup}" busy="{/view/searchIsRunning}">
+                            <core:Item key="{ekgrp}" text="{ekgrp}" />
+                        </ComboBox>
+                    </VBox>
+                    <VBox width="15.5rem" class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                        <Label text="Status"/>
+                        <ComboBox width="100%" class="jtcInvMasterSelect jtcInvRoundCorners" items="{/statusStore/statuses}"
+                            selectedKey="{/search/status}" busy="{/view/searchIsRunning}">
+                            <core:Item key="{Status}" text="{StatusText}" />
+                        </ComboBox>
+                    </VBox>
+                    <VBox width="15.5rem" class="sapUiTinyMarginTop sapUiTinyMarginBegin sapUiSmallMarginEnd">
+                        <Label text="Action Required By"/>
+                        <ComboBox width="100%" class="jtcInvMasterSelect jtcInvRoundCorners" busy="{/view/searchIsRunning}"
+                            items="{/aux/invoiceApprovingOfficersAll}" selectedKey="{/search/actionRequiredBy}">
+                            <core:Item key="{userId}" text="{fullname}" />
+                        </ComboBox>
+                    </VBox>
+                </HBox>
+            </VBox>
+            <VBox class="sapUiResponsiveMargin">
+                <OverflowToolbar width="auto" height="auto" design="Transparent" visible="true"
+                                 enabled="true" class="jtcInvMasterToolbar" busy="{/view/masterTableBusy}">
+                    <content>
+                        <Title text="{/view/masterTableTitle}" titleStyle="Auto" width="auto" textAlign="Begin"
+                               visible="true" wrapping="false"/>
+                        <ToolbarSpacer width=""/>
+                        <!--<OverflowToolbarButton text="Sort" type="Transparent" icon="sap-icon://sort" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>-->
+                        <!--							<SearchField placeholder="Search" showSearchButton="true" visible="true" width="10.6rem" liveChange="handleSearch"/>-->
+                        <!--							<Button text="" tooltip="Create" type="Default" icon="sap-icon://sys-add" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="onCreatePress"/>-->
+                        <Button text="+ Create" id="btn-create-invoice" press=".onCreatePress"
+                                type="Emphasized" width="auto" enabled="true"
+                                tooltip="Create Payment Request"
+                                class=""/>
+                        <Button text="Export" id="btn-export" press=".handleExport" type="Emphasized"
+                                width="auto" enabled="true" tooltip="Export to Excel"
+                                class="" icon="sap-icon://excel-attachment"/>
+                        <!--<Button text="Process" type="Default" press="onProcessPress"/>-->
+                    </content>
+                </OverflowToolbar>
+                <ScrollContainer vertical="false" horizontal="true">
+                    <Table noDataText="No data" id="invoiceListTable" growing="true"
+                           items="{ path: '/invoiceStore/invoices', templateShareable: false}" width="auto" mode="None"
+                           busy="{/view/masterTableBusy}"
+                           sticky="ColumnHeaders" growingThreshold="10">
+                        <headerToolbar>
+                        </headerToolbar>
+                        <items>
+                            <ColumnListItem type="Active" press=".onInvoiceSelect" vAlign="Top">
+                                <cells>
+                                    <Text text="{InvoiceReference}" id="textInvoiceReference"/>
+                                    <Text text="{invoiceReferenceDateFormatted}"/>
+                                    <Text text="{VendorNameInterface}"/>
+                                    <VBox>
+                                        <ObjectIdentifier text="{Description}"/>
+                                        <!--								<ObjectIdentifier text="{local>Description} {local>LinkInvoiceTo}"/>-->
+                                        <!--								<tnt:InfoLabel renderMode="Narrow"  displayOnly="true"-->
+                                        <!--											   text="{ path: 'local>Status', formatter: '.formatter.statusText' }"-->
+                                        <!--											   colorScheme="{-->
+                                        <!--											     parts: [{path: 'local>Status'}],-->
+                                        <!--											     formatter: '.formatter.statusColor' }" />-->
+                                    </VBox>
+                                    <Text text="{requestorName}"/>
+                                    <HBox alignItems="Center" width="">
+<!--                                        <Text text="{ path: 'local>Status', formatter: '.formatter.statusText' }" />-->
+                                        <Text text="{statusText}" class="cellStatus">
+                                            <customData>
+                                                <core:CustomData
+                                                        key="style-class"
+                                                        value="{statusText}"
+                                                        writeToDom="{= ${statusText} ? true : false }"/>
+                                            </customData>
+                                        </Text>
+                                    </HBox>
+                                    <!--							<ObjectNumber number="{ parts: [{path: 'local>AmountBeforeGst'}, {path: 'local>Currency'}],-->
+                                    <!--								type: 'sap.ui.model.type.Currency',          -->
+                                    <!--								formatOptions: {showMeasure: false} }" unit=""/>-->
+<!--                                    <Text text="{amountBeforeGstFormatted}"/>-->
+                                    <Text text="{netAmountFormatted}"/>
+                                    <Text text="{actionRequiredBy}"/>
+                                    <Text text="{PurchasingGroup}"/>
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                        <columns>
+                            <Column width="8.5rem">
+                                <header>
+                                    <Text text="Inv/CN No."/>
+                                </header>
+                            </Column>
+                            <Column width="5rem">
+                                <header>
+                                    <Text text="Inv/CN Date" tooltip="Inv/CN Date" wrapping="false"/>
+                                </header>
+                            </Column>
+                            <Column width="10rem">
+                                <header>
+                                    <Text text="Vendor"/>
+                                </header>
+                            </Column>
+                            <Column width="22.5rem">
+                                <header>
+                                    <Text text="Description"/>
+                                </header>
+                            </Column>
+                            <Column width="8em" >
+                                <header>
+                                    <Text text="Requestor"/>
+                                </header>
+                            </Column>
+                            <Column width="9rem" hAlign="Center">
+                                <header>
+                                    <Text text="Status"/>
+                                </header>
+                            </Column>
+                            <Column hAlign="End" width="6.5rem">
+                                <header>
+                                    <Text text="Amount ($)"/>
+                                </header>
+                            </Column>
+                            <Column width="8em">
+                                <header>
+                                    <Text text="Action required by" tooltip="Action required by" wrapping="false"/>
+                                </header>
+                            </Column>
+                            <Column width="3rem">
+                                <header>
+                                    <Text text="Purchasing Group" tooltip="Purchasing Group" wrapping="false"/>
+                                </header>
+                            </Column>
+                        </columns>
+                    </Table>
+                </ScrollContainer>
+            </VBox>
+
+<!--            <l:VerticalLayout visible="false">-->
+<!--                <l:BlockLayout>-->
+<!--                    <l:BlockLayoutRow>-->
+<!--                        <l:BlockLayoutCell width="1">-->
+<!--                            <Text text="Text"/>-->
+<!--                        </l:BlockLayoutCell>-->
+<!--                        <l:BlockLayoutCell width="1">-->
+<!--                            <Toolbar>-->
+<!--                                <Label text="Invoice ID" width="100px"/>-->
+<!--                                <Input id="invoiceID" placeholder="Enter ID" maxLength="10" width="150px"/>-->
+<!--                                <Button text="Load" press="onLoadInvoicePress"/>-->
+<!--                            </Toolbar>-->
+<!--                        </l:BlockLayoutCell>-->
+<!--                    </l:BlockLayoutRow>-->
+<!--                </l:BlockLayout>-->
+
+<!--                <Select id="selAccountAssignment" enabled="true" forceSelection="false"-->
+<!--                        selectedKey="{view>/SelectedAssignment}" items="{help>/Assignments}">-->
+<!--                    <core:Item key="{help>DomainValue}" text="{help>Description}"/>-->
+<!--                </Select>-->
+
+<!--                <Select id="selTaxCode" enabled="true" forceSelection="false" showSecondaryValues="true"-->
+<!--                        selectedKey="{view>/SelectedTaxCode}"-->
+<!--                        items="{      path: 'help>/TaxCodeMap',      sorter: { path: 'TaxCodeDescription' }     }">-->
+<!--                    <core:ListItem key="{help>Sequence}" text="{help>TaxCodeDescription}"-->
+<!--                                   additionalText="{help>Sequence}"/>-->
+<!--                </Select>-->
+
+<!--                <Input id="idGLInput" type="Text" placeholder="Enter GL ..." showSuggestion="true"-->
+<!--                       suggestionItems="{help>/GLAccounts}">-->
+<!--                    <suggestionItems>-->
+<!--                        <c:ListItem text="{ path: 'help>GLAccountNumber', formatter: '.formatter.removeLeadingZeros' }"-->
+<!--                                    additionalText="{help>GLAccountDescription}"/>-->
+<!--                    </suggestionItems>-->
+<!--                </Input>-->
+
+<!--                <Input type="Text" placeholder="Enter GL ..." showSuggestion="true" showTableSuggestionValueHelp="false"-->
+<!--                       suggestionRows="{help>/GLAccounts}" maxSuggestionWidth="30rem">-->
+<!--                    <suggestionColumns>-->
+<!--                        <Column hAlign="Begin" width="5rem" popinDisplay="Inline" demandPopin="true">-->
+<!--                            <Label text="GL Account"/>-->
+<!--                        </Column>-->
+<!--                        <Column hAlign="Begin" popinDisplay="Inline" demandPopin="true" minScreenWidth="Tablet">-->
+<!--                            <Label text="Description"/>-->
+<!--                        </Column>-->
+<!--                        <Column hAlign="Begin" width="5rem" popinDisplay="Inline" demandPopin="false"-->
+<!--                                minScreenWidth="Tablet">-->
+<!--                            <Label text="Company Code"/>-->
+<!--                        </Column>-->
+<!--                    </suggestionColumns>-->
+<!--                    <suggestionRows>-->
+<!--                        <ColumnListItem>-->
+<!--                            <cells>-->
+<!--                                <Label text="{ path: 'help>GLAccountNumber', formatter: '.formatter.removeLeadingZeros' }"/>-->
+<!--                                <Label text="{help>GLAccountDescription}"/>-->
+<!--                                <Label text="{help>CompanyCode}"/>-->
+<!--                            </cells>-->
+<!--                        </ColumnListItem>-->
+<!--                    </suggestionRows>-->
+<!--                </Input>-->
+
+<!--            </l:VerticalLayout>-->
+
+        </content>
+    </Page>
+</mvc:View>

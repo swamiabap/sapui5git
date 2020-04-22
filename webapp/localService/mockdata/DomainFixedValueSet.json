@@ -1,0 +1,139 @@
+[{
+	"DomainName": "ZPR_ACCT_ASSIGNMENT",
+	"Language": "EN",
+	"DomainValue": "ASSET",
+	"DomainValueLimit": "",
+	"Description": "Asset"
+}, {
+	"DomainName": "ZPR_ACCT_ASSIGNMENT",
+	"Language": "EN",
+	"DomainValue": "GLRE",
+	"DomainValueLimit": "",
+	"Description": "GL & RE"
+}, {
+	"DomainName": "ZPR_ACCT_ASSIGNMENT",
+	"Language": "EN",
+	"DomainValue": "GLCC",
+	"DomainValueLimit": "",
+	"Description": "GL & CC"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "01",
+	"DomainValueLimit": "",
+	"Description": "Draft"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "02",
+	"DomainValueLimit": "",
+	"Description": "Pending Verification"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "03",
+	"DomainValueLimit": "",
+	"Description": "Pending Approval"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "04",
+	"DomainValueLimit": "",
+	"Description": "Approved"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "05",
+	"DomainValueLimit": "",
+	"Description": "Parked"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "06",
+	"DomainValueLimit": "",
+	"Description": "Posted"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "07",
+	"DomainValueLimit": "",
+	"Description": "Completed"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "08",
+	"DomainValueLimit": "",
+	"Description": "Pending Requestor"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "09",
+	"DomainValueLimit": "",
+	"Description": "Pending Cancellation"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "10",
+	"DomainValueLimit": "",
+	"Description": "Cancelled"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "12",
+	"DomainValueLimit": "",
+	"Description": "Error Draft"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "13",
+	"DomainValueLimit": "",
+	"Description": "Error"
+}, {
+	"DomainName": "ZPR_INVSTATUS",
+	"Language": "EN",
+	"DomainValue": "14",
+	"DomainValueLimit": "",
+	"Description": "Deleted"
+}, {
+	"DomainName": "ZPR_TYPE",
+	"Language": "EN",
+	"DomainValue": "INV",
+	"DomainValueLimit": "",
+	"Description": "Invoice"
+}, {
+	"DomainName": "ZPR_TYPE",
+	"Language": "EN",
+	"DomainValue": "CN",
+	"DomainValueLimit": "",
+	"Description": "Credit Note"
+}, {
+	"DomainName": "ZPR_TYPE",
+	"Language": "EN",
+	"DomainValue": "PI",
+	"DomainValueLimit": "",
+	"Description": "Payment Instruction"
+}, {
+	"DomainName": "ZPR_CATEGORY",
+	"Language": "EN",
+	"DomainValue": "PAYR",
+	"DomainValueLimit": "",
+	"Description": "Payment Request"
+}, {
+	"DomainName": "ZPR_CATEGORY",
+	"Language": "EN",
+	"DomainValue": "EINV",
+	"DomainValueLimit": "",
+	"Description": "e-Invoice"
+}, {
+	"DomainName": "ZPR_CATEGORY",
+	"Language": "EN",
+	"DomainValue": "PPC",
+	"DomainValueLimit": "",
+	"Description": "Progress Payment"
+}, {
+	"DomainName": "ZPR_CATEGORY",
+	"Language": "EN",
+	"DomainValue": "BCI",
+	"DomainValueLimit": "",
+	"Description": "Buyer Created Invoice"
+}]

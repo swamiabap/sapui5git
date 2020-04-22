@@ -1,0 +1,37 @@
+<core:FragmentDefinition xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+	xmlns:f="sap.ui.layout.form">
+	<Popover showHeader="false" class="sapUiContentPadding jtcInvPopOverNADetails" placement="Left">
+		
+		<VBox>
+			<ObjectAttribute title="Related Invoice No." text="{/invDoc/header/relatedInv}" visible="{= ${/invDoc/header/relatedInv} !== '' }" tooltip="From Vedors@Gov"/>
+			<ObjectAttribute title="Linked Invoice No." text="{/invDoc/header/linkInvoiceId}" visible="{= ${/invDoc/header/linkInvoiceId} !== '' }" tooltip="For Payment/Offset"/>
+			<ObjectAttribute title="Downloaded on" text="{/invDoc/header/downloadDateRx}" />
+			<ObjectAttribute title="Credit Term" text="{/invDoc/header/creditTerm}"/>
+			<ObjectAttribute title="Vendor ID" text="{/invDoc/header/vendorIdRx}"/>
+			<ObjectAttribute title="UEN" text="{/invDoc/header/vendorUen}"/>
+			<ObjectAttribute title="Address" text="{/invDoc/header/vendAddress}"/>
+			<ObjectAttribute title="GST Reg No" text="{/invDoc/header/vendGstNo}"/>
+			<ObjectAttribute title="Email" text="{/invDoc/header/vendEmaill}"/>
+			<ObjectAttribute title="Phone" text="{/invDoc/header/vendPhone}"/>
+			<ObjectAttribute title="Fax" text="{/invDoc/header/vendFax}"/>
+			<ObjectAttribute title="Factoring Company ID" text="{/invDoc/header/factorCompId}" visible="{= ${/invDoc/header/factorCompId} !== '' }"/>
+			<ObjectAttribute title="Factoring Company Name" text="{/invDoc/header/factorCompNm}" visible="{= ${/invDoc/header/factorCompId} !== '' }"/>
+			<ObjectAttribute title="Payment Clearing Date" text="{/ecc/gvPayCleardt}" visible="{= ${/ecc/gvPayCleardt} !== '' }"/>
+			<ObjectAttribute title="Permitted Payee ID" text="{/invDoc/header/permitPayeeRxId}" visible="{/view/moreInfoPermittedPayeeVisible}"/>
+			<ObjectAttribute title="Permitted Payee Name" text="{/invDoc/header/permitPayeeRx}" visible="{/view/moreInfoPermittedPayeeVisible}"/>
+
+			<List headerText="Multiple Payees" items="{/invDoc/multiplePayees}" visible="{/view/moreInfoMultiplePayeeVisible}"
+				class="sapUiNoContentPadding">
+				<items>
+					<ObjectListItem title="{name1}" class="jtcInvListItem">
+						<attributes>
+							<ObjectAttribute title="Payee ID" text="{lifnrRx}"/>
+							<ObjectAttribute title="Payee Amount" text="{postGstAmtRx}"/>
+						</attributes>
+					</ObjectListItem>
+				</items>
+			</List>
+		</VBox>
+	</Popover>
+</core:FragmentDefinition>

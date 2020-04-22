@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="ZMMP_INV_COMMON_SRV" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="DomainFixedValue" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="DomainName"/>
+                    <PropertyRef Name="Language"/>
+                    <PropertyRef Name="DomainValue"/>
+                </Key>
+                <Property Name="DomainName" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Domain" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="Language" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="Lang." sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="DomainValue" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Lower_value" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="DomainValueLimit" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Dom.upper limit" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="Short Descript." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="TaxCodeMap" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="TaxCode"/>
+                    <PropertyRef Name="Sequence"/>
+                </Key>
+                <Property Name="TaxCode" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="GST Tax code" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="Sequence" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Sequential number" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
+                <Property Name="TaxCodeDescription" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="Tax code description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ActiveIndicator" Type="Edm.String" Nullable="false" MaxLength="1" sap:unicode="false" sap:label="Active" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="PromptUser" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="UserID"/>
+                </Key>
+                <Property Name="FullName" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="User Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="UserID" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="User ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="VHCostCenter" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="CostCenter"/>
+                    <PropertyRef Name="CompanyCode"/>
+                </Key>
+                <Property Name="CostCenter" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Cost Center" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="20" sap:unicode="false" sap:label="Short text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Company Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Asset" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="CompanyCode"/>
+                    <PropertyRef Name="MainAssetNumber"/>
+                    <PropertyRef Name="AssetSubnumber"/>
+                </Key>
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Company Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MainAssetNumber" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Asset" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AssetSubnumber" Type="Edm.String" Nullable="false" MaxLength="4" sap:unicode="false" sap:label="Subnumber" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AssetClass" Type="Edm.String" MaxLength="8" sap:unicode="false" sap:label="Asset Class" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AssetDescription" Type="Edm.String" MaxLength="50" sap:unicode="false" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DeactivationDate" Type="Edm.DateTime" Precision="7" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AssetLockIndicator" Type="Edm.Boolean" sap:unicode="false" sap:label="Acq. lock" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="VHAor" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="AorNo"/>
+                </Key>
+                <Property Name="AorNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="AOR Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AorDesc" Type="Edm.String" Nullable="false" MaxLength="128" sap:unicode="false" sap:label="AOR Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ProjectId" Type="Edm.String" Nullable="false" MaxLength="24" sap:unicode="false" sap:label="Project ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="FullName" Type="Edm.String" Nullable="false" MaxLength="60" sap:unicode="false" sap:label="User Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Ekgrp" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="Purch. Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="AOR Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="AorType" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="AOR Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <ComplexType Name="GLAccounts">
+                <Property Name="GLAccountNumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="GLAccountDescription" Type="Edm.String" Nullable="false" MaxLength="50" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="CompanyCodes">
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CompanyName" Type="Edm.String" Nullable="false" MaxLength="25" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="ApprovingAuthorities">
+                <Property Name="UserID" Type="Edm.String" Nullable="false" MaxLength="30" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="FullName" Type="Edm.String" Nullable="false" MaxLength="60" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="VerifyingOfficers">
+                <Property Name="UserID" Type="Edm.String" Nullable="false" MaxLength="30" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="FullName" Type="Edm.String" Nullable="false" MaxLength="60" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="TextLines">
+                <Property Name="TextFormat" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Tag column" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="TextLine" Type="Edm.String" Nullable="false" MaxLength="132" sap:label="Text Line" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="Estates">
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Estate" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="EstateName" Type="Edm.String" Nullable="false" MaxLength="60" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="Buildings">
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Estate" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Building" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="BuildingName" Type="Edm.String" Nullable="false" MaxLength="60" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="Lands">
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Estate" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Land" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="LandName" Type="Edm.String" Nullable="false" MaxLength="60" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="RentalObjects">
+                <Property Name="CompanyCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Estate" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RentalObject" Type="Edm.String" Nullable="false" MaxLength="8" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RentalObjectName" Type="Edm.String" Nullable="false" MaxLength="60" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <ComplexType Name="Messages">
+                <Property Name="Name" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Value" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <EntityContainer Name="ZMMP_INV_COMMON_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="DomainFixedValueSet" EntityType="ZMMP_INV_COMMON_SRV.DomainFixedValue" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="TaxCodeMapSet" EntityType="ZMMP_INV_COMMON_SRV.TaxCodeMap" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="PromptUserSet" EntityType="ZMMP_INV_COMMON_SRV.PromptUser" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="VHCostCenterSet" EntityType="ZMMP_INV_COMMON_SRV.VHCostCenter" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="AssetSet" EntityType="ZMMP_INV_COMMON_SRV.Asset" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <EntitySet Name="VHAorSet" EntityType="ZMMP_INV_COMMON_SRV.VHAor" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+                <FunctionImport Name="RetrieveValidGLAccounts" ReturnType="Collection(ZMMP_INV_COMMON_SRV.GLAccounts)" m:HttpMethod="GET">
+                    <Parameter Name="CompanyCode" Type="Edm.String" Mode="In" MaxLength="4"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveCompanyCodes" ReturnType="Collection(ZMMP_INV_COMMON_SRV.CompanyCodes)" m:HttpMethod="GET"/>
+                <FunctionImport Name="RetrieveApprovingAuthorities" ReturnType="Collection(ZMMP_INV_COMMON_SRV.ApprovingAuthorities)" m:HttpMethod="GET">
+                    <Parameter Name="PurchasingGroup" Type="Edm.String" Mode="In" MaxLength="3"/>
+                    <Parameter Name="InvoiceID" Type="Edm.String" Mode="In" MaxLength="10"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveVerifyingOfficers" ReturnType="Collection(ZMMP_INV_COMMON_SRV.VerifyingOfficers)" m:HttpMethod="GET">
+                    <Parameter Name="PurchasingGroup" Type="Edm.String" Mode="In" MaxLength="3"/>
+                    <Parameter Name="InvoiceID" Type="Edm.String" Mode="In" MaxLength="10"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveText" ReturnType="Collection(ZMMP_INV_COMMON_SRV.TextLines)" m:HttpMethod="GET">
+                    <Parameter Name="Object" Type="Edm.String" Mode="In" MaxLength="10"/>
+                    <Parameter Name="Name" Type="Edm.String" Mode="In" MaxLength="70"/>
+                    <Parameter Name="Language" Type="Edm.String" Mode="In" MaxLength="1"/>
+                    <Parameter Name="ID" Type="Edm.String" Mode="In" MaxLength="4"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveEstates" ReturnType="Collection(ZMMP_INV_COMMON_SRV.Estates)" m:HttpMethod="GET">
+                    <Parameter Name="CompanyCode" Type="Edm.String" Mode="In" MaxLength="4"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveBuildings" ReturnType="Collection(ZMMP_INV_COMMON_SRV.Buildings)" m:HttpMethod="GET">
+                    <Parameter Name="Estate" Type="Edm.String" Mode="In" MaxLength="8"/>
+                    <Parameter Name="CompanyCode" Type="Edm.String" Mode="In" MaxLength="4"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveLands" ReturnType="Collection(ZMMP_INV_COMMON_SRV.Lands)" m:HttpMethod="GET">
+                    <Parameter Name="Estate" Type="Edm.String" Mode="In" MaxLength="8"/>
+                    <Parameter Name="CompanyCode" Type="Edm.String" Mode="In" MaxLength="4"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveRentalObjects" ReturnType="Collection(ZMMP_INV_COMMON_SRV.RentalObjects)" m:HttpMethod="GET">
+                    <Parameter Name="Estate" Type="Edm.String" Mode="In" MaxLength="8"/>
+                    <Parameter Name="CompanyCode" Type="Edm.String" Mode="In" MaxLength="4"/>
+                </FunctionImport>
+                <FunctionImport Name="RetrieveFundCategories" ReturnType="Collection(ZMMP_INV_COMMON_SRV.Messages)" m:HttpMethod="GET">
+                    <Parameter Name="AorNo" Type="Edm.String" Mode="In" MaxLength="10"/>
+                </FunctionImport>
+            </EntityContainer>
+            <atom:link rel="self" href="https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+            <atom:link rel="latest-version" href="https://sapdevfio1.jtcdev.gov.sg:9001/sap/opu/odata/sap/ZMMP_INV_COMMON_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom"/>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
